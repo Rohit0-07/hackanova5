@@ -13,32 +13,40 @@ from app.core.config import settings
 
 PAPER_ANALYSIS_AGENT_PROMPT = """You are an expert research analyst agent. Given the full text (or available sections) of a research paper, extract a comprehensive structured analysis.
 
-CRITICAL INSTRUCTION: For every finding, claim, or contribution, you MUST provide "evidence" — a direct quote or specific data point from the text that supports it.
+CRITICAL INSTRUCTIONS:
+1. For every finding, claim, or contribution, you MUST provide:
+   - "evidence": a direct verbatim quote from the text
+   - "cited_from": {"section": "<section name e.g. Introduction/Methodology/Results>", "quote": "<verbatim text snippet>"}
+2. Extract a "references" list — ALL papers cited by this paper, parsed from the reference/bibliography section.
 
 Your output MUST be valid JSON with these keys:
 
 - "research_question": string — the main question or hypothesis
 - "methodology": {
     "approach": "string description",
-    "evidence": "quote or specific detail from text supporting this"
+    "evidence": "quote or specific detail from text supporting this",
+    "cited_from": {"section": "Methodology", "quote": "verbatim snippet"}
   }
 - "key_findings": [
     {
       "finding": "string",
-      "evidence": "quote or data point from text"
+      "evidence": "quote or data point from text",
+      "cited_from": {"section": "Results", "quote": "verbatim snippet"}
     }
   ]
 - "claims": [
     {
       "claim": "string",
-      "evidence": "quote from text"
+      "evidence": "quote from text",
+      "cited_from": {"section": "Introduction", "quote": "verbatim snippet"}
     }
   ]
 - "datasets": list of strings
 - "contributions": [
     {
       "contribution": "string",
-      "evidence": "quote from text"
+      "evidence": "quote from text",
+      "cited_from": {"section": "Introduction", "quote": "verbatim snippet"}
     }
   ]
 - "limitations": list of strings
@@ -48,8 +56,17 @@ Your output MUST be valid JSON with these keys:
 - "confidence_level": string
 - "summary": string
 - "reasoning_path": "Explain in 1-2 sentences how you derived these conclusions from the provided text."
+- "references": [
+    {
+      "title": "cited paper title",
+      "authors": ["Author A", "Author B"],
+      "year": 2020,
+      "venue": "NeurIPS 2020",
+      "url": "https://arxiv.org/abs/... or DOI url if available, else null"
+    }
+  ]
 
-Be precise. Output ONLY the JSON."""
+Be precise. Populate references from the bibliography section. Output ONLY the JSON."""
 
 
 class AnalysisAgent:
@@ -140,7 +157,7 @@ Extract the structured analysis as JSON."""
         # Core required fields with default values
         defaults = {
             "research_question": "unknown",
-            "methodology": {"approach": "", "evidence": ""},
+            "methodology": {"approach": "", "evidence": "", "cited_from": {}},
             "key_findings": [],
             "claims": [],
             "datasets": [],
@@ -152,6 +169,7 @@ Extract the structured analysis as JSON."""
             "confidence_level": "low",
             "summary": "",
             "reasoning_path": "",
+            "references": [],
         }
 
         for k, v in defaults.items():
@@ -160,13 +178,14 @@ Extract the structured analysis as JSON."""
 
         # Normalize methodology structure
         if not isinstance(analysis["methodology"], dict):
-            analysis["methodology"] = {"approach": str(analysis.get("methodology", "")), "evidence": ""}
+            analysis["methodology"] = {"approach": str(analysis.get("methodology", "")), "evidence": "", "cited_from": {}}
         else:
             analysis["methodology"].setdefault("approach", "")
             analysis["methodology"].setdefault("evidence", "")
+            analysis["methodology"].setdefault("cited_from", {})
 
-        # Normalize key_findings and claims to be list of dicts
-        def normalize_list_of_dicts(key: str, fields: List[str]):
+        # Normalize key_findings and claims to be list of dicts with cited_from
+        def normalize_list_of_dicts(key: str, primary_field: str, extra_fields: List[str]):
             items = analysis.get(key)
             if not isinstance(items, list):
                 analysis[key] = []
@@ -174,14 +193,34 @@ Extract the structured analysis as JSON."""
             normalized = []
             for item in items:
                 if isinstance(item, dict):
-                    normalized.append({f: item.get(f, "") for f in fields})
+                    entry = {primary_field: item.get(primary_field, ""), "evidence": item.get("evidence", ""), "cited_from": item.get("cited_from", {})}
+                    for f in extra_fields:
+                        entry[f] = item.get(f, "")
+                    normalized.append(entry)
                 else:
-                    normalized.append({fields[0]: str(item), fields[1]: ""})
+                    normalized.append({primary_field: str(item), "evidence": "", "cited_from": {}})
             analysis[key] = normalized
 
-        normalize_list_of_dicts("key_findings", ["finding", "evidence"])
-        normalize_list_of_dicts("claims", ["claim", "evidence"])
-        normalize_list_of_dicts("contributions", ["contribution", "evidence"])
+        normalize_list_of_dicts("key_findings", "finding", [])
+        normalize_list_of_dicts("claims", "claim", [])
+        normalize_list_of_dicts("contributions", "contribution", [])
+
+        # Normalize references list
+        if not isinstance(analysis.get("references"), list):
+            analysis["references"] = []
+        normalized_refs = []
+        for ref in analysis["references"]:
+            if isinstance(ref, dict):
+                normalized_refs.append({
+                    "title": ref.get("title", ""),
+                    "authors": ref.get("authors", []),
+                    "year": ref.get("year"),
+                    "venue": ref.get("venue", ""),
+                    "url": ref.get("url"),
+                })
+            elif isinstance(ref, str):
+                normalized_refs.append({"title": ref, "authors": [], "year": None, "venue": "", "url": None})
+        analysis["references"] = normalized_refs
 
         return analysis
 

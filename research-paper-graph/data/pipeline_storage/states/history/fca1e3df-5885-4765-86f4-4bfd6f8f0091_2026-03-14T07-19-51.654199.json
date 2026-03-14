@@ -1,0 +1,21 @@
+{
+  "raw_query": "Find papers about Quantum tunneling  ",
+  "user_id": "anonymous",
+  "session_id": "fca1e3df-5885-4765-86f4-4bfd6f8f0091",
+  "session_name": "",
+  "refined_query": null,
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 5,
+  "max_depth": 2,
+  "created_at": "2026-03-14T07:19:51.654188",
+  "updated_at": "2026-03-14T07:19:51.654199",
+  "status": "in_progress",
+  "errors": []
+}

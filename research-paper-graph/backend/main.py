@@ -2,6 +2,11 @@
 
 import os
 import sys
+from pathlib import Path
+
+# ─── Load .env FIRST — before anything that reads os.getenv() ─────────────────
+from dotenv import load_dotenv
+load_dotenv(dotenv_path=Path(__file__).parent / ".env", override=False)
 
 # Ensure the current directory is in the python path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
@@ -14,6 +19,7 @@ from loguru import logger
 from app.core.logging import setup_logging
 from app.api.v1 import chat as chat_routes
 from app.api.v1 import pipeline as pipeline_routes
+from app.api.v1 import notify as notify_routes
 
 
 @asynccontextmanager
@@ -49,6 +55,9 @@ app.include_router(
 )
 app.include_router(
     pipeline_routes.router, prefix="/api/v1/pipeline", tags=["Multi-Agent Pipeline"]
+)
+app.include_router(
+    notify_routes.router, prefix="/api/v1/notify", tags=["Notifications"]
 )
 
 

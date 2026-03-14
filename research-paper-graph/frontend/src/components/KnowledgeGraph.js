@@ -1,11 +1,13 @@
 import React, { useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import ForceGraph2D from 'react-force-graph-2d';
 import { motion, AnimatePresence } from 'framer-motion';
+import { BookOpen, ExternalLink, X } from 'lucide-react';
 
 const KnowledgeGraph = ({ data, analyses, synthesis, onNodeClick, searchQuery = '' }) => {
   const [hoverNode, setHoverNode] = useState(null);
   const [hoverLink, setHoverLink] = useState(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [actionCard, setActionCard] = useState(null); // { node, x, y }
   
   const fgRef = useRef();
 
@@ -257,7 +259,12 @@ const KnowledgeGraph = ({ data, analyses, synthesis, onNodeClick, searchQuery = 
         linkLabel={edge => edge.type || edge.label || 'relation'}
         
         // Interaction
-        onNodeClick={onNodeClick}
+        onNodeClick={(node, event) => {
+          if (node.type === 'Paper') {
+            setActionCard({ node, x: event.clientX, y: event.clientY });
+          }
+        }}
+        onBackgroundClick={() => setActionCard(null)}
         onNodeHover={node => setHoverNode(node)}
         onLinkHover={link => setHoverLink(link)}
         
@@ -364,6 +371,71 @@ const KnowledgeGraph = ({ data, analyses, synthesis, onNodeClick, searchQuery = 
                 )}
               </>
             )}
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Node Action Card */}
+      <AnimatePresence>
+        {actionCard && (
+          <motion.div
+            key="action-card"
+            initial={{ opacity: 0, scale: 0.9, y: 8 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            exit={{ opacity: 0, scale: 0.9, y: 4 }}
+            transition={{ type: 'spring', damping: 22, stiffness: 320, mass: 0.5 }}
+            style={{
+              left: Math.min(actionCard.x + 12, window.innerWidth - 260),
+              top: Math.min(actionCard.y + 12, window.innerHeight - 160),
+            }}
+            className="fixed z-50 bg-slate-900/95 backdrop-blur-xl border border-slate-700/60 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.7)] p-4 w-56"
+          >
+            {/* Decorative gradient */}
+            <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/5 to-purple-500/5 rounded-2xl pointer-events-none" />
+
+            {/* Title */}
+            <div className="flex items-start justify-between mb-3 relative z-10">
+              <p className="text-[11px] font-bold text-slate-300 leading-snug line-clamp-2 pr-2">
+                {actionCard.node.name}
+              </p>
+              <button
+                onClick={() => setActionCard(null)}
+                className="shrink-0 text-slate-500 hover:text-white p-0.5 rounded transition-colors"
+              >
+                <X size={13} />
+              </button>
+            </div>
+
+            {/* Actions */}
+            <div className="flex flex-col gap-2 relative z-10">
+              <button
+                onClick={() => {
+                  setActionCard(null);
+                  if (onNodeClick) onNodeClick(actionCard.node);
+                }}
+                className="flex items-center gap-2 w-full px-3 py-2.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/20 hover:border-emerald-400/40 text-emerald-300 hover:text-emerald-200 text-xs font-bold transition-all group"
+              >
+                <BookOpen size={13} className="shrink-0 group-hover:scale-110 transition-transform" />
+                Open in Library
+              </button>
+              {actionCard.node.properties?.url ? (
+                <a
+                  href={actionCard.node.properties.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setActionCard(null)}
+                  className="flex items-center gap-2 w-full px-3 py-2.5 rounded-xl bg-indigo-500/10 hover:bg-indigo-500/20 border border-indigo-500/20 hover:border-indigo-400/40 text-indigo-300 hover:text-indigo-200 text-xs font-bold transition-all no-underline group"
+                >
+                  <ExternalLink size={13} className="shrink-0 group-hover:scale-110 transition-transform" />
+                  View Source ↗
+                </a>
+              ) : (
+                <div className="flex items-center gap-2 w-full px-3 py-2.5 rounded-xl bg-slate-800/50 border border-slate-700/30 text-slate-600 text-xs font-bold cursor-not-allowed">
+                  <ExternalLink size={13} className="shrink-0" />
+                  No Source URL
+                </div>
+              )}
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

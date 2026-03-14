@@ -1,8 +1,127 @@
-import React from 'react';
-import { FileText, User, Calendar, Link as LinkIcon, AlertCircle, Network, Microscope, CheckCircle, Megaphone, Brain, AlertTriangle, ExternalLink } from 'lucide-react';
+import React, { useState } from 'react';
+import { User, Calendar, AlertCircle, Microscope, CheckCircle, Megaphone, AlertTriangle, ExternalLink, MapPin, BookMarked, ChevronDown, ChevronUp } from 'lucide-react';
+import SourceViewer from './SourceViewer';
 
+// ─── Small helper: "Cited From" pill button ────────────────────────────────
+const CitedFromBadge = ({ citedFrom, findingText, paperTitle, paperUrl }) => {
+  const [open, setOpen] = useState(false);
+
+  const section = citedFrom?.section;
+  const quote   = citedFrom?.quote;
+
+  if (!section && !quote) return null;
+
+  return (
+    <>
+      <button
+        onClick={() => setOpen(true)}
+        title="See the exact source location"
+        className="inline-flex items-center gap-1 mt-2 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-amber-500/10 border border-amber-500/30 text-amber-400 hover:bg-amber-500/20 hover:border-amber-400/50 transition-all group"
+      >
+        <MapPin size={9} className="shrink-0 group-hover:scale-110 transition-transform" />
+        {section ? `Cited from: ${section}` : 'Cited From'}
+        <ExternalLink size={8} className="opacity-60 group-hover:opacity-100" />
+      </button>
+
+      <SourceViewer
+        isOpen={open}
+        onClose={() => setOpen(false)}
+        paperTitle={paperTitle}
+        paperUrl={paperUrl}
+        sectionName={section}
+        quote={quote}
+        findingText={findingText}
+      />
+    </>
+  );
+};
+
+// ─── Collapsible References section ───────────────────────────────────────
+const ReferencesSection = ({ references }) => {
+  const [expanded, setExpanded] = useState(false);
+
+  if (!references || references.length === 0) return null;
+
+  const displayRefs = expanded ? references : references.slice(0, 5);
+
+  return (
+    <div className="border-b border-slate-700/50 p-6 bg-gradient-to-br from-slate-900/50 to-slate-950/30">
+      <h3 className="text-xs font-black uppercase tracking-widest text-slate-400 mb-4 flex items-center gap-2">
+        <BookMarked size={14} className="text-slate-500" />
+        References
+        <span className="ml-auto text-slate-600 font-normal normal-case tracking-normal text-[11px]">
+          {references.length} cited
+        </span>
+      </h3>
+
+      <ol className="space-y-3">
+        {displayRefs.map((ref, i) => (
+          <li key={i} className="flex gap-3 group">
+            <span className="text-[10px] font-bold text-slate-600 mt-0.5 shrink-0 w-5 text-right">
+              [{i + 1}]
+            </span>
+            <div className="flex-1 min-w-0">
+              {ref.url ? (
+                <a
+                  href={ref.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs font-semibold text-slate-300 hover:text-indigo-400 transition-colors leading-snug group-hover:underline decoration-indigo-400/50 underline-offset-2 line-clamp-2"
+                >
+                  {ref.title || 'Unknown Title'}
+                  <ExternalLink size={9} className="inline ml-1 opacity-0 group-hover:opacity-70 transition-opacity" />
+                </a>
+              ) : (
+                <p className="text-xs font-semibold text-slate-400 leading-snug line-clamp-2">
+                  {ref.title || 'Unknown Title'}
+                </p>
+              )}
+              <div className="flex flex-wrap items-center gap-2 mt-1">
+                {ref.authors?.length > 0 && (
+                  <span className="text-[10px] text-slate-500 truncate max-w-[200px]">
+                    {Array.isArray(ref.authors)
+                      ? ref.authors.slice(0, 3).join(', ') + (ref.authors.length > 3 ? ' et al.' : '')
+                      : ref.authors}
+                  </span>
+                )}
+                {ref.year && (
+                  <span className="text-[10px] font-bold text-slate-600 bg-slate-800/70 px-1.5 py-0.5 rounded border border-slate-700/50">
+                    {ref.year}
+                  </span>
+                )}
+                {ref.venue && (
+                  <span className="text-[10px] text-slate-500 italic truncate max-w-[180px]">
+                    {ref.venue}
+                  </span>
+                )}
+              </div>
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      {references.length > 5 && (
+        <button
+          onClick={() => setExpanded(p => !p)}
+          className="mt-4 flex items-center gap-1.5 text-xs text-slate-500 hover:text-slate-300 transition-colors font-medium"
+        >
+          {expanded ? <ChevronUp size={13} /> : <ChevronDown size={13} />}
+          {expanded ? 'Show fewer' : `Show ${references.length - 5} more references`}
+        </button>
+      )}
+    </div>
+  );
+};
+
+// ─── Main Component ────────────────────────────────────────────────────────
 const PaperDetail = ({ paper, analysis }) => {
   if (!paper) return null;
+
+  const paperTitle = paper.title;
+  const paperUrl   = paper.url;
+
+  // Pull references from analysis (preferred) or paper properties
+  const references = analysis?.references || paper.references || [];
 
   return (
     <div className="space-y-0">
@@ -25,14 +144,14 @@ const PaperDetail = ({ paper, analysis }) => {
               </div>
             )}
             {paper.url && (
-              <a 
-                href={paper.url} 
-                target="_blank" 
+              <a
+                href={paper.url}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1.5 text-indigo-100 hover:text-white transition-colors"
               >
                 <ExternalLink size={14} />
-                <span className="text-xs font-bold">Open Paper</span>
+                <span className="text-xs font-bold">Open Paper ↗</span>
               </a>
             )}
           </div>
@@ -50,7 +169,7 @@ const PaperDetail = ({ paper, analysis }) => {
           </p>
         </div>
       )}
-      
+
       <div className="space-y-0">
         {/* Extracted Artifacts (Figures/Tables) */}
         {paper.artifacts && paper.artifacts.length > 0 && (
@@ -118,12 +237,18 @@ const PaperDetail = ({ paper, analysis }) => {
                 <h3 className="text-xs font-black uppercase tracking-widest text-amber-400 mb-3 flex items-center gap-2">
                   <Microscope size={14} className="text-amber-500" /> Methodology
                 </h3>
-                <p className="text-sm text-amber-100/90 leading-relaxed mb-3 font-medium">{analysis.methodology?.approach || analysis.methodology}</p>
+                <p className="text-sm text-amber-100/90 leading-relaxed mb-2 font-medium">{analysis.methodology?.approach || analysis.methodology}</p>
                 {analysis.methodology?.evidence && (
                   <div className="bg-slate-950/60 p-3 rounded-lg border border-amber-500/20 italic text-xs text-amber-200/70">
                     <span className="font-bold text-amber-300">Evidence:</span> "{analysis.methodology.evidence}"
                   </div>
                 )}
+                <CitedFromBadge
+                  citedFrom={analysis.methodology?.cited_from}
+                  findingText={analysis.methodology?.approach}
+                  paperTitle={paperTitle}
+                  paperUrl={paperUrl}
+                />
               </div>
             )}
 
@@ -133,15 +258,21 @@ const PaperDetail = ({ paper, analysis }) => {
                 <h3 className="text-xs font-black uppercase tracking-widest text-emerald-400 mb-4 flex items-center gap-2">
                   <CheckCircle size={14} className="text-emerald-500" /> Key Findings
                 </h3>
-                <ul className="space-y-3">
+                <ul className="space-y-4">
                   {(analysis.key_findings || []).map((item, i) => (
-                    <li key={i}>
+                    <li key={i} className="pb-4 border-b border-slate-800/40 last:border-0 last:pb-0">
                       <p className="text-sm text-emerald-100 font-semibold leading-snug">{item.finding || item}</p>
                       {item.evidence && (
                         <p className="text-xs text-emerald-200/60 bg-slate-950/60 p-2 rounded border border-emerald-500/20 italic mt-2">
                           "{item.evidence}"
                         </p>
                       )}
+                      <CitedFromBadge
+                        citedFrom={item.cited_from}
+                        findingText={item.finding || item}
+                        paperTitle={paperTitle}
+                        paperUrl={paperUrl}
+                      />
                     </li>
                   ))}
                 </ul>
@@ -154,15 +285,21 @@ const PaperDetail = ({ paper, analysis }) => {
                 <h3 className="text-xs font-black uppercase tracking-widest text-purple-400 mb-4 flex items-center gap-2">
                   <Megaphone size={14} className="text-purple-500" /> Claims & Contributions
                 </h3>
-                <ul className="space-y-3">
+                <ul className="space-y-4">
                   {(analysis.claims || analysis.contributions || []).map((item, i) => (
-                    <li key={i}>
+                    <li key={i} className="pb-4 border-b border-slate-800/40 last:border-0 last:pb-0">
                       <p className="text-sm text-purple-100 font-semibold leading-snug">{item.claim || item.contribution || item}</p>
                       {item.evidence && (
                         <p className="text-xs text-purple-200/60 bg-slate-950/60 p-2 rounded border border-purple-500/20 italic mt-2">
                           "{item.evidence}"
                         </p>
                       )}
+                      <CitedFromBadge
+                        citedFrom={item.cited_from}
+                        findingText={item.claim || item.contribution || item}
+                        paperTitle={paperTitle}
+                        paperUrl={paperUrl}
+                      />
                     </li>
                   ))}
                 </ul>
@@ -187,6 +324,9 @@ const PaperDetail = ({ paper, analysis }) => {
             )}
           </>
         )}
+
+        {/* References Section — always last */}
+        <ReferencesSection references={references} />
       </div>
     </div>
   );

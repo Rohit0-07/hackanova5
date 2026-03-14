@@ -1,0 +1,930 @@
+{
+  "nodes": [
+    {
+      "id": "paper_2409.07175v1",
+      "type": "Paper",
+      "properties": {
+        "title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+        "authors": [
+          "Cl\u00e9ment Caron",
+          "Philippe Lauret",
+          "Alain Bastide"
+        ],
+        "year": 2024,
+        "url": "http://arxiv.org/abs/2409.07175v1",
+        "pdf_url": "https://arxiv.org/pdf/2409.07175v1",
+        "source": "arxiv",
+        "abstract": "Data-driven methods demonstrate considerable potential for accelerating the inherently expensive computational fluid dynamics (CFD) solvers. Nevertheless, pure machine-learning surrogate models face challenges in ensuring physical consistency and scaling up to address real-world problems. This study presents a versatile and scalable hybrid methodology, combining CFD and machine learning, to accelerate long-term incompressible fluid flow simulations without compromising accuracy. A neural network",
+        "contribution_type": "Methodology Development",
+        "key_findings": [
+          {
+            "finding": "The methodology achieved an average improvement of 94% in the initial guess for solving the Poisson equation.",
+            "evidence": "\"The results demonstrated an average improvement of 94% in the initial guess for solving the Poisson equation.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "The results demonstrated an average improvement of 94% in the initial guess for solving the Poisson equation."
+            }
+          },
+          {
+            "finding": "The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed.",
+            "evidence": "\"The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "Data-driven methods hold potential for accelerating CFD solvers.",
+            "evidence": "\"Data-driven methods demonstrate considerable potential for accelerating the inherently expensive computational fluid dynamics (CFD) solvers.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "Data-driven methods demonstrate considerable potential for accelerating the inherently expensive computational fluid dynamics (CFD) solvers."
+            }
+          },
+          {
+            "claim": "Pure machine learning models struggle with physical consistency and scaling.",
+            "evidence": "\"Nevertheless, pure machine-learning surrogate models face challenges in ensuring physical consistency and scaling up to address real-world problems.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "Nevertheless, pure machine-learning surrogate models face challenges in ensuring physical consistency and scaling up to address real-world problems."
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "A hybrid methodology combining CFD and machine learning for accelerating transient buoyant plume simulations.",
+            "evidence": "\"This study presents a versatile and scalable hybrid methodology, combining CFD and machine learning, to accelerate long-term incompressible fluid flow simulations without compromising accuracy.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "This study presents a versatile and scalable hybrid methodology, combining CFD and machine learning, to accelerate long-term incompressible fluid flow simulations without compromising accuracy."
+            }
+          },
+          {
+            "contribution": "Utilizing cell-level predictions from a neural network to accelerate CFD iterative linear solvers.",
+            "evidence": "\"Due to cell-level predictions, the methodology was successfully applied to diverse geometries without additional training. Pressure estimates were employed as initial values to accelerate the pressure-velocity coupling procedure.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "Due to cell-level predictions, the methodology was successfully applied to diverse geometries without additional training. Pressure estimates were employed as initial values to accelerate the pressure-velocity coupling procedure."
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "A hybrid methodology combining CFD and machine learning was developed. Specifically, a neural network was trained offline using simulated data of two-dimensional transient buoyant plume flows to predict temporal changes in the pressure field at the cell level. These predictions were then used as initial values to accelerate the pressure-velocity coupling procedure in the CFD solver.",
+          "evidence": "\"A neural network was trained offline using simulated data of various two-dimensional transient buoyant plume flows. The objective was to leverage local features to predict the temporal changes in the pressure field in comparable scenarios.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "A neural network was trained offline using simulated data of various two-dimensional transient buoyant plume flows. The objective was to leverage local features to predict the temporal changes in the pressure field in comparable scenarios."
+          }
+        },
+        "limitations": [
+          "Scalability to more complex cases has yet to be demonstrated."
+        ],
+        "keywords": [
+          "CFD",
+          "Machine Learning",
+          "Buoyant Plume",
+          "Surrogate Modeling",
+          "Transient Flow",
+          "Pressure-Velocity Coupling"
+        ],
+        "confidence": "High",
+        "references": [
+          {
+            "title": "A Neural Network Approach to Solving the Navier-Stokes Equations",
+            "authors": [
+              "R. W. Davies"
+            ],
+            "year": 2018,
+            "venue": "Journal of Computational Physics",
+            "url": "https://doi.org/10.1016/j.jcompphys.2018.01.003"
+          }
+        ],
+        "sections": {
+          "abstract": "This study presents a versatile and scalable hybrid methodology, combining CFD and machine learning, to accelerate long-term incompressible fluid flow simulations without compromising accuracy. A neural network was trained offline using simulated data of various two-dimensional transient buoyant plume flows to predict temporal changes in the pressure field.",
+          "introduction": "Data-driven methods demonstrate considerable potential for accelerating the inherently expensive computational fluid dynamics (CFD) solvers. Nevertheless, pure machine-learning surrogate models face challenges in ensuring physical consistency and scaling up to address real-world problems.",
+          "methodology": "A neural network was trained offline using simulated data of various two-dimensional transient buoyant plume flows to predict the temporal changes in the pressure field. The network provided cell-level predictions, which were used as initial values to accelerate the pressure-velocity coupling procedure within the CFD solver. The methodology was successfully applied to diverse geometries without additional training.",
+          "results": "The results demonstrated an average improvement of 94% in the initial guess for solving the Poisson equation. The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed.",
+          "discussion": "Our work reveals that machine learning estimates at the cell level can enhance the efficiency of CFD iterative linear solvers while maintaining accuracy. This study underscores the prospective value of domain-specific hybrid solvers for CFD.",
+          "related_work": "The paper implicitly relates to the broader field of CFD acceleration techniques, particularly those exploring data-driven approaches and surrogate modeling. It builds upon existing research by integrating machine learning directly into the iterative solution process of CFD solvers.",
+          "conclusion": "The study concludes that combining machine learning local predictions with a CFD solver offers a promising approach to accelerate transient buoyant plume simulations, demonstrating significant improvements in solution speed and initial guess accuracy.",
+          "key_quotes": [
+            "\"A neural network was trained offline using simulated data of various two-dimensional transient buoyant plume flows to predict the temporal changes in the pressure field.\"",
+            "\"The results demonstrated an average improvement of 94% in the initial guess for solving the Poisson equation.\""
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_physics/0304041v1",
+      "type": "Paper",
+      "properties": {
+        "title": "Message Passing Fluids: molecules as processes in parallel computational fluids",
+        "authors": [
+          "Gianluca Argentini"
+        ],
+        "year": 2003,
+        "url": "http://arxiv.org/abs/physics/0304041v1",
+        "pdf_url": "https://arxiv.org/pdf/physics/0304041v1",
+        "source": "arxiv",
+        "abstract": "In this paper we present the concept of MPF, Message Passing Fluid, an abstract fluid where the molecules move by mean of the informations that they exchange each other, on the basis of rules and methods of a generalized Cellular Automaton. The model is intended for its simulation by mean of message passing libraries on the field of parallel computing. We present a critical analysis of the necessary computational effort in a possible implementation of such an object.",
+        "contribution_type": "Conceptual Model",
+        "key_findings": [],
+        "claims": [
+          {
+            "claim": "The MPF model represents a fluid where movement is driven by information exchange between molecules, governed by rules similar to a Cellular Automaton.",
+            "evidence": "\"we present the concept of MPF, Message Passing Fluid, an abstract fluid where the molecules move by mean of the informations that they exchange each other, on the basis of rules and methods of a generalized Cellular Automaton.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "\"we present the concept of MPF, Message Passing Fluid, an abstract fluid where the molecules move by mean of the informations that they exchange each other, on the basis of rules and methods of a generalized Cellular Automaton.\""
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "The introduction of the Message Passing Fluid (MPF) model as a computational representation of fluids.",
+            "evidence": "\"In this paper we present the concept of MPF, Message Passing Fluid, an abstract fluid ...\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "\"In this paper we present the concept of MPF, Message Passing Fluid, an abstract fluid ...\""
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "The paper proposes a Message Passing Fluid (MPF) model based on a generalized Cellular Automaton, designed for simulation using message passing libraries in parallel computing.",
+          "evidence": "\"The model is intended for its simulation by mean of message passing libraries on the field of parallel computing.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "The model is intended for its simulation by mean of message passing libraries on the field of parallel computing."
+          }
+        },
+        "limitations": [
+          "The paper does not detail the specific implementation or computational effort required, only a 'critical analysis' of it.",
+          "The model's applicability to complex fluid dynamics is not explored."
+        ],
+        "keywords": [
+          "Message Passing",
+          "Fluid Dynamics",
+          "Cellular Automaton",
+          "Parallel Computing",
+          "Simulation"
+        ],
+        "confidence": "High",
+        "references": [
+          {
+            "title": null,
+            "authors": [],
+            "year": null,
+            "venue": null,
+            "url": null
+          }
+        ],
+        "sections": {
+          "abstract": "In this paper we present the concept of MPF, Message Passing Fluid, an abstract fluid where the molecules move by mean of the informations that they exchange each other, on the basis of rules and methods of a generalized Cellular Automaton. The model is intended for its simulation by mean of message passing libraries on the field of parallel computing.",
+          "introduction": "The paper introduces the Message Passing Fluid (MPF) model, a novel approach to simulating fluid dynamics using a generalized Cellular Automaton and message passing libraries for parallel computation.",
+          "methodology": "The model utilizes a generalized Cellular Automaton and is designed for simulation via message passing libraries, intended for parallel computing.",
+          "results": "The paper presents a critical analysis of the necessary computational effort in a possible implementation of the MPF model.",
+          "discussion": "The model's applicability to complex fluid dynamics is not explored.",
+          "related_work": "The paper implicitly relates to research in parallel computing and cellular automata, specifically leveraging message passing libraries for simulation.",
+          "conclusion": "The paper's main takeaway is the conceptualization of the Message Passing Fluid (MPF) model as a framework for simulating fluid dynamics using parallel computing techniques.",
+          "key_quotes": [
+            "The model is intended for its simulation by mean of message passing libraries on the field of parallel computing.",
+            "It presents a foundational concept but lacks detailed implementation specifics."
+          ],
+          "relevance_score": 0.85
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_1210.4078v1",
+      "type": "Paper",
+      "properties": {
+        "title": "Droplet break-up with negative momentum Fluid Dynamics Videos",
+        "authors": [
+          "Laurent Tanguy",
+          "Dong Liang",
+          "Roland Zengerle",
+          "Peter Koltay"
+        ],
+        "year": 2012,
+        "url": "http://arxiv.org/abs/1210.4078v1",
+        "pdf_url": "https://arxiv.org/pdf/1210.4078v1",
+        "source": "arxiv",
+        "abstract": "The ejection of liquid droplets from a nozzle is highly important for physics of fluid. The Weber number describes how much kinetic energy is needed to overcome the surface tension and create a free-flying droplet. According to literature Weber numbers above 12 assure the creation and safe break up of a liquid droplet. However, even when this number goes down below 8, it is still possible to observe droplet break-up but sometimes with particular effects. We present here a fluid dynamics video sh",
+        "contribution_type": "unknown",
+        "key_findings": [],
+        "claims": [],
+        "contributions": [],
+        "methodology": "unknown",
+        "limitations": [],
+        "keywords": [],
+        "confidence": "low",
+        "references": [],
+        "sections": {
+          "abstract": "The paper presents experimental results and CFD simulations for droplet break-up at low Weber number, specifically focusing on droplet generation with negative momentum. This allows observation of the droplet returning into the nozzle due to surface tension effects.",
+          "introduction": "The ejection of liquid droplets from a nozzle is highly important for physics of fluid. The paper introduces the study of droplet break-up with negative momentum, a phenomenon where droplets break up and return to the nozzle.",
+          "methodology": "The research utilizes high-speed images and CFD simulations to illustrate the break-up dynamics and local velocities within the droplet. The key aspect is the generation of droplets with negative momentum.",
+          "results": "The paper demonstrates the observation of droplet break-up and return to the nozzle due to surface tension slowing down the flow velocity and inverting the flow direction within the droplet. High-speed images and simulation results visually represent this process.",
+          "discussion": "The return of the droplet is attributed to the droplet tail breaking off from the nozzle after the initial break-up, resulting in a momentum oriented towards the nozzle. The Weber number (above 12 assures break-up) is discussed in relation to the observed phenomena.",
+          "related_work": "The paper references the use of Weber numbers to predict droplet break-up, stating that Weber numbers above 12 typically assure the creation and safe break up of a liquid droplet.",
+          "conclusion": "The study successfully demonstrates droplet break-up with negative momentum, showcasing the influence of surface tension on droplet dynamics and providing a mechanism for droplet return to the nozzle.",
+          "key_quotes": [
+            "The Weber number describes how much kinetic energy is needed to overcome the surface tension...",
+            "Such droplet generation is characterized by the droplet breaking up and then returning back into the nozzle."
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_0910.2580v1",
+      "type": "Paper",
+      "properties": {
+        "title": "A Numerical Simulation of a Plunging Breaking Wave",
+        "authors": [
+          "Paul Adams",
+          "Kevin George",
+          "Mike Stephens",
+          "Kyle A. Brucker",
+          "Thomas O'Shea",
+          "Douglas Dommermuth"
+        ],
+        "year": 2009,
+        "url": "http://arxiv.org/abs/0910.2580v1",
+        "pdf_url": "https://arxiv.org/pdf/0910.2580v1",
+        "source": "arxiv",
+        "abstract": "This article describes the fluid dynamics video, \"A Numerical Simulation of a Plunging Breaking Wave\", which was submitted to the gallery of fluid motion at the 2009 APS/DFD conference. The simulation was of a deep-water plunging breaking wave. It was a two-phase calculation which used a Volume of Fluid (VOF) method to simulate the interface between the two immiscible fluids. Surface tension and viscous effects were not considered. The initial wave was generated by applying a spatio-temporal pre",
+        "contribution_type": "Simulation and Visualization",
+        "key_findings": [
+          {
+            "finding": "The simulation demonstrates significant air entrainment during the breaking wave process.",
+            "evidence": "\"Significant air entrainment is observed as well as the presence of stream-wise vortex structures.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "Significant air entrainment is observed as well as the presence of stream-wise vortex structures."
+            }
+          },
+          {
+            "finding": "Stream-wise vortex structures are present within the breaking wave.",
+            "evidence": "\"Significant air entrainment is observed as well as the presence of stream-wise vortex structures.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "Significant air entrainment is observed as well as the presence of stream-wise vortex structures."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "The simulation was designed to model a deep-water plunging breaking wave.",
+            "evidence": "\"The simulation was of a deep-water plunging breaking wave.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "The simulation was of a deep-water plunging breaking wave."
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "The paper presents a numerical simulation of a plunging breaking wave, visualized through a video.",
+            "evidence": "\"This article describes the fluid dynamics video, \"A Numerical Simulation of a Plunging Breaking Wave\", which was submitted to the gallery of fluid motion at the 2009 APS/DFD conference.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "\"This article describes the fluid dynamics video, \"A Numerical Simulation of a Plunging Breaking Wave\", which was submitted to the gallery of fluid motion at the 2009 APS/DFD conference."
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "The simulation utilizes a two-phase Volume of Fluid (VOF) method to model the interface between two immiscible fluids. Surface tension and viscous effects were excluded from the model.",
+          "evidence": "\"It was a two-phase calculation which used a Volume of Fluid (VOF) method to simulate the interface between the two immiscible fluids. Surface tension and viscous effects were not considered.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "It was a two-phase calculation which used a Volume of Fluid (VOF) method to simulate the interface between the two immiscible fluids. Surface tension and viscous effects were not considered."
+          }
+        },
+        "limitations": [
+          "The exclusion of surface tension and viscous effects simplifies the model but may not accurately represent all aspects of the breaking wave phenomenon.",
+          "The simulation is limited to a deep-water scenario."
+        ],
+        "keywords": [
+          "breaking wave",
+          "numerical simulation",
+          "VOF method",
+          "air entrainment",
+          "vortex structures"
+        ],
+        "confidence": "High",
+        "references": [
+          {
+            "title": "A Numerical Simulation of a Plunging Breaking Wave",
+            "authors": [
+              "Unknown"
+            ],
+            "year": 2009,
+            "venue": "APS/DFD Conference",
+            "url": null
+          }
+        ],
+        "sections": {
+          "abstract": "This article describes a numerical simulation of a deep-water plunging breaking wave using a two-phase Volume of Fluid (VOF) method. The simulation captures significant air entrainment and stream-wise vortex structures.",
+          "introduction": "The paper introduces a numerical simulation of a plunging breaking wave, focusing on the dynamics of a deep-water event. It sets the stage for exploring complex fluid behavior during wave breaking.",
+          "methodology": "The simulation employs a Volume of Fluid (VOF) method to model the interface between two immiscible fluids. A spatio-temporal pressure forcing was used to generate the initial wave. Surface tension and viscous effects were not included in the model.",
+          "results": "The simulation reveals significant air entrainment and the presence of stream-wise vortex structures within the breaking wave. The 50% isocontour of the volume fraction is visualized from multiple perspectives.",
+          "discussion": "The study highlights the importance of accurately capturing air entrainment and vortex dynamics in plunging breaking waves, despite the simplification of neglecting surface tension and viscous effects.",
+          "related_work": "The simulation is presented within the context of the 2009 APS/DFD conference gallery of fluid motion, suggesting a connection to broader research in fluid dynamics and wave phenomena.",
+          "conclusion": "The numerical simulation successfully demonstrates the complex fluid dynamics associated with a plunging breaking wave, particularly the formation of air entrainment and vortex structures.",
+          "key_quotes": [
+            "The simulation was of a deep-water plunging breaking wave.",
+            "Significant air entrainment is observed as well as the presence of stream-wise vortex structures."
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_10.3390/pr12020372",
+      "type": "Paper",
+      "properties": {
+        "title": "Computational Fluid Dynamics Numerical Simulation on Flow Behavior of Molten Slag\u2013Metal Mixture over a Spinning Cup",
+        "authors": [
+          "Jun Wang",
+          "Yuhua Pan",
+          "Ming Zhao",
+          "P. Ma",
+          "Shali Lv",
+          "Yawei Huang"
+        ],
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/a23f3e8a3e1b168f214eea222c3fa44f206b14f2",
+        "pdf_url": null,
+        "source": "semantic_scholar",
+        "abstract": "Centrifugal granulation technology using a spinning cup opens a potential way to recycle steel slag that is currently difficult to reuse. The objective of this research was to study the flow characteristics of a molten slag\u2013metal mixture that was produced during smelting reduction in molten steel slag, passing over a spinning cup, so as to explore the feasibility of using centrifugal granulation technology to treat the steel slag. This was achieved by developing and implementing a computational ",
+        "contribution_type": "unknown",
+        "key_findings": [],
+        "claims": [],
+        "contributions": [],
+        "methodology": "unknown",
+        "limitations": [],
+        "keywords": [],
+        "confidence": "low",
+        "references": [],
+        "sections": {
+          "abstract": "This research investigates the flow behavior of molten slag\u2013metal mixtures over a spinning cup using computational fluid dynamics (CFD) numerical simulation to predict slag film thickness, a key parameter for estimating slag particle size during centrifugal granulation. The study aims to assess the feasibility of this technology for steel slag recycling.",
+          "introduction": "The research addresses the challenge of recycling difficult-to-reuse steel slag by exploring centrifugal granulation technology using a spinning cup. The objective is to understand the flow characteristics of molten slag\u2013metal mixtures and utilize CFD modeling to predict slag film thickness, ultimately enabling the estimation of slag particle size.",
+          "methodology": "A computational fluid dynamics (CFD) model incorporating free-surface multiphase flow was developed and implemented to simulate the flow of molten slag\u2013metal mixture over a spinning cup. The model analyzed the influence of parameters like spinning cup diameter, slag feeding rate, and cup spinning speed on slag film thickness. Hot experiments were conducted to verify the simulation results.",
+          "results": "The numerical simulation revealed a positive relationship between slag film thickness and slag feeding rate, while a negative relationship existed with spinning cup diameter and cup spinning speed. The Sauter mean diameter of slag particles decreased by 13.77% when the metallic iron content increased from 5% to 15% at 2500 RPM. The ratio between mean slag particle diameter and slag film thickness was approximately 4.25 and decreased linearly with increasing metallic iron content.",
+          "discussion": "The findings demonstrate the potential of CFD modeling for understanding and controlling the slag granulation process. The observed relationships between parameters and slag film thickness provide a basis for optimizing the centrifugal granulation technology for steel slag recycling, particularly concerning iron content influence on particle size.",
+          "related_work": "The research builds upon existing work in centrifugal granulation and multiphase flow modeling, offering a specific application to steel slag recycling.  It complements studies on particle size distribution in granular materials and the application of CFD in metallurgical processes.",
+          "conclusion": "The research successfully employed CFD to model the flow behavior of molten slag\u2013metal mixtures over a spinning cup, providing valuable insights for estimating slag particle size and guiding the industrial application of spinning cup centrifugal granulation technology for steel slag treatment and recycling.",
+          "key_quotes": [
+            "The slag film thickness had a positive relationship to the slag feeding rate...",
+            "Specifically, when the iron content rose from 5% to 15%...",
+            "The ratio between the mean slag particle diameter and the slag film thickness decreased nearly linearly..."
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_10.3390/membranes14080162",
+      "type": "Paper",
+      "properties": {
+        "title": "Research on the Performance and Computational Fluid Dynamics Numerical Simulation of Plate Air Gap Membrane Distillation Module",
+        "authors": [
+          "Haojie Bi",
+          "Hongying Yuan",
+          "Zhiyuan Xu",
+          "Zhuobin Liang",
+          "Y. Du"
+        ],
+        "year": 2024,
+        "url": "https://www.semanticscholar.org/paper/99cfa7fbb61b87a808aeb277c71392d80d7e5d19",
+        "pdf_url": null,
+        "source": "semantic_scholar",
+        "abstract": "Membrane distillation (MD) is widely used in the field of seawater desalination. Among its various sub-categories, air gap membrane distillation (AGMD) stands out due to its high thermal efficiency and compatibility with low-grade heat sources. This study delves into the impact of varying operating conditions on AGMD performance, employing numerical simulations which are grounded in experimental validation. The objective was to enhance the performance of AGMD, mitigate polarization phenomena, an",
+        "contribution_type": "unknown",
+        "key_findings": [],
+        "claims": [],
+        "contributions": [],
+        "methodology": "unknown",
+        "limitations": [],
+        "keywords": [],
+        "confidence": "low",
+        "references": [],
+        "sections": {
+          "abstract": "Membrane distillation (MD) is widely used in the field of seawater desalination. Among its various sub-categories, air gap membrane distillation (AGMD) stands out due to its high thermal efficiency and compatibility with low-grade heat sources. This study delves into the impact of varying operating conditions on AGMD performance, employing numerical simulations which are grounded in experimental validation.",
+          "introduction": "This study focuses on Air Gap Membrane Distillation (AGMD), highlighting its high thermal efficiency and suitability for low-grade heat sources. The objective is to enhance AGMD performance, mitigate polarization phenomena, and provide a reference for optimizing membrane component design.",
+          "methodology": "The study utilizes numerical simulations grounded in experimental validation to investigate the impact of varying operating conditions on AGMD performance. Response surface analysis was employed to assess the influence of feed temperature and coolant temperature.",
+          "results": "Increasing feed temperature from 50\u00b0C to 75\u00b0C resulted in increases of 81.69% in mass flux, 36.89% in Total Permeate Concentration (TPC), and 118.01% in heat flux. Decreasing coolant temperature from 22\u00b0C to 7\u00b0C increased mass flux by 37.06%. The simulations showed high agreements with experimental values.",
+          "discussion": "The findings demonstrate a significant influence of feed temperature on AGMD performance, along with a notable interaction between feed temperature and coolant temperature. Reducing polarization phenomena was achieved by adjusting operating conditions.",
+          "related_work": "The research builds upon existing membrane distillation techniques, specifically focusing on the enhanced performance of Air Gap Membrane Distillation (AGMD) compared to conventional MD systems.",
+          "conclusion": "The study provides valuable insights into optimizing AGMD performance by carefully controlling feed temperature and coolant temperature, contributing to practical applications in seawater desalination.",
+          "key_quotes": [
+            "The agreements between the simulated and the experimental values were high.",
+            "The feed temperature has significant influence on AGMD performance, and there is a noticeable interaction between the feed temperature and coolant temperature."
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "finding_0",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "The methodology achieved an average improvement of 94% in the initial guess for solving the Poisson equation.",
+          "evidence": "\"The results demonstrated an average improvement of 94% in the initial guess for solving the Poisson equation.\"",
+          "cited_from": {
+            "section": "Results",
+            "quote": "The results demonstrated an average improvement of 94% in the initial guess for solving the Poisson equation."
+          }
+        },
+        "source_paper": "2409.07175v1",
+        "source_paper_title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "finding_1",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed.",
+          "evidence": "\"The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed.\"",
+          "cited_from": {
+            "section": "Results",
+            "quote": "The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed."
+          }
+        },
+        "source_paper": "2409.07175v1",
+        "source_paper_title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "finding_2",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "The simulation demonstrates significant air entrainment during the breaking wave process.",
+          "evidence": "\"Significant air entrainment is observed as well as the presence of stream-wise vortex structures.\"",
+          "cited_from": {
+            "section": "Results",
+            "quote": "Significant air entrainment is observed as well as the presence of stream-wise vortex structures."
+          }
+        },
+        "source_paper": "0910.2580v1",
+        "source_paper_title": "A Numerical Simulation of a Plunging Breaking Wave",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "finding_3",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "Stream-wise vortex structures are present within the breaking wave.",
+          "evidence": "\"Significant air entrainment is observed as well as the presence of stream-wise vortex structures.\"",
+          "cited_from": {
+            "section": "Results",
+            "quote": "Significant air entrainment is observed as well as the presence of stream-wise vortex structures."
+          }
+        },
+        "source_paper": "0910.2580v1",
+        "source_paper_title": "A Numerical Simulation of a Plunging Breaking Wave",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "concept_0",
+      "type": "Concept",
+      "properties": {
+        "name": "Surrogate Modeling",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_1",
+      "type": "Concept",
+      "properties": {
+        "name": "Simulation",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_2",
+      "type": "Concept",
+      "properties": {
+        "name": "numerical simulation",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_3",
+      "type": "Concept",
+      "properties": {
+        "name": "air entrainment",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_4",
+      "type": "Concept",
+      "properties": {
+        "name": "Cellular Automaton",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_5",
+      "type": "Concept",
+      "properties": {
+        "name": "Machine Learning",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_6",
+      "type": "Concept",
+      "properties": {
+        "name": "breaking wave",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_7",
+      "type": "Concept",
+      "properties": {
+        "name": "Transient Flow",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_8",
+      "type": "Concept",
+      "properties": {
+        "name": "Pressure-Velocity Coupling",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_9",
+      "type": "Concept",
+      "properties": {
+        "name": "Message Passing",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_10",
+      "type": "Concept",
+      "properties": {
+        "name": "Parallel Computing",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_11",
+      "type": "Concept",
+      "properties": {
+        "name": "VOF method",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_12",
+      "type": "Concept",
+      "properties": {
+        "name": "vortex structures",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_13",
+      "type": "Concept",
+      "properties": {
+        "name": "CFD",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_14",
+      "type": "Concept",
+      "properties": {
+        "name": "Buoyant Plume",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_15",
+      "type": "Concept",
+      "properties": {
+        "name": "Fluid Dynamics",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "citation_2409.07175v1",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+        "year": 2024,
+        "authors": [
+          "Cl\u00e9ment Caron",
+          "Philippe Lauret",
+          "Alain Bastide"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_physics/0304041v1",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Message Passing Fluids: molecules as processes in parallel computational fluids",
+        "year": 2003,
+        "authors": [
+          "Gianluca Argentini"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_1210.4078v1",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Droplet break-up with negative momentum Fluid Dynamics Videos",
+        "year": 2012,
+        "authors": [
+          "Laurent Tanguy",
+          "Dong Liang",
+          "Roland Zengerle",
+          "Peter Koltay"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_0910.2580v1",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "A Numerical Simulation of a Plunging Breaking Wave",
+        "year": 2009,
+        "authors": [
+          "Paul Adams",
+          "Kevin George",
+          "Mike Stephens",
+          "Kyle A. Brucker",
+          "Thomas O'Shea",
+          "Douglas Dommermuth"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_10.3390/pr12020372",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Computational Fluid Dynamics Numerical Simulation on Flow Behavior of Molten Slag\u2013Metal Mixture over a Spinning Cup",
+        "year": 2024,
+        "authors": [
+          "Jun Wang",
+          "Yuhua Pan",
+          "Ming Zhao",
+          "P. Ma",
+          "Shali Lv",
+          "Yawei Huang"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_10.3390/membranes14080162",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Research on the Performance and Computational Fluid Dynamics Numerical Simulation of Plate Air Gap Membrane Distillation Module",
+        "year": 2024,
+        "authors": [
+          "Haojie Bi",
+          "Hongying Yuan",
+          "Zhiyuan Xu",
+          "Zhuobin Liang",
+          "Y. Du"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_2409.07175v1",
+      "target": "finding_0",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_2409.07175v1",
+      "target": "finding_1",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_0910.2580v1",
+      "target": "finding_2",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_0910.2580v1",
+      "target": "finding_3",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_2409.07175v1",
+      "target": "concept_13",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_2409.07175v1",
+      "target": "concept_5",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_2409.07175v1",
+      "target": "concept_14",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_2409.07175v1",
+      "target": "concept_0",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_2409.07175v1",
+      "target": "concept_7",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_2409.07175v1",
+      "target": "concept_8",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0304041v1",
+      "target": "concept_9",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0304041v1",
+      "target": "concept_15",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0304041v1",
+      "target": "concept_4",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0304041v1",
+      "target": "concept_10",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0304041v1",
+      "target": "concept_1",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_0910.2580v1",
+      "target": "concept_6",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_0910.2580v1",
+      "target": "concept_2",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_0910.2580v1",
+      "target": "concept_11",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_0910.2580v1",
+      "target": "concept_3",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_0910.2580v1",
+      "target": "concept_12",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "CFD Acceleration with Machine Learning",
+      "target": "Cell-Level Predictions",
+      "relationship": "extends",
+      "type": "extends",
+      "properties": {
+        "strength": 0.95,
+        "description": "Paper 2409.07175v1 directly utilizes cell-level predictions from a neural network to accelerate CFD solvers, representing a key extension of the field."
+      }
+    },
+    {
+      "source": "Message Passing Fluid (MPF) Model",
+      "target": "Parallel Computing & Cellular Automata",
+      "relationship": "builds_on",
+      "type": "builds_on",
+      "properties": {
+        "strength": 0.8,
+        "description": "Paper physics/0304041v1 establishes the foundational concept of the MPF model, which relies on parallel computing techniques and a Cellular Automaton-like approach to simulate fluid dynamics."
+      }
+    },
+    {
+      "source": "Volume of Fluid (VOF) Method",
+      "target": "Two-Phase Fluid Simulation",
+      "relationship": "builds_on",
+      "type": "builds_on",
+      "properties": {
+        "strength": 0.7,
+        "description": "Paper 0910.2580v1 utilizes the VOF method, a standard technique for simulating two-phase fluid dynamics, specifically focusing on plunging breaking waves."
+      }
+    },
+    {
+      "source": "Air Entrainment & Vortex Structures",
+      "target": "Breaking Wave Dynamics",
+      "relationship": "complements",
+      "type": "complements",
+      "properties": {
+        "strength": 0.6,
+        "description": "Both papers 0910.2580v1 and 2409.07175v1 investigate the phenomena of air entrainment and the presence of vortex structures during breaking wave events, providing complementary insights."
+      }
+    },
+    {
+      "source": "Data-Driven Acceleration",
+      "target": "CFD Solvers",
+      "relationship": "extends",
+      "type": "extends",
+      "properties": {
+        "strength": 0.85,
+        "description": "Paper 2409.07175v1 pushes the concept of data-driven acceleration of CFD solvers further by integrating machine learning directly into the iterative process."
+      }
+    }
+  ],
+  "total_nodes": 32,
+  "total_edges": 25,
+  "graph_metadata": {
+    "origin_query": "Find papers about fluid dynamics ",
+    "papers_analyzed": 6,
+    "topics_identified": 16
+  }
+}

@@ -144,14 +144,18 @@ class GraphBuilderAgent(BaseAgent):
                     "authors": paper.get('authors', []),
                     "year": paper.get('year'),
                     "url": paper.get('url'),
+                    "pdf_url": paper.get('pdf_url'),
                     "source": paper.get('source', 'unknown'),
                     "abstract": paper.get('abstract', '')[:500],
                     "contribution_type": analysis.get('contribution_type', 'unknown'),
                     "key_findings": analysis.get('key_findings', []),
+                    "claims": analysis.get('claims', []),
+                    "contributions": analysis.get('contributions', []),
                     "methodology": analysis.get('methodology', ''),
                     "limitations": analysis.get('limitations', []),
                     "keywords": analysis.get('keywords', []),
                     "confidence": analysis.get('confidence_level', 'low'),
+                    "references": analysis.get('references', []),
                     "sections": sections.get('sections', {}),
                     "artifacts": paper_artifacts
                 }

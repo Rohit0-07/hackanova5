@@ -1,13 +1,22 @@
 import os
 import yaml
+from pathlib import Path
 from typing import Optional, Dict
 from pydantic import BaseModel
 
+# Load .env as a safety net (main.py does this first, but importing config from
+# tests/scripts would not go through main.py)
+try:
+    from dotenv import load_dotenv
+    load_dotenv(dotenv_path=Path(__file__).parent.parent.parent / ".env", override=False)
+except ImportError:
+    pass  # dotenv not installed yet during initial setup
+
 
 class Neo4jConfig(BaseModel):
-    uri: str = "bolt://localhost:7687"
-    user: str = "neo4j"
-    password: str = "password"
+    uri: str  = os.getenv("NEO4J_URI",      "bolt://localhost:7687")
+    user: str = os.getenv("NEO4J_USER",     "neo4j")
+    password: str = os.getenv("NEO4J_PASSWORD", "password")
 
 
 class DatabaseConfig(BaseModel):
@@ -34,13 +43,13 @@ class LLMOllamaConfig(BaseModel):
 
 
 class LLMGeminiConfig(BaseModel):
-    api_key: str = ""
+    api_key: str = os.getenv("GEMINI_API_KEY", "")
     model: str = "gemini-2.0-flash"
     rate_limit_per_minute: int = 15
 
 
 class LLMConfig(BaseModel):
-    provider: str = "ollama"
+    provider: str = os.getenv("LLM_PROVIDER", "ollama")
     ollama: LLMOllamaConfig = LLMOllamaConfig()
     gemini: LLMGeminiConfig = LLMGeminiConfig()
 

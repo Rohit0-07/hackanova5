@@ -1,0 +1,51 @@
+{
+  "raw_query": "Find papers about fluid dynamics ",
+  "user_id": "anonymous",
+  "session_id": "3dbc9c5e-7e48-4667-bf33-4cca21873fd5",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "computational fluid dynamics CFD",
+      "fluid dynamics numerical simulation",
+      "fluid flow turbulence modeling",
+      "hydrodynamics Lagrangian methods",
+      "Navier-Stokes equations fluid dynamics"
+    ],
+    "key_concepts": [
+      "fluid dynamics",
+      "CFD",
+      "turbulence",
+      "Navier-Stokes equations",
+      "hydrodynamics"
+    ],
+    "date_range": {
+      "start_year": 2018,
+      "end_year": null
+    },
+    "target_venues": [
+      "Journal of Fluid Mechanics",
+      "Physics of Fluids",
+      "CFD International",
+      "NeurIPS",
+      "ICD"
+    ],
+    "exclusions": [],
+    "search_strategy": "Broaden the search to include computational and numerical approaches to fluid dynamics, focusing on key concepts like turbulence and the Navier-Stokes equations.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 6,
+  "max_depth": 4,
+  "created_at": "2026-03-14T06:53:20.129073",
+  "updated_at": "2026-03-14T06:53:31.077444",
+  "status": "in_progress",
+  "errors": []
+}

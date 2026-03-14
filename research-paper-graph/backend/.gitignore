@@ -1,0 +1,42 @@
+# Environment variables — NEVER commit actual .env files
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Data / storage
+data/
+*.sqlite
+*.db
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/

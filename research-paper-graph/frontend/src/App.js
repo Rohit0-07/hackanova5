@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import { pipelineApi, chatApi } from './utils/api';
 import KnowledgeGraph from './components/KnowledgeGraph';
 import PaperDetail from './components/PaperDetail';
+import EmailNotifyToast from './components/EmailNotifyToast';
 
 function App() {
   const [query, setQuery] = useState('');
@@ -801,6 +802,12 @@ function App() {
   return (
     <div className="h-screen w-full flex flex-col bg-slate-950 text-slate-100 selection:bg-indigo-500/30 overflow-hidden font-sans">
       {status === 'idle' ? renderLanding() : renderDashboard()}
+
+      {/* Email notification toast — shows when analysis starts */}
+      <EmailNotifyToast
+        sessionId={sessionId}
+        isAnalysisRunning={status === 'in_progress'}
+      />
     </div>
   );
 }

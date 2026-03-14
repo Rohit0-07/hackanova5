@@ -1,0 +1,393 @@
+{
+  "raw_query": "Find papers about fluid dynamics ",
+  "user_id": "anonymous",
+  "session_id": "3dbc9c5e-7e48-4667-bf33-4cca21873fd5",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "computational fluid dynamics CFD",
+      "fluid dynamics numerical simulation",
+      "fluid flow turbulence modeling",
+      "hydrodynamics Lagrangian methods",
+      "Navier-Stokes equations fluid dynamics"
+    ],
+    "key_concepts": [
+      "fluid dynamics",
+      "CFD",
+      "turbulence",
+      "Navier-Stokes equations",
+      "hydrodynamics"
+    ],
+    "date_range": {
+      "start_year": 2018,
+      "end_year": null
+    },
+    "target_venues": [
+      "Journal of Fluid Mechanics",
+      "Physics of Fluids",
+      "CFD International",
+      "NeurIPS",
+      "ICD"
+    ],
+    "exclusions": [],
+    "search_strategy": "Broaden the search to include computational and numerical approaches to fluid dynamics, focusing on key concepts like turbulence and the Navier-Stokes equations.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [
+    {
+      "id": "2409.07175v1",
+      "title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+      "authors": [
+        "Cl\u00e9ment Caron",
+        "Philippe Lauret",
+        "Alain Bastide"
+      ],
+      "year": 2024,
+      "abstract": "Data-driven methods demonstrate considerable potential for accelerating the inherently expensive computational fluid dynamics (CFD) solvers. Nevertheless, pure machine-learning surrogate models face challenges in ensuring physical consistency and scaling up to address real-world problems. This study presents a versatile and scalable hybrid methodology, combining CFD and machine learning, to accelerate long-term incompressible fluid flow simulations without compromising accuracy. A neural network was trained offline using simulated data of various two-dimensional transient buoyant plume flows. The objective was to leverage local features to predict the temporal changes in the pressure field in comparable scenarios. Due to cell-level predictions, the methodology was successfully applied to diverse geometries without additional training. Pressure estimates were employed as initial values to accelerate the pressure-velocity coupling procedure. The results demonstrated an average improvement of 94% in the initial guess for solving the Poisson equation. The first pressure corrector acceleration reached a mean factor of 3, depending on the iterative solver employed. Our work reveals that machine learning estimates at the cell level can enhance the efficiency of CFD iterative linear solvers while maintaining accuracy. Although the scalability of the methodology to more complex cases has yet to be demonstrated, this study underscores the prospective value of domain-specific hybrid solvers for CFD.",
+      "url": "http://arxiv.org/abs/2409.07175v1",
+      "pdf_url": "https://arxiv.org/pdf/2409.07175v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "2409.07175v1",
+        "doi": null,
+        "hash": "a5d551c0974dfd88573e629ecf04df376789f84465f279f50169ccc654948ed9"
+      }
+    },
+    {
+      "id": "physics/0304041v1",
+      "title": "Message Passing Fluids: molecules as processes in parallel computational fluids",
+      "authors": [
+        "Gianluca Argentini"
+      ],
+      "year": 2003,
+      "abstract": "In this paper we present the concept of MPF, Message Passing Fluid, an abstract fluid where the molecules move by mean of the informations that they exchange each other, on the basis of rules and methods of a generalized Cellular Automaton. The model is intended for its simulation by mean of message passing libraries on the field of parallel computing. We present a critical analysis of the necessary computational effort in a possible implementation of such an object.",
+      "url": "http://arxiv.org/abs/physics/0304041v1",
+      "pdf_url": "https://arxiv.org/pdf/physics/0304041v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "physics/0304041v1",
+        "doi": null,
+        "hash": "d7dc885776e492dc853e1c77a5cee76a64883080da9e8923631f3c290828f8c6"
+      }
+    },
+    {
+      "id": "1210.4078v1",
+      "title": "Droplet break-up with negative momentum Fluid Dynamics Videos",
+      "authors": [
+        "Laurent Tanguy",
+        "Dong Liang",
+        "Roland Zengerle",
+        "Peter Koltay"
+      ],
+      "year": 2012,
+      "abstract": "The ejection of liquid droplets from a nozzle is highly important for physics of fluid. The Weber number describes how much kinetic energy is needed to overcome the surface tension and create a free-flying droplet. According to literature Weber numbers above 12 assure the creation and safe break up of a liquid droplet. However, even when this number goes down below 8, it is still possible to observe droplet break-up but sometimes with particular effects. We present here a fluid dynamics video showing experimental results and CFD simulations for droplet break-up at low Weber number where the droplet is generated with negative momentum. Such droplet generation is characterized by the droplet breaking up and then returning back into the nozzle. This is due to the fact that during the droplet formation the surface tension begins to slow down the flow velocity inside the droplet and then finally inverts the flow direction, while the droplet tail still breaks off from the nozzle. Thus after the break up the droplet momentum is oriented toward the nozzle. It is therefore possible to observe the droplet returning into the bulk fluid. High-speed images of this particular phenomenon are shown and simulation results are presented to illustrate the break up dynamics and the local velocities in the droplet.",
+      "url": "http://arxiv.org/abs/1210.4078v1",
+      "pdf_url": "https://arxiv.org/pdf/1210.4078v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "1210.4078v1",
+        "doi": null,
+        "hash": "561214bc277371705d83428f47c2639f35284d0bbcf5e84393828576d7433b46"
+      }
+    },
+    {
+      "id": "0910.2580v1",
+      "title": "A Numerical Simulation of a Plunging Breaking Wave",
+      "authors": [
+        "Paul Adams",
+        "Kevin George",
+        "Mike Stephens",
+        "Kyle A. Brucker",
+        "Thomas O'Shea",
+        "Douglas Dommermuth"
+      ],
+      "year": 2009,
+      "abstract": "This article describes the fluid dynamics video, \"A Numerical Simulation of a Plunging Breaking Wave\", which was submitted to the gallery of fluid motion at the 2009 APS/DFD conference. The simulation was of a deep-water plunging breaking wave. It was a two-phase calculation which used a Volume of Fluid (VOF) method to simulate the interface between the two immiscible fluids. Surface tension and viscous effects were not considered. The initial wave was generated by applying a spatio-temporal pressure forcing on the free surface. The video shows the 50% isocontour of the volume fraction from several different perspectives. Significant air entrainment is observed as well as the presence of stream-wise vortex structures.",
+      "url": "http://arxiv.org/abs/0910.2580v1",
+      "pdf_url": "https://arxiv.org/pdf/0910.2580v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "0910.2580v1",
+        "doi": "10.1063/1.3487758",
+        "hash": "185a66aba55be5a8d39cc819b30aaa2f4420fc84c5543ef14278f8e64c7fd8ee"
+      }
+    },
+    {
+      "id": "10.3390/pr12020372",
+      "title": "Computational Fluid Dynamics Numerical Simulation on Flow Behavior of Molten Slag\u2013Metal Mixture over a Spinning Cup",
+      "authors": [
+        "Jun Wang",
+        "Yuhua Pan",
+        "Ming Zhao",
+        "P. Ma",
+        "Shali Lv",
+        "Yawei Huang"
+      ],
+      "year": 2024,
+      "abstract": "Centrifugal granulation technology using a spinning cup opens a potential way to recycle steel slag that is currently difficult to reuse. The objective of this research was to study the flow characteristics of a molten slag\u2013metal mixture that was produced during smelting reduction in molten steel slag, passing over a spinning cup, so as to explore the feasibility of using centrifugal granulation technology to treat the steel slag. This was achieved by developing and implementing a computational fluid dynamics (CFD) model that incorporated free-surface multiphase flow to predict the thickness of the liquid slag film at the edge of the spinning cup (slag film thickness for short), which was an important parameter for estimating the size of the slag particles resulting from centrifugal granulation of the molten slag\u2013metal mixture. The influences of various relevant parameters, including spinning cup diameter, slag feeding rate, cup spinning speed, etc., on the slag film thickness were analyzed. Additionally, hot experiments on centrifugal granulation of a molten slag\u2013metal mixture were conducted to verify the results of the numerical simulations. The experimental results indicated a progressive reduction in the Sauter mean diameter of the slag particles as the metallic iron content in the slag increased. Specifically, when the iron content rose from 5% to 15% at a cup spinning speed of 2500 RPM, the Sauter mean diameter decreased by 13.77%. The numerical simulation results showed that the slag film thickness had a positive relationship to the slag feeding rate but a negative relationship to the spinning cup diameter and the cup spinning speed. Furthermore, the ratio between the mean slag particle diameter and the slag film thickness decreased nearly linearly with the increase in the metallic iron content in slag, with the average ratio being approximately 4.25, and this relationship was useful for estimating the slag particle size from the slag film thickness. Therefore, the present research results can provide theoretical guidance for the industrial application of spinning cup centrifugal granulation technology to effectively treat and recycle steel slags.",
+      "url": "https://www.semanticscholar.org/paper/a23f3e8a3e1b168f214eea222c3fa44f206b14f2",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.3390/pr12020372",
+        "hash": "60af6936368a6afcd93e5f6855719938f613c9abfd8e14d65eea1554dbca3be4"
+      }
+    },
+    {
+      "id": "10.3390/membranes14080162",
+      "title": "Research on the Performance and Computational Fluid Dynamics Numerical Simulation of Plate Air Gap Membrane Distillation Module",
+      "authors": [
+        "Haojie Bi",
+        "Hongying Yuan",
+        "Zhiyuan Xu",
+        "Zhuobin Liang",
+        "Y. Du"
+      ],
+      "year": 2024,
+      "abstract": "Membrane distillation (MD) is widely used in the field of seawater desalination. Among its various sub-categories, air gap membrane distillation (AGMD) stands out due to its high thermal efficiency and compatibility with low-grade heat sources. This study delves into the impact of varying operating conditions on AGMD performance, employing numerical simulations which are grounded in experimental validation. The objective was to enhance the performance of AGMD, mitigate polarization phenomena, and provide a reference for optimizing membrane component design. The results show that the agreements between the simulated and the experimental values were high. When increasing the feed temperature and decreasing the coolant temperature, the impact of polarization phenomena on the performance of AGMD was reduced. The mass flux, Total Permeate Concentration (TPC), and heat flux increased by 81.69%, 36.89%, and 118.01%, respectively, when the feed temperature was increased from 50 \u00b0C to 75 \u00b0C. When the coolant temperature decreased from 22 \u00b0C to 7 \u00b0C, the mass flux increased by 37.06%. The response surface analysis revealed that the feed temperature has significant influence on AGMD performance, and there is a noticeable interaction between the feed temperature and coolant temperature. These findings will play key roles in practical applications.",
+      "url": "https://www.semanticscholar.org/paper/99cfa7fbb61b87a808aeb277c71392d80d7e5d19",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.3390/membranes14080162",
+        "hash": "32b05f9953c6507064f61c8520518f3bad719724e0a54b27add69a6aa92cc7d9"
+      }
+    }
+  ],
+  "citation_tree": {
+    "root_papers": [
+      {
+        "id": "2409.07175v1",
+        "title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+        "url": "http://arxiv.org/abs/2409.07175v1",
+        "citation_tree": {
+          "id": "2409.07175v1",
+          "title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+          "url": "http://arxiv.org/abs/2409.07175v1",
+          "authors": [
+            "Cl\u00e9ment Caron",
+            "Philippe Lauret",
+            "Alain Bastide"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "physics/0304041v1",
+        "title": "Message Passing Fluids: molecules as processes in parallel computational fluids",
+        "url": "http://arxiv.org/abs/physics/0304041v1",
+        "citation_tree": {
+          "id": "physics/0304041v1",
+          "title": "Message Passing Fluids: molecules as processes in parallel computational fluids",
+          "url": "http://arxiv.org/abs/physics/0304041v1",
+          "authors": [
+            "Gianluca Argentini"
+          ],
+          "year": 2003,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "1210.4078v1",
+        "title": "Droplet break-up with negative momentum Fluid Dynamics Videos",
+        "url": "http://arxiv.org/abs/1210.4078v1",
+        "citation_tree": {
+          "id": "1210.4078v1",
+          "title": "Droplet break-up with negative momentum Fluid Dynamics Videos",
+          "url": "http://arxiv.org/abs/1210.4078v1",
+          "authors": [
+            "Laurent Tanguy",
+            "Dong Liang",
+            "Roland Zengerle",
+            "Peter Koltay"
+          ],
+          "year": 2012,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "0910.2580v1",
+        "title": "A Numerical Simulation of a Plunging Breaking Wave",
+        "url": "http://arxiv.org/abs/0910.2580v1",
+        "citation_tree": {
+          "id": "0910.2580v1",
+          "title": "A Numerical Simulation of a Plunging Breaking Wave",
+          "url": "http://arxiv.org/abs/0910.2580v1",
+          "authors": [
+            "Paul Adams",
+            "Kevin George",
+            "Mike Stephens",
+            "Kyle A. Brucker",
+            "Thomas O'Shea",
+            "Douglas Dommermuth"
+          ],
+          "year": 2009,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.3390/pr12020372",
+        "title": "Computational Fluid Dynamics Numerical Simulation on Flow Behavior of Molten Slag\u2013Metal Mixture over a Spinning Cup",
+        "url": "https://www.semanticscholar.org/paper/a23f3e8a3e1b168f214eea222c3fa44f206b14f2",
+        "citation_tree": {
+          "id": "10.3390/pr12020372",
+          "title": "Computational Fluid Dynamics Numerical Simulation on Flow Behavior of Molten Slag\u2013Metal Mixture over a Spinning Cup",
+          "url": "https://www.semanticscholar.org/paper/a23f3e8a3e1b168f214eea222c3fa44f206b14f2",
+          "authors": [
+            "Jun Wang",
+            "Yuhua Pan",
+            "Ming Zhao",
+            "P. Ma",
+            "Shali Lv",
+            "Yawei Huang"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.3390/membranes14080162",
+        "title": "Research on the Performance and Computational Fluid Dynamics Numerical Simulation of Plate Air Gap Membrane Distillation Module",
+        "url": "https://www.semanticscholar.org/paper/99cfa7fbb61b87a808aeb277c71392d80d7e5d19",
+        "citation_tree": {
+          "id": "10.3390/membranes14080162",
+          "title": "Research on the Performance and Computational Fluid Dynamics Numerical Simulation of Plate Air Gap Membrane Distillation Module",
+          "url": "https://www.semanticscholar.org/paper/99cfa7fbb61b87a808aeb277c71392d80d7e5d19",
+          "authors": [
+            "Haojie Bi",
+            "Hongying Yuan",
+            "Zhiyuan Xu",
+            "Zhuobin Liang",
+            "Y. Du"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      }
+    ],
+    "citation_graph": {
+      "2409.07175v1": {
+        "title": "Coupling Machine Learning Local Predictions with a Computational Fluid Dynamics Solver to Accelerate Transient Buoyant Plume Simulations",
+        "url": "http://arxiv.org/abs/2409.07175v1",
+        "year": 2024,
+        "authors": [
+          "Cl\u00e9ment Caron",
+          "Philippe Lauret",
+          "Alain Bastide"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "physics/0304041v1": {
+        "title": "Message Passing Fluids: molecules as processes in parallel computational fluids",
+        "url": "http://arxiv.org/abs/physics/0304041v1",
+        "year": 2003,
+        "authors": [
+          "Gianluca Argentini"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "1210.4078v1": {
+        "title": "Droplet break-up with negative momentum Fluid Dynamics Videos",
+        "url": "http://arxiv.org/abs/1210.4078v1",
+        "year": 2012,
+        "authors": [
+          "Laurent Tanguy",
+          "Dong Liang",
+          "Roland Zengerle",
+          "Peter Koltay"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "0910.2580v1": {
+        "title": "A Numerical Simulation of a Plunging Breaking Wave",
+        "url": "http://arxiv.org/abs/0910.2580v1",
+        "year": 2009,
+        "authors": [
+          "Paul Adams",
+          "Kevin George",
+          "Mike Stephens",
+          "Kyle A. Brucker",
+          "Thomas O'Shea",
+          "Douglas Dommermuth"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.3390/pr12020372": {
+        "title": "Computational Fluid Dynamics Numerical Simulation on Flow Behavior of Molten Slag\u2013Metal Mixture over a Spinning Cup",
+        "url": "https://www.semanticscholar.org/paper/a23f3e8a3e1b168f214eea222c3fa44f206b14f2",
+        "year": 2024,
+        "authors": [
+          "Jun Wang",
+          "Yuhua Pan",
+          "Ming Zhao",
+          "P. Ma",
+          "Shali Lv",
+          "Yawei Huang"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.3390/membranes14080162": {
+        "title": "Research on the Performance and Computational Fluid Dynamics Numerical Simulation of Plate Air Gap Membrane Distillation Module",
+        "url": "https://www.semanticscholar.org/paper/99cfa7fbb61b87a808aeb277c71392d80d7e5d19",
+        "year": 2024,
+        "authors": [
+          "Haojie Bi",
+          "Hongying Yuan",
+          "Zhiyuan Xu",
+          "Zhuobin Liang",
+          "Y. Du"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      }
+    },
+    "depth_levels": {},
+    "total_unique_papers": 0
+  },
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 6,
+  "max_depth": 4,
+  "created_at": "2026-03-14T06:53:20.129073",
+  "updated_at": "2026-03-14T06:54:00.315350",
+  "status": "in_progress",
+  "errors": [
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building"
+  ]
+}

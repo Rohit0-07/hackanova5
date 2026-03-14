@@ -173,6 +173,19 @@ async def run_pipeline(
             storage_manager.save_graph(session_id, final_state.graph_nodes)
         
         logger.info(f"[{session_id}] Pipeline completed successfully")
+
+        # Send email notification if someone subscribed
+        try:
+            from app.services.email_service import send_completion_email
+            papers_count = len(final_state.papers or [])
+            send_completion_email(
+                session_id=session_id,
+                query=query,
+                papers_count=papers_count,
+                status=final_state.status,
+            )
+        except Exception as email_err:
+            logger.warning(f"[{session_id}] Email notification skipped: {email_err}")
         
     except Exception as e:
         logger.exception(f"[{session_id}] Pipeline execution failed: {e}")
