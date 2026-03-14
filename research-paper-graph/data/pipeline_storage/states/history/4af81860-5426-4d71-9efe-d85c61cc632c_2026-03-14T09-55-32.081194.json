@@ -1,0 +1,50 @@
+{
+  "raw_query": "What Is Cloud Computing ",
+  "user_id": "anonymous",
+  "session_id": "4af81860-5426-4d71-9efe-d85c61cc632c",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "cloud computing architecture overview",
+      "cloud computing service models comparison",
+      "cloud computing security challenges",
+      "cloud computing virtualization technologies",
+      "edge computing vs cloud computing"
+    ],
+    "key_concepts": [
+      "cloud computing",
+      "service models (IaaS, PaaS, SaaS)",
+      "virtualization",
+      "containerization",
+      "edge computing"
+    ],
+    "date_range": {
+      "start_year": 2018,
+      "end_year": null
+    },
+    "target_venues": [
+      "IEEE Cloud Computing",
+      "ACM SIGCOMM",
+      "SIGOPS",
+      "SIGARCH"
+    ],
+    "exclusions": [],
+    "search_strategy": "This query requires a broad exploration of cloud computing, focusing on its architecture, service models, and related technologies, with a preference for recent publications.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 7,
+  "max_depth": 2,
+  "created_at": "2026-03-14T09:55:18.746779",
+  "updated_at": "2026-03-14T09:55:32.081194",
+  "status": "in_progress",
+  "errors": []
+}

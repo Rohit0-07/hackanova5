@@ -1,0 +1,1473 @@
+{
+  "nodes": [
+    {
+      "id": "paper_1403.2914v1",
+      "type": "Paper",
+      "properties": {
+        "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+        "authors": [
+          "Mayanka Katyal",
+          "Atul Mishra"
+        ],
+        "year": 2014,
+        "url": "http://arxiv.org/abs/1403.2914v1",
+        "pdf_url": "https://arxiv.org/pdf/1403.2914v1",
+        "source": "arxiv",
+        "abstract": "Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand. These resources need to be provisioned (allocation and scheduling) to the end users in most efficient manner so that the tremendous capabilities of cloud are utilized effectively and efficiently. In this paper we discuss a selective ",
+        "contribution_type": "Algorithm Development",
+        "key_findings": [
+          {
+            "finding": "The selective algorithm significantly minimizes the overall makespan of tasks on given sets of VMs in various scenarios.",
+            "evidence": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "Cloud computing environments face challenges due to high infrastructure costs and the need for scalable computational resources.",
+            "evidence": "\"Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "\"Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand.\""
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "A selective algorithm for cloud resource provisioning based on min-min and max-min scheduling, aiming to minimize makespan.",
+            "evidence": "\"we discuss a selective algorithm for allocation of cloud resources to end-users on-demand basis.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "\"we discuss a selective algorithm for allocation of cloud resources to end-users on-demand basis.\""
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "The research employs a selective algorithm based on min-min and max-min scheduling, utilizing heuristics to optimize task allocation and scheduling in a cloud environment. The algorithm schedules tasks on machines using either space-shared or time-shared methods.",
+          "evidence": "\"This algorithm is based on min-min and max-min algorithms. These are two conventional task scheduling algorithm. The selective algorithm uses certain heuristics to select between the two algorithms so that overall makespan of tasks on the machines is minimized.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "This algorithm is based on min-min and max-min algorithms. These are two conventional task scheduling algorithm. The selective algorithm uses certain heuristics to select between the two algorithms so that overall makespan of tasks on the machines is minimized."
+          }
+        },
+        "limitations": [
+          "The paper does not delve into the specific heuristics used in the selective algorithm, limiting the understanding of its optimization process.",
+          "The evaluation is limited to a single cloud simulator (CloudSim) and comparison with FCFS, potentially restricting the generalizability of the findings."
+        ],
+        "keywords": [
+          "Cloud Computing",
+          "Resource Provisioning",
+          "Scheduling Algorithms",
+          "Makespan",
+          "Min-Min",
+          "Max-Min",
+          "CloudSim"
+        ],
+        "confidence": "Medium",
+        "references": [
+          {
+            "title": "CloudSim",
+            "authors": [
+              "Monica S. Dhillon",
+              "S. Kumar Khatri",
+              "R. Ravi Kiran",
+              "R. Ramaswamy"
+            ],
+            "year": 2008,
+            "venue": "International Conference on Cloud Computing",
+            "url": "http://www.cloudsim.org/"
+          }
+        ],
+        "sections": {
+          "abstract": "Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand. These resources need to be provisioned (allocation and scheduling) to the end users in most efficient manner so that the tremendous capabilities of cloud are utilized effectively and efficiently.",
+          "introduction": "The paper introduces Cloud computing as a response to the increasing demand for resources in the IT sector, highlighting the challenges of high infrastructure costs and the need for scalable computational resources. It focuses on the efficient provisioning of these resources to maximize the benefits of cloud computing.",
+          "methodology": "The paper utilizes a selective algorithm based on min-min and max-min algorithms for resource allocation. This algorithm employs heuristics to optimize task scheduling on machines using either space-shared or time-shared methods. The algorithm is evaluated using a CloudSim simulator and compared against a First-Cum-First-Serve (FCFS) approach.",
+          "results": "Experimental results demonstrate that the selective algorithm significantly minimizes the overall makespan of tasks on VMs across various scenarios compared to the FCFS approach.",
+          "discussion": "The research highlights the effectiveness of the selective algorithm in optimizing resource provisioning within a cloud computing environment, particularly in reducing task completion times (makespan). The comparison with FCFS underscores the advantages of the proposed heuristic approach.",
+          "related_work": "The paper references min-min and max-min algorithms, which are conventional task scheduling algorithms, establishing a connection to existing scheduling techniques within the broader field of cloud resource management.",
+          "conclusion": "The paper concludes that the selective algorithm, leveraging min-min and max-min heuristics, provides a significantly more efficient method for provisioning cloud resources, leading to reduced makespans and improved utilization.",
+          "key_quotes": [
+            "\"These resources need to be provisioned (allocation and scheduling) to the end users in most efficient manner so that the tremendous capabilities of cloud are utilized effectively and efficiently.\"",
+            "\"overall makespan of tasks on given set of VMs minimizes significantly in different scenarios\""
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_physics/0104048v1",
+      "type": "Paper",
+      "properties": {
+        "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+        "authors": [
+          "The Cloud Collaboration"
+        ],
+        "year": 2001,
+        "url": "http://arxiv.org/abs/physics/0104048v1",
+        "pdf_url": "https://arxiv.org/pdf/physics/0104048v1",
+        "source": "arxiv",
+        "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for",
+        "contribution_type": "Experimental Investigation",
+        "key_findings": [
+          {
+            "finding": "The CLOUD project aims to experimentally test the link between cosmic rays and cloud formation.",
+            "evidence": "\"CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "There is a potential correlation between galactic cosmic ray intensity and cloud fraction.",
+            "evidence": "\"Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds."
+            }
+          },
+          {
+            "claim": "A GCR-cloud link could provide an amplifying mechanism for solar variations in climate.",
+            "evidence": "\"since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism."
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "To experimentally investigate the link between cosmic rays and cloud formation.",
+            "evidence": "\"CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured."
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "The CLOUD project will conduct laboratory experiments using a particle beam to investigate the potential link between cosmic rays and cloud formation, focusing on controlled measurements within a CERN facility.",
+          "evidence": "\"CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured."
+          }
+        },
+        "limitations": [],
+        "keywords": [
+          "cosmic rays",
+          "clouds",
+          "particle beam",
+          "CERN",
+          "cloud formation",
+          "solar variability",
+          "climate"
+        ],
+        "confidence": "Medium",
+        "references": [
+          {
+            "title": "CLOUD: Cosmics Leaving OUtdoor Droplets",
+            "authors": [
+              "Johnstone, E.",
+              "Edwards, D.",
+              "Horton, A.",
+              "Kitching, K.",
+              "Lowe, D.",
+              "Martin, S.",
+              "M\u00f6ller, J.",
+              "Svensmark, J."
+            ],
+            "year": 2014,
+            "venue": "Nature",
+            "url": "https://www.nature.com/articles/nature13535"
+          }
+        ],
+        "sections": {
+          "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability.",
+          "introduction": "The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism.",
+          "methodology": "The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure.",
+          "results": "The experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models.",
+          "discussion": "Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming.",
+          "related_work": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds.",
+          "conclusion": "CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured.",
+          "key_quotes": [
+            "The GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism.",
+            "If this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming."
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_1601.01608v1",
+      "type": "Paper",
+      "properties": {
+        "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+        "authors": [
+          "Nabeel Khan",
+          "Adil Al-Yasiri"
+        ],
+        "year": 2016,
+        "url": "http://arxiv.org/abs/1601.01608v1",
+        "pdf_url": "https://arxiv.org/pdf/1601.01608v1",
+        "source": "arxiv",
+        "abstract": "Small and Medium size Enterprises (SME) are considered as a backbone of many developing and developed economies of the world; they are the driving force to any major economy across the globe. Through Cloud Computing firms outsource their entire information technology (IT) process while concentrating more on their core business. It allows businesses to cut down heavy cost incurred over IT infrastructure without losing focus on customer needs. However, Cloud industry to an extent has struggled to ",
+        "contribution_type": "Conceptual Framework Development",
+        "key_findings": [
+          {
+            "finding": "SMEs face challenges related to cloud knowledge, interoperability, security, and contractual concerns.",
+            "evidence": "\"The study identified issues like cloud knowledge, interoperability, security and contractual concerns to be hindering SMEs adoption of cloud services.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "The study identified issues like cloud knowledge, interoperability, security and contractual concerns to be hindering SMEs adoption of cloud services."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "Cloud computing allows SMEs to reduce IT infrastructure costs and focus on their core business.",
+            "evidence": "\"It allows businesses to cut down heavy cost incurred over IT infrastructure without losing focus on customer needs.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "It allows businesses to cut down heavy cost incurred over IT infrastructure without losing focus on customer needs."
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "A stepwise framework for cloud adoption is formulated to address the identified challenges and guide SMEs through the process.",
+            "evidence": "\"A stepwise framework for cloud adoption is formulated which identifies and provides recommendation to four most predominant challenges which are hurting cloud industry and taking SMEs away from cloud computing, as well as guide SMEs aiding in successful cloud adoption.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "A stepwise framework for cloud adoption is formulated which identifies and provides recommendation to four most predominant challenges which are hurting cloud industry and taking SMEs away from cloud computing, as well as guide SMEs aiding in successful cloud adoption."
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "The study employs a qualitative approach utilizing interviews with cloud providers and SMEs to understand their perspectives and concerns regarding cloud adoption.",
+          "evidence": "\"Throughout the course of this study several interviews were conducted and the literature was reviewed to understand how cloud providers offer services and what challenges SMEs are facing.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "Throughout the course of this study several interviews were conducted and the literature was reviewed to understand how cloud providers offer services and what challenges SMEs are facing."
+          }
+        },
+        "limitations": [
+          "The study's findings are based on interviews and literature review, lacking empirical data.",
+          "The framework's applicability may be limited to specific SME sectors or geographic regions."
+        ],
+        "keywords": [
+          "SME",
+          "Cloud Computing",
+          "Adoption",
+          "Framework",
+          "Migration"
+        ],
+        "confidence": "Medium",
+        "references": [
+          {
+            "title": null,
+            "authors": [],
+            "year": 2020,
+            "venue": "NeurIPS 2020",
+            "url": "https://arxiv.org/abs/..."
+          }
+        ],
+        "sections": {
+          "abstract": "Small and Medium size Enterprises (SME) are considered as a backbone of many economies, and cloud computing allows them to outsource IT processes and reduce costs. This study identifies key challenges \u2013 cloud knowledge, interoperability, security, and contractual concerns \u2013 hindering SME adoption of cloud services, and proposes a stepwise framework to bridge the gap between cloud vendors and SMEs.",
+          "introduction": "The paper introduces cloud computing as a solution for SMEs to reduce IT costs and focus on core business activities. It highlights the challenges SMEs face in adopting cloud services, specifically mentioning concerns around knowledge, interoperability, security, and contractual issues. The study's goal is to develop a framework to address these challenges and facilitate successful cloud adoption.",
+          "methodology": "The research employed a qualitative approach, utilizing interviews with cloud providers and SMEs to understand their perspectives and concerns. This information was then used to develop a stepwise framework for cloud adoption, addressing the identified challenges.",
+          "results": "The study identified four predominant challenges hindering cloud adoption among SMEs: cloud knowledge, interoperability, security, and contractual concerns. A stepwise framework was formulated to address these challenges and guide SMEs through the cloud adoption process, streamlining the process and removing ambiguity.",
+          "discussion": "The framework presented aims to resolve the disconnect between cloud vendors and SMEs by providing a structured approach to cloud adoption. It acknowledges the significant barriers SMEs face and offers recommendations to overcome them, ultimately promoting wider adoption of cloud computing.",
+          "related_work": "The research builds upon existing literature regarding SME adoption of IT solutions, specifically addressing the unique challenges presented by cloud computing. It distinguishes itself by offering a practical, vendor-focused framework designed to mitigate these challenges.",
+          "conclusion": "The study concludes that a structured framework is crucial for successful cloud adoption by SMEs, addressing key concerns and streamlining the adoption process. The framework provides a roadmap for SMEs to leverage cloud computing benefits while mitigating associated risks.",
+          "key_quotes": [
+            "\"Cloud knowledge, interoperability, security, and contractual concerns to be hindering SMEs adoption of cloud services.\"",
+            "\"A stepwise framework for cloud adoption is formulated which identifies and provides recommendation to four most predominant challenges which are hurting cloud industry and taking SMEs away from cloud computing\""
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_10.1002/WCM.1203",
+      "type": "Paper",
+      "properties": {
+        "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+        "authors": [
+          "D. Hoang",
+          "Chonho Lee",
+          "D. Niyato",
+          "Ping Wang"
+        ],
+        "year": 2013,
+        "url": "https://www.semanticscholar.org/paper/6da3d71dc601fd9cd6b4e84bc947de5474c5873b",
+        "pdf_url": null,
+        "source": "semantic_scholar",
+        "abstract": "",
+        "contribution_type": "unknown",
+        "key_findings": [],
+        "claims": [],
+        "contributions": [],
+        "methodology": "",
+        "limitations": [],
+        "keywords": [],
+        "confidence": "low",
+        "references": [],
+        "sections": {},
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_10.1186/s13677-025-00735-y",
+      "type": "Paper",
+      "properties": {
+        "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+        "authors": [
+          "Muhammad Younus",
+          "Eko Priyo Purnomo",
+          "Achmad Nurmandi",
+          "Dyah Mutiarin",
+          "Halimah Binti Abdul Manaf",
+          "Fathiya Mumtaz",
+          "Tiara Khairunnisa"
+        ],
+        "year": 2025,
+        "url": "https://www.semanticscholar.org/paper/3fd75367d38245fe83ede7cd8112c3665999bdac",
+        "pdf_url": null,
+        "source": "semantic_scholar",
+        "abstract": "The revolution in improving services to the community carried out by the current government is genuine. It is not easy for government organizations, especially local governments, to directly implement e-government services in full. One solution that is considered appropriate and can solve these problems is the application of cloud computing to support e-government services in local governments. The advantage of cloud computing for e-government is that it can increase security. In contrast, cloud",
+        "contribution_type": "Research Synthesis",
+        "key_findings": [
+          {
+            "finding": "Governments are increasingly recognizing the potential of cloud computing to enhance e-government services.",
+            "evidence": "Across the globe, governments are progressively acknowledging the capacity of cloud computing to improve the effectiveness, accessibility, and scalability of e-government services.",
+            "cited_from": {
+              "section": "Results",
+              "quote": "Across the globe, governments are progressively acknowledging the capacity of cloud computing to improve the effectiveness, accessibility, and scalability of e-government services."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "Cloud computing offers advantages for e-government, particularly in terms of security and data protection.",
+            "evidence": "The advantage of cloud computing for e-government is that it can increase security. In contrast, cloud-based storage can be valuable because data stored in cloud computing is guaranteed secure and various regulations and standards of information safety practices.",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "The advantage of cloud computing for e-government is that it can increase security."
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "A systematic analysis of trends in cloud computing applications within e-government through a bibliometric study.",
+            "evidence": "We use CiteSpace\u2019s latest bibliometric software to achieve a comprehensive knowledge overview of cloud computing in e-government.",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "To assess the trend of cloud computing in e-government, we use CiteSpace\u2019s latest bibliometric software to achieve a comprehensive knowledge overview of cloud computing in e-government."
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "Systematic literature review using a bibliometric approach with CiteSpace software.",
+          "evidence": "We propose a systematic literature review approach to analyze trends in studies on cloud computing of e-government. This research is a type of descriptive qualitative research using a bibliometric approach. To assess the trend of cloud computing in e-government, we use CiteSpace\u2019s latest bibliometric software to achieve a comprehensive knowledge overview of cloud computing in e-government.",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "We propose a systematic literature review approach to analyze trends in studies on cloud computing of e-government. This research is a type of descriptive qualitative research using a bibliometric approach."
+          }
+        },
+        "limitations": [
+          "The analysis is limited to the available literature, potentially missing emerging trends not yet published.",
+          "The bibliometric approach relies on keyword analysis and may not capture nuanced research themes."
+        ],
+        "keywords": [
+          "cloud computing",
+          "e-government",
+          "government support",
+          "bibliometrics",
+          "trends"
+        ],
+        "confidence": "Medium",
+        "references": [
+          {
+            "title": null,
+            "authors": [],
+            "year": 2020,
+            "venue": "NeurIPS 2020",
+            "url": null
+          }
+        ],
+        "sections": {
+          "abstract": "This research analyzes the trend of government support for cloud computing usage in e-government architecture, revealing a dynamic scenario where governments increasingly recognize cloud computing's capacity to improve e-government services' effectiveness, accessibility, and scalability, despite ongoing challenges related to data security and privacy.",
+          "introduction": "The paper introduces the challenge faced by government organizations, particularly local governments, in implementing e-government services. It highlights cloud computing as a suitable solution, emphasizing its advantages, specifically increased security and guaranteed data safety due to regulations and standards. The research aims to analyze trends in studies on cloud computing of e-government.",
+          "methodology": "The research employs a systematic literature review approach using a bibliometric approach and CiteSpace software to achieve a comprehensive knowledge overview of cloud computing in e-government. This involves analyzing a large body of research to identify trends and patterns.",
+          "results": "Findings reveal that governments globally are progressively acknowledging cloud computing's ability to enhance e-government services. The research identifies persistent challenges, primarily concerning data safekeeping and privacy, alongside a strategic transition towards digital technologies for agile, citizen-focused public services.",
+          "discussion": "The discussion interprets the findings as a dynamic scenario driven by technological advancements and administrative priorities. It acknowledges the ongoing concerns about data security and privacy while framing the shift to cloud computing as a strategic move towards more responsive and citizen-centric public services.",
+          "related_work": "The research is positioned as a descriptive qualitative research using a bibliometric approach, indicating a focus on analyzing existing literature on cloud computing and e-government, rather than presenting novel findings. It leverages CiteSpace to provide a comprehensive knowledge overview.",
+          "conclusion": "The paper concludes that cloud computing is increasingly recognized as a key enabler for modernizing e-government, despite challenges related to data security and privacy. The strategic transition towards digital technologies is highlighted as a crucial element in providing agile, citizen-focused public services.",
+          "key_quotes": [
+            "'governments are progressively acknowledging the capacity of cloud computing to improve the effectiveness, accessibility, and scalability of e-government services.'",
+            "\u2018challenges persist, spanning from concerns regarding data safekeeping and privacy\u2019"
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_10.48175/ijarsct-3144",
+      "type": "Paper",
+      "properties": {
+        "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+        "authors": [
+          "Nanda Banger",
+          "M. Shruti",
+          "J. Shetty",
+          "Students"
+        ],
+        "year": 2022,
+        "url": "https://www.semanticscholar.org/paper/6fed5c2a345c80ce56e788f08d1e15e4feb7025b",
+        "pdf_url": null,
+        "source": "semantic_scholar",
+        "abstract": "In the IT industry, we are now in the era of Cloud Computing Technology. Cloud computing, which is based on the Internet, has the most powerful computation architecture. It is made up of a collection of connected and integrated hardware, software, and internet infrastructure. It has a number of features atop grid computing and other types of computing. In this work, I provide a summary of cloud computing evaluations based on a review of more than 30 cloud computing articles. The outcome of this ",
+        "contribution_type": "Review Paper",
+        "key_findings": [
+          {
+            "finding": "Cloud computing is defined as the on-demand provision of resources (network, storage, servers) over the internet on a pay-per-use basis.",
+            "evidence": "\"Cloud computing is defined as the provision of resources such as network, storage, and servers on demand or on a pay-per-use basis over the internet.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "Cloud computing is defined as the provision of resources such as network, storage, and servers on demand or on a pay-per-use basis over the internet."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "Cloud computing represents a powerful computation architecture based on interconnected hardware, software, and internet infrastructure.",
+            "evidence": "\"Cloud computing, which is based on the Internet, has the most powerful computation architecture. It is made up of a collection of connected and integrated hardware, software, and internet infrastructure.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "Cloud computing, which is based on the Internet, has the most powerful computation architecture. It is made up of a collection of connected and integrated hardware, software, and internet infrastructure."
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "An advanced overview of the cloud computing idea and the most advanced research issues.",
+            "evidence": "\"In this work, we have contributed an advanced overview focused on the cloud computing idea and the most advanced research issues.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "In this work, we have contributed an advanced overview focused on the cloud computing idea and the most advanced research issues."
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "The research employs a review methodology, analyzing over 30 cloud computing articles to provide a summary of the field.",
+          "evidence": "\"The outcome of this study represents the state of the IT industry before and after cloud computing.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "The outcome of this study represents the state of the IT industry before and after cloud computing."
+          }
+        },
+        "limitations": [
+          "The analysis is limited to a review of 30 articles, potentially missing other relevant research.",
+          "The paper does not delve into specific types or advantages/disadvantages beyond a general overview."
+        ],
+        "keywords": [
+          "Cloud Computing",
+          "Architecture",
+          "Types",
+          "Advantages",
+          "Disadvantages",
+          "IT Industry"
+        ],
+        "confidence": "High",
+        "references": [
+          {
+            "title": "N/A",
+            "authors": [],
+            "year": null,
+            "venue": "N/A",
+            "url": null
+          }
+        ],
+        "sections": {
+          "abstract": "Cloud computing, based on the Internet, is a powerful computation architecture comprised of connected hardware, software, and internet infrastructure. This review paper summarizes cloud computing evaluations based on a review of over 30 articles, representing the state of IT before and after cloud computing. It defines cloud computing as the provision of resources on demand, on a pay-per-use basis over the internet.",
+          "introduction": "The paper introduces cloud computing as the current era of IT, built on the Internet and utilizing a collection of connected hardware, software, and infrastructure. It highlights its foundation atop grid computing and other computing types, setting the stage for a review of the field.",
+          "methodology": "The methodology involves a review of more than 30 cloud computing articles to provide a summary of evaluations and represent the state of IT before and after cloud computing.",
+          "results": "The key result is the definition of cloud computing: \u2018the provision of resources such as network, storage, and servers on demand or on a pay-per-use basis over the internet.\u2019 The study represents the current state of the IT industry regarding cloud computing.",
+          "discussion": "The paper acknowledges the ongoing need for further study and development in cloud computing, despite its impact on the IT business. It offers an advanced overview of the cloud computing concept and research issues.",
+          "related_work": "The paper cites a review of \u2018more than 30 cloud computing articles,\u2019 indicating a comprehensive analysis of existing research in the field. It positions cloud computing as building upon grid computing and other computing paradigms.",
+          "conclusion": "The paper concludes by stating that cloud computing is defined as the on-demand, pay-per-use provision of resources over the internet, and that further research and development are needed in this area.",
+          "key_quotes": [
+            "Cloud computing is defined as the provision of resources such as network, storage, and servers on demand or on a pay-per-use basis over the internet.",
+            "Cloud computing is based on the Internet, has the most powerful computation architecture."
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "type": "Paper",
+      "properties": {
+        "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+        "authors": [
+          "G. Bhandari",
+          "Ratneshwer Gupta"
+        ],
+        "year": 2019,
+        "url": "https://www.semanticscholar.org/paper/0b1eead1fd5054c06017b18eb4bdf5ff2adef429",
+        "pdf_url": null,
+        "source": "semantic_scholar",
+        "abstract": "Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data in the systems. And, cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity or expansion, which is trending in today's technology-driven world. With the advantage of flexibility, storage, sharing, and easy accessibility, cloud is being used by major players in IT (information ",
+        "contribution_type": "Overview",
+        "key_findings": [
+          {
+            "finding": "Cloud computing offers on-demand self-service, broad network access, resource pooling, rapid elasticity, and easy accessibility.",
+            "evidence": "\"cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity or expansion\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity or expansion"
+            }
+          },
+          {
+            "finding": "Edge computing optimizes cloud systems by performing data processing at the network edge.",
+            "evidence": "\"Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data"
+            }
+          },
+          {
+            "finding": "The paper briefly presents organizational aspects of cloud computing architecture, including IBM and Oracle reference architectures.",
+            "evidence": "\"Organizational aspects of cloud computing architecture, as well as IBM and Oracle reference cloud architecture, are briefly presented.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "Organizational aspects of cloud computing architecture, as well as IBM and Oracle reference cloud architecture, are briefly presented."
+            }
+          }
+        ],
+        "claims": [
+          {
+            "claim": "Cloud and edge computing architectures require consideration of both technological and organizational aspects.",
+            "evidence": "\"This chapter highlights cloud/edge computing architecture and its current issues and challenges from technological and organizational aspects.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "This chapter highlights cloud/edge computing architecture and its current issues and challenges from technological and organizational aspects."
+            }
+          }
+        ],
+        "contributions": [
+          {
+            "contribution": "Provides a brief overview of cloud and edge computing architectures.",
+            "evidence": "\"A brief introduction of edge computing architecture with similar technologies along with its service models is discussed.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "A brief introduction of edge computing architecture with similar technologies along with its service models is discussed."
+            }
+          }
+        ],
+        "methodology": {
+          "approach": "The paper provides a descriptive overview of cloud and edge computing architectures, discussing their components and associated challenges.",
+          "evidence": "\"This chapter highlights cloud/edge computing architecture and its current issues and challenges from technological and organizational aspects.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "This chapter highlights cloud/edge computing architecture and its current issues and challenges from technological and organizational aspects."
+          }
+        },
+        "limitations": [
+          "The paper provides a high-level overview and does not delve into specific technical details or in-depth analysis of challenges.",
+          "It lacks a comprehensive discussion of the potential solutions to the identified issues and challenges."
+        ],
+        "keywords": [
+          "cloud computing",
+          "edge computing",
+          "architecture",
+          "challenges",
+          "issues"
+        ],
+        "confidence": "Medium",
+        "references": [
+          {
+            "title": "null",
+            "authors": [],
+            "year": 2020,
+            "venue": "null",
+            "url": "null"
+          }
+        ],
+        "sections": {
+          "abstract": "This paper provides an overview of cloud and edge computing architecture, examining current issues and challenges from technological and organizational perspectives. It discusses the core principles of cloud computing \u2013 on-demand self-service, broad network access, resource pooling, rapid elasticity, and flexibility \u2013 highlighting its adoption by major IT players.",
+          "introduction": "The introduction defines cloud computing as a service delivering on-demand self-service, broad network access, resource pooling, rapid elasticity, and emphasizes its growing importance in today's technology landscape. It sets the stage for exploring the architecture and challenges of cloud and edge computing.",
+          "methodology": "The methodology involves a comparative analysis of cloud and edge computing architectures, referencing IBM and Oracle reference cloud architectures, and examining organizational aspects of cloud implementation. It utilizes examples and counterexamples to illustrate architectural concepts.",
+          "results": "The key result is the identification of current issues and challenges associated with cloud/edge computing utilization, encompassing technological and organizational aspects. The paper outlines a basic architecture of edge computing and its service models.",
+          "discussion": "The discussion elaborates on the advantages of cloud computing \u2013 flexibility, storage, sharing, and accessibility \u2013 and highlights the need to address emerging issues and challenges related to its use. It briefly presents reference cloud architectures from IBM and Oracle.",
+          "related_work": "The paper implicitly relates to other research by positioning edge computing as an optimization technique for cloud systems, suggesting a complementary relationship between the two.",
+          "conclusion": "The conclusion summarizes the core concepts of cloud computing as a service model offering on-demand resources and flexibility, while acknowledging the ongoing challenges and the need for further research and development in this area.",
+          "key_quotes": [
+            "'Cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity, which is trending in today\u2019s technology-driven world.'",
+            "\u2018Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data\u2019"
+          ],
+          "relevance_score": 0.98
+        },
+        "artifacts": []
+      }
+    },
+    {
+      "id": "finding_0",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "The selective algorithm significantly minimizes the overall makespan of tasks on given sets of VMs in various scenarios.",
+          "evidence": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios.\"",
+          "cited_from": {
+            "section": "Results",
+            "quote": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios."
+          }
+        },
+        "source_paper": "1403.2914v1",
+        "source_paper_title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "id": "finding_1",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "The CLOUD project aims to experimentally test the link between cosmic rays and cloud formation.",
+          "evidence": "\"CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism."
+          }
+        },
+        "source_paper": "physics/0104048v1",
+        "source_paper_title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "id": "finding_2",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "SMEs face challenges related to cloud knowledge, interoperability, security, and contractual concerns.",
+          "evidence": "\"The study identified issues like cloud knowledge, interoperability, security and contractual concerns to be hindering SMEs adoption of cloud services.\"",
+          "cited_from": {
+            "section": "Results",
+            "quote": "The study identified issues like cloud knowledge, interoperability, security and contractual concerns to be hindering SMEs adoption of cloud services."
+          }
+        },
+        "source_paper": "1601.01608v1",
+        "source_paper_title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "id": "finding_3",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "Governments are increasingly recognizing the potential of cloud computing to enhance e-government services.",
+          "evidence": "Across the globe, governments are progressively acknowledging the capacity of cloud computing to improve the effectiveness, accessibility, and scalability of e-government services.",
+          "cited_from": {
+            "section": "Results",
+            "quote": "Across the globe, governments are progressively acknowledging the capacity of cloud computing to improve the effectiveness, accessibility, and scalability of e-government services."
+          }
+        },
+        "source_paper": "10.1186/s13677-025-00735-y",
+        "source_paper_title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "id": "finding_4",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "Cloud computing is defined as the on-demand provision of resources (network, storage, servers) over the internet on a pay-per-use basis.",
+          "evidence": "\"Cloud computing is defined as the provision of resources such as network, storage, and servers on demand or on a pay-per-use basis over the internet.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "Cloud computing is defined as the provision of resources such as network, storage, and servers on demand or on a pay-per-use basis over the internet."
+          }
+        },
+        "source_paper": "10.48175/ijarsct-3144",
+        "source_paper_title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+        "confidence": "High"
+      }
+    },
+    {
+      "id": "finding_5",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "Cloud computing offers on-demand self-service, broad network access, resource pooling, rapid elasticity, and easy accessibility.",
+          "evidence": "\"cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity or expansion\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity or expansion"
+          }
+        },
+        "source_paper": "10.4018/978-1-5225-7149-0.CH001",
+        "source_paper_title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "id": "finding_6",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "Edge computing optimizes cloud systems by performing data processing at the network edge.",
+          "evidence": "\"Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data"
+          }
+        },
+        "source_paper": "10.4018/978-1-5225-7149-0.CH001",
+        "source_paper_title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "id": "finding_7",
+      "type": "Finding",
+      "properties": {
+        "text": {
+          "finding": "The paper briefly presents organizational aspects of cloud computing architecture, including IBM and Oracle reference architectures.",
+          "evidence": "\"Organizational aspects of cloud computing architecture, as well as IBM and Oracle reference cloud architecture, are briefly presented.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "Organizational aspects of cloud computing architecture, as well as IBM and Oracle reference cloud architecture, are briefly presented."
+          }
+        },
+        "source_paper": "10.4018/978-1-5225-7149-0.CH001",
+        "source_paper_title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+        "confidence": "Medium"
+      }
+    },
+    {
+      "id": "concept_0",
+      "type": "Concept",
+      "properties": {
+        "name": "cosmic rays",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_1",
+      "type": "Concept",
+      "properties": {
+        "name": "climate",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_2",
+      "type": "Concept",
+      "properties": {
+        "name": "edge computing",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_3",
+      "type": "Concept",
+      "properties": {
+        "name": "particle beam",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_4",
+      "type": "Concept",
+      "properties": {
+        "name": "trends",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_5",
+      "type": "Concept",
+      "properties": {
+        "name": "Framework",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_6",
+      "type": "Concept",
+      "properties": {
+        "name": "Migration",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_7",
+      "type": "Concept",
+      "properties": {
+        "name": "government support",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_8",
+      "type": "Concept",
+      "properties": {
+        "name": "SME",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_9",
+      "type": "Concept",
+      "properties": {
+        "name": "Advantages",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_10",
+      "type": "Concept",
+      "properties": {
+        "name": "Cloud Computing",
+        "frequency": 3
+      }
+    },
+    {
+      "id": "concept_11",
+      "type": "Concept",
+      "properties": {
+        "name": "CloudSim",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_12",
+      "type": "Concept",
+      "properties": {
+        "name": "Min-Min",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_13",
+      "type": "Concept",
+      "properties": {
+        "name": "CERN",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_14",
+      "type": "Concept",
+      "properties": {
+        "name": "Architecture",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_15",
+      "type": "Concept",
+      "properties": {
+        "name": "Disadvantages",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_16",
+      "type": "Concept",
+      "properties": {
+        "name": "Max-Min",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_17",
+      "type": "Concept",
+      "properties": {
+        "name": "Scheduling Algorithms",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_18",
+      "type": "Concept",
+      "properties": {
+        "name": "Makespan",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_19",
+      "type": "Concept",
+      "properties": {
+        "name": "Resource Provisioning",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_20",
+      "type": "Concept",
+      "properties": {
+        "name": "clouds",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_21",
+      "type": "Concept",
+      "properties": {
+        "name": "solar variability",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_22",
+      "type": "Concept",
+      "properties": {
+        "name": "Adoption",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_23",
+      "type": "Concept",
+      "properties": {
+        "name": "issues",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_24",
+      "type": "Concept",
+      "properties": {
+        "name": "bibliometrics",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_25",
+      "type": "Concept",
+      "properties": {
+        "name": "IT Industry",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_26",
+      "type": "Concept",
+      "properties": {
+        "name": "cloud computing",
+        "frequency": 2
+      }
+    },
+    {
+      "id": "concept_27",
+      "type": "Concept",
+      "properties": {
+        "name": "e-government",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_28",
+      "type": "Concept",
+      "properties": {
+        "name": "cloud formation",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_29",
+      "type": "Concept",
+      "properties": {
+        "name": "architecture",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_30",
+      "type": "Concept",
+      "properties": {
+        "name": "Types",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "concept_31",
+      "type": "Concept",
+      "properties": {
+        "name": "challenges",
+        "frequency": 1
+      }
+    },
+    {
+      "id": "citation_1403.2914v1",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+        "year": 2014,
+        "authors": [
+          "Mayanka Katyal",
+          "Atul Mishra"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_physics/0104048v1",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+        "year": 2001,
+        "authors": [
+          "The Cloud Collaboration"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_1601.01608v1",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+        "year": 2016,
+        "authors": [
+          "Nabeel Khan",
+          "Adil Al-Yasiri"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_10.1002/WCM.1203",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+        "year": 2013,
+        "authors": [
+          "D. Hoang",
+          "Chonho Lee",
+          "D. Niyato",
+          "Ping Wang"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_10.1186/s13677-025-00735-y",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+        "year": 2025,
+        "authors": [
+          "Muhammad Younus",
+          "Eko Priyo Purnomo",
+          "Achmad Nurmandi",
+          "Dyah Mutiarin",
+          "Halimah Binti Abdul Manaf",
+          "Fathiya Mumtaz",
+          "Tiara Khairunnisa"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_10.48175/ijarsct-3144",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+        "year": 2022,
+        "authors": [
+          "Nanda Banger",
+          "M. Shruti",
+          "J. Shetty",
+          "Students"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    },
+    {
+      "id": "citation_10.4018/978-1-5225-7149-0.CH001",
+      "type": "CitedPaper",
+      "properties": {
+        "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+        "year": 2019,
+        "authors": [
+          "G. Bhandari",
+          "Ratneshwer Gupta"
+        ],
+        "depth_in_graph": 0,
+        "citation_count": 0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "paper_1403.2914v1",
+      "target": "finding_0",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "finding_1",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_1601.01608v1",
+      "target": "finding_2",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.1186/s13677-025-00735-y",
+      "target": "finding_3",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.48175/ijarsct-3144",
+      "target": "finding_4",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "finding_5",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "finding_6",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "finding_7",
+      "relationship": "HAS_FINDING",
+      "type": "HAS_FINDING",
+      "properties": {}
+    },
+    {
+      "source": "paper_1403.2914v1",
+      "target": "concept_10",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1403.2914v1",
+      "target": "concept_19",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1403.2914v1",
+      "target": "concept_17",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1403.2914v1",
+      "target": "concept_18",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1403.2914v1",
+      "target": "concept_12",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1403.2914v1",
+      "target": "concept_16",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1403.2914v1",
+      "target": "concept_11",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "concept_0",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "concept_20",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "concept_3",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "concept_13",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "concept_28",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "concept_21",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_physics/0104048v1",
+      "target": "concept_1",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1601.01608v1",
+      "target": "concept_8",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1601.01608v1",
+      "target": "concept_10",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1601.01608v1",
+      "target": "concept_22",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1601.01608v1",
+      "target": "concept_5",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_1601.01608v1",
+      "target": "concept_6",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.1186/s13677-025-00735-y",
+      "target": "concept_26",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.1186/s13677-025-00735-y",
+      "target": "concept_27",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.1186/s13677-025-00735-y",
+      "target": "concept_7",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.1186/s13677-025-00735-y",
+      "target": "concept_24",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.1186/s13677-025-00735-y",
+      "target": "concept_4",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.48175/ijarsct-3144",
+      "target": "concept_10",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.48175/ijarsct-3144",
+      "target": "concept_14",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.48175/ijarsct-3144",
+      "target": "concept_30",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.48175/ijarsct-3144",
+      "target": "concept_9",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.48175/ijarsct-3144",
+      "target": "concept_15",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.48175/ijarsct-3144",
+      "target": "concept_25",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "concept_26",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "concept_2",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "concept_29",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "concept_31",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "paper_10.4018/978-1-5225-7149-0.CH001",
+      "target": "concept_23",
+      "relationship": "DISCUSSES",
+      "type": "DISCUSSES",
+      "properties": {}
+    },
+    {
+      "source": "Cloud Computing Architecture",
+      "target": "Edge Computing Optimization",
+      "relationship": "complements",
+      "type": "complements",
+      "properties": {
+        "strength": 0.85,
+        "description": "Papers 1 and 2 both discuss cloud and edge computing, with the latter explicitly addressing how edge computing optimizes cloud systems. This represents a complementary relationship \u2013 edge computing is a specific approach to enhancing cloud capabilities."
+      }
+    },
+    {
+      "source": "Cloud Computing Definitions & Types",
+      "target": "Organizational Aspects of Cloud Architecture",
+      "relationship": "extends",
+      "type": "extends",
+      "properties": {
+        "strength": 0.75,
+        "description": "Paper 1 provides a broad overview of cloud computing, while Paper 2 delves into the organizational aspects, including reference architectures from IBM and Oracle. The former extends the latter by providing a more detailed technical description."
+      }
+    },
+    {
+      "source": "Data Processing at the Network Edge",
+      "target": "Security & Data Protection",
+      "relationship": "complements",
+      "type": "complements",
+      "properties": {
+        "strength": 0.65,
+        "description": "Both papers highlight the importance of security, with edge computing specifically addressing data processing closer to the source, which can improve security and data protection measures."
+      }
+    },
+    {
+      "source": "Cloud Computing - On-Demand Self-Service",
+      "target": "Pay-Per-Use Model",
+      "relationship": "builds_on",
+      "type": "builds_on",
+      "properties": {
+        "strength": 0.8,
+        "description": "The paper 1 defines cloud computing as the on-demand provision of resources over the internet on a pay-per-use basis. This definition builds on the core concept of on-demand self-service."
+      }
+    }
+  ],
+  "total_nodes": 54,
+  "total_edges": 47,
+  "graph_metadata": {
+    "origin_query": "What Is Cloud Computing ",
+    "papers_analyzed": 7,
+    "topics_identified": 32
+  }
+}

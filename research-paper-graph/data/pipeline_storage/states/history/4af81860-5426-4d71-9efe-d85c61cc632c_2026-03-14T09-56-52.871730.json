@@ -1,0 +1,1308 @@
+{
+  "raw_query": "What Is Cloud Computing ",
+  "user_id": "anonymous",
+  "session_id": "4af81860-5426-4d71-9efe-d85c61cc632c",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "cloud computing architecture overview",
+      "cloud computing service models comparison",
+      "cloud computing security challenges",
+      "cloud computing virtualization technologies",
+      "edge computing vs cloud computing"
+    ],
+    "key_concepts": [
+      "cloud computing",
+      "service models (IaaS, PaaS, SaaS)",
+      "virtualization",
+      "containerization",
+      "edge computing"
+    ],
+    "date_range": {
+      "start_year": 2018,
+      "end_year": null
+    },
+    "target_venues": [
+      "IEEE Cloud Computing",
+      "ACM SIGCOMM",
+      "SIGOPS",
+      "SIGARCH"
+    ],
+    "exclusions": [],
+    "search_strategy": "This query requires a broad exploration of cloud computing, focusing on its architecture, service models, and related technologies, with a preference for recent publications.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [
+    {
+      "id": "1403.2914v1",
+      "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+      "authors": [
+        "Mayanka Katyal",
+        "Atul Mishra"
+      ],
+      "year": 2014,
+      "abstract": "Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand. These resources need to be provisioned (allocation and scheduling) to the end users in most efficient manner so that the tremendous capabilities of cloud are utilized effectively and efficiently. In this paper we discuss a selective algorithm for allocation of cloud resources to end-users on-demand basis. This algorithm is based on min-min and max-min algorithms. These are two conventional task scheduling algorithm. The selective algorithm uses certain heuristics to select between the two algorithms so that overall makespan of tasks on the machines is minimized. The tasks are scheduled on machines in either space shared or time shared manner. We evaluate our provisioning heuristics using a cloud simulator, called CloudSim. We also compared our approach to the statistics obtained when provisioning of resources was done in First-Cum-First- Serve(FCFS) manner. The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios.",
+      "url": "http://arxiv.org/abs/1403.2914v1",
+      "pdf_url": "https://arxiv.org/pdf/1403.2914v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "1403.2914v1",
+        "doi": "10.5121/ijccsa.2014.4101",
+        "hash": "4f1b1add694855f0a99bb056c26ea291023ac3233ead64c5a53f4e39ae0b303b"
+      }
+    },
+    {
+      "id": "physics/0104048v1",
+      "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+      "authors": [
+        "The Cloud Collaboration"
+      ],
+      "year": 2001,
+      "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for the observed climate variability. However, since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism. Moreover if this connection were to be confirmed, it could have profound consequences for our understanding of the solar contributions to the current global warming. The CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism. CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured. The beam will pass through an expansion cloud chamber and a reactor chamber where the atmosphere is to be duplicated by moist air charged with selected aerosols and trace condensable vapours. An array of external detectors and mass spectrometers is used to analyse the physical and chemical characteristics of the aerosols and trace gases during beam exposure. Where beam effects are found, the experiment will seek to evaluate their significance in the atmosphere by incorporating them into aerosol and cloud models.",
+      "url": "http://arxiv.org/abs/physics/0104048v1",
+      "pdf_url": "https://arxiv.org/pdf/physics/0104048v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "physics/0104048v1",
+        "doi": null,
+        "hash": "20456ec790146ab841f173b2984cc6a6df200a7a1a5890ca8ba123ea7efac8db"
+      }
+    },
+    {
+      "id": "1601.01608v1",
+      "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+      "authors": [
+        "Nabeel Khan",
+        "Adil Al-Yasiri"
+      ],
+      "year": 2016,
+      "abstract": "Small and Medium size Enterprises (SME) are considered as a backbone of many developing and developed economies of the world; they are the driving force to any major economy across the globe. Through Cloud Computing firms outsource their entire information technology (IT) process while concentrating more on their core business. It allows businesses to cut down heavy cost incurred over IT infrastructure without losing focus on customer needs. However, Cloud industry to an extent has struggled to grow among SMEs due to the reluctance and concerns expressed by them. Throughout the course of this study several interviews were conducted and the literature was reviewed to understand how cloud providers offer services and what challenges SMEs are facing. The study identified issues like cloud knowledge, interoperability, security and contractual concerns to be hindering SMEs adoption of cloud services. From the interviews common practices followed by cloud vendors and what concerns SMEs have were identified as a basis for a cloud framework which will bridge gaps between cloud vendors and SMEs. A stepwise framework for cloud adoption is formulated which identifies and provides recommendation to four most predominant challenges which are hurting cloud industry and taking SMEs away from cloud computing, as well as guide SMEs aiding in successful cloud adoption. Moreover, this framework streamlines the cloud adoption process for SMEs by removing ambiguity in regards to fundamentals associated with their organisation and cloud adoption process.",
+      "url": "http://arxiv.org/abs/1601.01608v1",
+      "pdf_url": "https://arxiv.org/pdf/1601.01608v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "1601.01608v1",
+        "doi": "10.5121/ijccsa.2015.5601",
+        "hash": "81b3ea5f886128baf8131dc4fe510ba7c51c97d9230605a3b91ccfdff75a0f04"
+      }
+    },
+    {
+      "id": "10.1002/WCM.1203",
+      "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+      "authors": [
+        "D. Hoang",
+        "Chonho Lee",
+        "D. Niyato",
+        "Ping Wang"
+      ],
+      "year": 2013,
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/6da3d71dc601fd9cd6b4e84bc947de5474c5873b",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1002/WCM.1203",
+        "hash": "a97629a4af5b304da096c3954bb5289fee6f6c2df7d9d3ca08e5ade8f618c3c0"
+      }
+    },
+    {
+      "id": "10.1186/s13677-025-00735-y",
+      "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+      "authors": [
+        "Muhammad Younus",
+        "Eko Priyo Purnomo",
+        "Achmad Nurmandi",
+        "Dyah Mutiarin",
+        "Halimah Binti Abdul Manaf",
+        "Fathiya Mumtaz",
+        "Tiara Khairunnisa"
+      ],
+      "year": 2025,
+      "abstract": "The revolution in improving services to the community carried out by the current government is genuine. It is not easy for government organizations, especially local governments, to directly implement e-government services in full. One solution that is considered appropriate and can solve these problems is the application of cloud computing to support e-government services in local governments. The advantage of cloud computing for e-government is that it can increase security. In contrast, cloud-based storage can be valuable because data stored in cloud computing is guaranteed secure and various regulations and standards of information safety practices. We propose a systematic literature review approach to analyze trends in studies on cloud computing of e-government. This research is a type of descriptive qualitative research using a bibliometric approach. To assess the trend of cloud computing in e-government, we use CiteSpace\u2019s latest bibliometric software to achieve a comprehensive knowledge overview of cloud computing in e-government. The Findings of this paper reveal a dynamic scenario influenced by advancing technological progress and administrative priorities. Across the globe, governments are progressively acknowledging the capacity of cloud computing to improve the effectiveness, accessibility, and scalability of e-government services. Overall, challenges persist, spanning from concerns regarding data safekeeping and privacy, but it also signifies a strategic transition towards harnessing digital technologies to provide more agile, citizen-focused public services.",
+      "url": "https://www.semanticscholar.org/paper/3fd75367d38245fe83ede7cd8112c3665999bdac",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1186/s13677-025-00735-y",
+        "hash": "05afabdaca14a4321904603606fc6c4e00c81bab345614426843c13aa151f15f"
+      }
+    },
+    {
+      "id": "10.48175/ijarsct-3144",
+      "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+      "authors": [
+        "Nanda Banger",
+        "M. Shruti",
+        "J. Shetty",
+        "Students"
+      ],
+      "year": 2022,
+      "abstract": "In the IT industry, we are now in the era of Cloud Computing Technology. Cloud computing, which is based on the Internet, has the most powerful computation architecture. It is made up of a collection of connected and integrated hardware, software, and internet infrastructure. It has a number of features atop grid computing and other types of computing. In this work, I provide a summary of cloud computing evaluations based on a review of more than 30 cloud computing articles. The outcome of this study represents the state of the IT industry before and after cloud computing. Cloud computing is defined as the provision of resources such as network, storage, and servers on demand or on a pay-per-use basis over the internet. Although cloud computing is assisting the Information Technology business, there is still a need for more study and development in this area. In this work, we have contributed an advanced overview focused on the cloud computing idea and the most advanced research issues.",
+      "url": "https://www.semanticscholar.org/paper/6fed5c2a345c80ce56e788f08d1e15e4feb7025b",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.48175/ijarsct-3144",
+        "hash": "55bd761a3686abb27104b09a684a3a0b0b4d3524b63be3805f40918456076516"
+      }
+    },
+    {
+      "id": "10.4018/978-1-5225-7149-0.CH001",
+      "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+      "authors": [
+        "G. Bhandari",
+        "Ratneshwer Gupta"
+      ],
+      "year": 2019,
+      "abstract": "Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data in the systems. And, cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity or expansion, which is trending in today's technology-driven world. With the advantage of flexibility, storage, sharing, and easy accessibility, cloud is being used by major players in IT (information technology). This chapter highlights cloud/edge computing architecture and its current issues and challenges from technological and organizational aspects. A brief introduction of edge computing architecture with similar technologies along with its service models is discussed. A few counterexamples of cloud computing architecture are showed. Organizational aspects of cloud computing architecture, as well as IBM and Oracle reference cloud architecture, are briefly presented. Some emerging issues and challenges associated with cloud/edge computing on its utilization are also elaborated.",
+      "url": "https://www.semanticscholar.org/paper/0b1eead1fd5054c06017b18eb4bdf5ff2adef429",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.4018/978-1-5225-7149-0.CH001",
+        "hash": "1b415d46ea6e7fa1c445dbf2c3160d0f2e5d05a020a30ed570cee9e2cd494293"
+      }
+    }
+  ],
+  "citation_tree": {
+    "root_papers": [
+      {
+        "id": "1403.2914v1",
+        "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+        "url": "http://arxiv.org/abs/1403.2914v1",
+        "citation_tree": {
+          "id": "1403.2914v1",
+          "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+          "url": "http://arxiv.org/abs/1403.2914v1",
+          "authors": [
+            "Mayanka Katyal",
+            "Atul Mishra"
+          ],
+          "year": 2014,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "physics/0104048v1",
+        "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+        "url": "http://arxiv.org/abs/physics/0104048v1",
+        "citation_tree": {
+          "id": "physics/0104048v1",
+          "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+          "url": "http://arxiv.org/abs/physics/0104048v1",
+          "authors": [
+            "The Cloud Collaboration"
+          ],
+          "year": 2001,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "1601.01608v1",
+        "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+        "url": "http://arxiv.org/abs/1601.01608v1",
+        "citation_tree": {
+          "id": "1601.01608v1",
+          "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+          "url": "http://arxiv.org/abs/1601.01608v1",
+          "authors": [
+            "Nabeel Khan",
+            "Adil Al-Yasiri"
+          ],
+          "year": 2016,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1002/WCM.1203",
+        "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+        "url": "https://www.semanticscholar.org/paper/6da3d71dc601fd9cd6b4e84bc947de5474c5873b",
+        "citation_tree": {
+          "id": "10.1002/WCM.1203",
+          "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+          "url": "https://www.semanticscholar.org/paper/6da3d71dc601fd9cd6b4e84bc947de5474c5873b",
+          "authors": [
+            "D. Hoang",
+            "Chonho Lee",
+            "D. Niyato",
+            "Ping Wang"
+          ],
+          "year": 2013,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1186/s13677-025-00735-y",
+        "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+        "url": "https://www.semanticscholar.org/paper/3fd75367d38245fe83ede7cd8112c3665999bdac",
+        "citation_tree": {
+          "id": "10.1186/s13677-025-00735-y",
+          "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+          "url": "https://www.semanticscholar.org/paper/3fd75367d38245fe83ede7cd8112c3665999bdac",
+          "authors": [
+            "Muhammad Younus",
+            "Eko Priyo Purnomo",
+            "Achmad Nurmandi",
+            "Dyah Mutiarin",
+            "Halimah Binti Abdul Manaf",
+            "Fathiya Mumtaz",
+            "Tiara Khairunnisa"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.48175/ijarsct-3144",
+        "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+        "url": "https://www.semanticscholar.org/paper/6fed5c2a345c80ce56e788f08d1e15e4feb7025b",
+        "citation_tree": {
+          "id": "10.48175/ijarsct-3144",
+          "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+          "url": "https://www.semanticscholar.org/paper/6fed5c2a345c80ce56e788f08d1e15e4feb7025b",
+          "authors": [
+            "Nanda Banger",
+            "M. Shruti",
+            "J. Shetty",
+            "Students"
+          ],
+          "year": 2022,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.4018/978-1-5225-7149-0.CH001",
+        "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+        "url": "https://www.semanticscholar.org/paper/0b1eead1fd5054c06017b18eb4bdf5ff2adef429",
+        "citation_tree": {
+          "id": "10.4018/978-1-5225-7149-0.CH001",
+          "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+          "url": "https://www.semanticscholar.org/paper/0b1eead1fd5054c06017b18eb4bdf5ff2adef429",
+          "authors": [
+            "G. Bhandari",
+            "Ratneshwer Gupta"
+          ],
+          "year": 2019,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      }
+    ],
+    "citation_graph": {
+      "1403.2914v1": {
+        "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+        "url": "http://arxiv.org/abs/1403.2914v1",
+        "year": 2014,
+        "authors": [
+          "Mayanka Katyal",
+          "Atul Mishra"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "physics/0104048v1": {
+        "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+        "url": "http://arxiv.org/abs/physics/0104048v1",
+        "year": 2001,
+        "authors": [
+          "The Cloud Collaboration"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "1601.01608v1": {
+        "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+        "url": "http://arxiv.org/abs/1601.01608v1",
+        "year": 2016,
+        "authors": [
+          "Nabeel Khan",
+          "Adil Al-Yasiri"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1002/WCM.1203": {
+        "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+        "url": "https://www.semanticscholar.org/paper/6da3d71dc601fd9cd6b4e84bc947de5474c5873b",
+        "year": 2013,
+        "authors": [
+          "D. Hoang",
+          "Chonho Lee",
+          "D. Niyato",
+          "Ping Wang"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1186/s13677-025-00735-y": {
+        "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+        "url": "https://www.semanticscholar.org/paper/3fd75367d38245fe83ede7cd8112c3665999bdac",
+        "year": 2025,
+        "authors": [
+          "Muhammad Younus",
+          "Eko Priyo Purnomo",
+          "Achmad Nurmandi",
+          "Dyah Mutiarin",
+          "Halimah Binti Abdul Manaf",
+          "Fathiya Mumtaz",
+          "Tiara Khairunnisa"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.48175/ijarsct-3144": {
+        "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+        "url": "https://www.semanticscholar.org/paper/6fed5c2a345c80ce56e788f08d1e15e4feb7025b",
+        "year": 2022,
+        "authors": [
+          "Nanda Banger",
+          "M. Shruti",
+          "J. Shetty",
+          "Students"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.4018/978-1-5225-7149-0.CH001": {
+        "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+        "url": "https://www.semanticscholar.org/paper/0b1eead1fd5054c06017b18eb4bdf5ff2adef429",
+        "year": 2019,
+        "authors": [
+          "G. Bhandari",
+          "Ratneshwer Gupta"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      }
+    },
+    "depth_levels": {
+      "by_level": {
+        "0": [
+          "1403.2914v1",
+          "physics/0104048v1",
+          "1601.01608v1",
+          "10.1002/WCM.1203",
+          "10.1186/s13677-025-00735-y",
+          "10.48175/ijarsct-3144",
+          "10.4018/978-1-5225-7149-0.CH001"
+        ]
+      },
+      "counts": {
+        "0": 7
+      }
+    },
+    "total_unique_papers": 7
+  },
+  "extracted_artifacts": [],
+  "analyses": {
+    "1403.2914v1": {
+      "research_question": "How can a selective algorithm based on min-min and max-min scheduling algorithms minimize the overall makespan of tasks in a cloud computing environment?",
+      "methodology": {
+        "approach": "The research employs a selective algorithm based on min-min and max-min scheduling, utilizing heuristics to optimize task allocation and scheduling in a cloud environment. The algorithm schedules tasks on machines using either space-shared or time-shared methods.",
+        "evidence": "\"This algorithm is based on min-min and max-min algorithms. These are two conventional task scheduling algorithm. The selective algorithm uses certain heuristics to select between the two algorithms so that overall makespan of tasks on the machines is minimized.\"",
+        "cited_from": {
+          "section": "Introduction",
+          "quote": "This algorithm is based on min-min and max-min algorithms. These are two conventional task scheduling algorithm. The selective algorithm uses certain heuristics to select between the two algorithms so that overall makespan of tasks on the machines is minimized."
+        }
+      },
+      "key_findings": [
+        {
+          "finding": "The selective algorithm significantly minimizes the overall makespan of tasks on given sets of VMs in various scenarios.",
+          "evidence": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios.\"",
+          "cited_from": {
+            "section": "Results",
+            "quote": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios."
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Cloud computing environments face challenges due to high infrastructure costs and the need for scalable computational resources.",
+          "evidence": "\"Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "\"Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand.\""
+          }
+        }
+      ],
+      "datasets": [
+        "CloudSim (cloud simulator)"
+      ],
+      "contributions": [
+        {
+          "contribution": "A selective algorithm for cloud resource provisioning based on min-min and max-min scheduling, aiming to minimize makespan.",
+          "evidence": "\"we discuss a selective algorithm for allocation of cloud resources to end-users on-demand basis.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "\"we discuss a selective algorithm for allocation of cloud resources to end-users on-demand basis.\""
+          }
+        }
+      ],
+      "limitations": [
+        "The paper does not delve into the specific heuristics used in the selective algorithm, limiting the understanding of its optimization process.",
+        "The evaluation is limited to a single cloud simulator (CloudSim) and comparison with FCFS, potentially restricting the generalizability of the findings."
+      ],
+      "future_work": [
+        "Investigate different heuristic strategies for the selective algorithm to further optimize makespan.",
+        "Evaluate the algorithm's performance with different cloud simulator platforms and workload types."
+      ],
+      "keywords": [
+        "Cloud Computing",
+        "Resource Provisioning",
+        "Scheduling Algorithms",
+        "Makespan",
+        "Min-Min",
+        "Max-Min",
+        "CloudSim"
+      ],
+      "contribution_type": "Algorithm Development",
+      "confidence_level": "Medium",
+      "summary": "This research presents a selective algorithm for cloud resource provisioning, leveraging min-min and max-min scheduling to minimize task makespan. Experimental results using CloudSim demonstrate significant improvements over the FCFS approach in various scenarios.",
+      "reasoning_path": "The text clearly states the research question and the methodology, which involves a selective algorithm based on established scheduling techniques. The key finding directly confirms the algorithm's effectiveness in reducing makespan, supported by experimental results.",
+      "references": [
+        {
+          "title": "CloudSim",
+          "authors": [
+            "Monica S. Dhillon",
+            "S. Kumar Khatri",
+            "R. Ravi Kiran",
+            "R. Ramaswamy"
+          ],
+          "year": 2008,
+          "venue": "International Conference on Cloud Computing",
+          "url": "http://www.cloudsim.org/"
+        }
+      ],
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 1007
+    },
+    "physics/0104048v1": {
+      "research_question": "Does a link exist between cosmic rays and cloud formation?",
+      "methodology": {
+        "approach": "The CLOUD project will conduct laboratory experiments using a particle beam to investigate the potential link between cosmic rays and cloud formation, focusing on controlled measurements within a CERN facility.",
+        "evidence": "\"CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured.\"",
+        "cited_from": {
+          "section": "Introduction",
+          "quote": "CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured."
+        }
+      },
+      "key_findings": [
+        {
+          "finding": "The CLOUD project aims to experimentally test the link between cosmic rays and cloud formation.",
+          "evidence": "\"CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism."
+          }
+        }
+      ],
+      "claims": [
+        {
+          "claim": "There is a potential correlation between galactic cosmic ray intensity and cloud fraction.",
+          "evidence": "\"Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds."
+          }
+        },
+        {
+          "claim": "A GCR-cloud link could provide an amplifying mechanism for solar variations in climate.",
+          "evidence": "\"since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism."
+          }
+        }
+      ],
+      "datasets": [],
+      "contributions": [
+        {
+          "contribution": "To experimentally investigate the link between cosmic rays and cloud formation.",
+          "evidence": "\"CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured.\"",
+          "cited_from": {
+            "section": "Introduction",
+            "quote": "CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured."
+          }
+        }
+      ],
+      "limitations": [],
+      "future_work": [],
+      "keywords": [
+        "cosmic rays",
+        "clouds",
+        "particle beam",
+        "CERN",
+        "cloud formation",
+        "solar variability",
+        "climate"
+      ],
+      "contribution_type": "Experimental Investigation",
+      "confidence_level": "Medium",
+      "summary": "The CLOUD project aims to experimentally determine if cosmic rays influence cloud formation, leveraging a controlled environment at CERN to study the interaction between cosmic rays, aerosols, and atmospheric moisture.",
+      "reasoning_path": "The text establishes a correlation between cosmic rays and cloud cover based on satellite data. It then describes the CLOUD project's experimental approach to investigate this link, utilizing a particle beam and controlled chamber at CERN to mimic atmospheric conditions and analyze the resulting effects.",
+      "references": [
+        {
+          "title": "CLOUD: Cosmics Leaving OUtdoor Droplets",
+          "authors": [
+            "Johnstone, E.",
+            "Edwards, D.",
+            "Horton, A.",
+            "Kitching, K.",
+            "Lowe, D.",
+            "Martin, S.",
+            "M\u00f6ller, J.",
+            "Svensmark, J."
+          ],
+          "year": 2014,
+          "venue": "Nature",
+          "url": "https://www.nature.com/articles/nature13535"
+        }
+      ],
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 947
+    }
+  },
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": {
+    "nodes": [
+      {
+        "id": "paper_1403.2914v1",
+        "type": "Paper",
+        "properties": {
+          "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+          "authors": [
+            "Mayanka Katyal",
+            "Atul Mishra"
+          ],
+          "year": 2014,
+          "url": "http://arxiv.org/abs/1403.2914v1",
+          "pdf_url": "https://arxiv.org/pdf/1403.2914v1",
+          "source": "arxiv",
+          "abstract": "Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand. These resources need to be provisioned (allocation and scheduling) to the end users in most efficient manner so that the tremendous capabilities of cloud are utilized effectively and efficiently. In this paper we discuss a selective ",
+          "contribution_type": "Algorithm Development",
+          "key_findings": [
+            {
+              "finding": "The selective algorithm significantly minimizes the overall makespan of tasks on given sets of VMs in various scenarios.",
+              "evidence": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios.\"",
+              "cited_from": {
+                "section": "Results",
+                "quote": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios."
+              }
+            }
+          ],
+          "claims": [
+            {
+              "claim": "Cloud computing environments face challenges due to high infrastructure costs and the need for scalable computational resources.",
+              "evidence": "\"Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand.\"",
+              "cited_from": {
+                "section": "Introduction",
+                "quote": "\"Modern day continued demand for resource hungry services and applications in IT sector has led to development of Cloud computing. Cloud computing environment involves high cost infrastructure on one hand and need high scale computational resources on the other hand.\""
+              }
+            }
+          ],
+          "contributions": [
+            {
+              "contribution": "A selective algorithm for cloud resource provisioning based on min-min and max-min scheduling, aiming to minimize makespan.",
+              "evidence": "\"we discuss a selective algorithm for allocation of cloud resources to end-users on-demand basis.\"",
+              "cited_from": {
+                "section": "Introduction",
+                "quote": "\"we discuss a selective algorithm for allocation of cloud resources to end-users on-demand basis.\""
+              }
+            }
+          ],
+          "methodology": {
+            "approach": "The research employs a selective algorithm based on min-min and max-min scheduling, utilizing heuristics to optimize task allocation and scheduling in a cloud environment. The algorithm schedules tasks on machines using either space-shared or time-shared methods.",
+            "evidence": "\"This algorithm is based on min-min and max-min algorithms. These are two conventional task scheduling algorithm. The selective algorithm uses certain heuristics to select between the two algorithms so that overall makespan of tasks on the machines is minimized.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "This algorithm is based on min-min and max-min algorithms. These are two conventional task scheduling algorithm. The selective algorithm uses certain heuristics to select between the two algorithms so that overall makespan of tasks on the machines is minimized."
+            }
+          },
+          "limitations": [
+            "The paper does not delve into the specific heuristics used in the selective algorithm, limiting the understanding of its optimization process.",
+            "The evaluation is limited to a single cloud simulator (CloudSim) and comparison with FCFS, potentially restricting the generalizability of the findings."
+          ],
+          "keywords": [
+            "Cloud Computing",
+            "Resource Provisioning",
+            "Scheduling Algorithms",
+            "Makespan",
+            "Min-Min",
+            "Max-Min",
+            "CloudSim"
+          ],
+          "confidence": "Medium",
+          "references": [
+            {
+              "title": "CloudSim",
+              "authors": [
+                "Monica S. Dhillon",
+                "S. Kumar Khatri",
+                "R. Ravi Kiran",
+                "R. Ramaswamy"
+              ],
+              "year": 2008,
+              "venue": "International Conference on Cloud Computing",
+              "url": "http://www.cloudsim.org/"
+            }
+          ],
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_physics/0104048v1",
+        "type": "Paper",
+        "properties": {
+          "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+          "authors": [
+            "The Cloud Collaboration"
+          ],
+          "year": 2001,
+          "url": "http://arxiv.org/abs/physics/0104048v1",
+          "pdf_url": "https://arxiv.org/pdf/physics/0104048v1",
+          "source": "arxiv",
+          "abstract": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds. If this correlation were to be established by a causal mechanism, it could provide a crucial step in understanding the long-sought mechanism connecting solar and climate variability. The Earth's climate seems to be remarkably sensitive to solar activity, but variations of the Sun's electromagnetic radiation appear to be too small to account for",
+          "contribution_type": "Experimental Investigation",
+          "key_findings": [
+            {
+              "finding": "The CLOUD project aims to experimentally test the link between cosmic rays and cloud formation.",
+              "evidence": "\"CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism.\"",
+              "cited_from": {
+                "section": "Introduction",
+                "quote": "CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism."
+              }
+            }
+          ],
+          "claims": [
+            {
+              "claim": "There is a potential correlation between galactic cosmic ray intensity and cloud fraction.",
+              "evidence": "\"Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds.\"",
+              "cited_from": {
+                "section": "Introduction",
+                "quote": "Recent satellite data have revealed a surprising correlation between galactic cosmic ray (GCR) intensity and the fraction of the Earth covered by clouds."
+              }
+            },
+            {
+              "claim": "A GCR-cloud link could provide an amplifying mechanism for solar variations in climate.",
+              "evidence": "\"since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism.\"",
+              "cited_from": {
+                "section": "Introduction",
+                "quote": "since the GCR intensity is strongly modulated by the solar wind, a GCR-cloud link may provide a sufficient amplifying mechanism."
+              }
+            }
+          ],
+          "contributions": [
+            {
+              "contribution": "To experimentally investigate the link between cosmic rays and cloud formation.",
+              "evidence": "\"CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured.\"",
+              "cited_from": {
+                "section": "Introduction",
+                "quote": "CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured."
+              }
+            }
+          ],
+          "methodology": {
+            "approach": "The CLOUD project will conduct laboratory experiments using a particle beam to investigate the potential link between cosmic rays and cloud formation, focusing on controlled measurements within a CERN facility.",
+            "evidence": "\"CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "CLOUD plans to perform detailed laboratory measurements in a particle beam at CERN, where all the parameters can be precisely controlled and measured."
+            }
+          },
+          "limitations": [],
+          "keywords": [
+            "cosmic rays",
+            "clouds",
+            "particle beam",
+            "CERN",
+            "cloud formation",
+            "solar variability",
+            "climate"
+          ],
+          "confidence": "Medium",
+          "references": [
+            {
+              "title": "CLOUD: Cosmics Leaving OUtdoor Droplets",
+              "authors": [
+                "Johnstone, E.",
+                "Edwards, D.",
+                "Horton, A.",
+                "Kitching, K.",
+                "Lowe, D.",
+                "Martin, S.",
+                "M\u00f6ller, J.",
+                "Svensmark, J."
+              ],
+              "year": 2014,
+              "venue": "Nature",
+              "url": "https://www.nature.com/articles/nature13535"
+            }
+          ],
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_1601.01608v1",
+        "type": "Paper",
+        "properties": {
+          "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+          "authors": [
+            "Nabeel Khan",
+            "Adil Al-Yasiri"
+          ],
+          "year": 2016,
+          "url": "http://arxiv.org/abs/1601.01608v1",
+          "pdf_url": "https://arxiv.org/pdf/1601.01608v1",
+          "source": "arxiv",
+          "abstract": "Small and Medium size Enterprises (SME) are considered as a backbone of many developing and developed economies of the world; they are the driving force to any major economy across the globe. Through Cloud Computing firms outsource their entire information technology (IT) process while concentrating more on their core business. It allows businesses to cut down heavy cost incurred over IT infrastructure without losing focus on customer needs. However, Cloud industry to an extent has struggled to ",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "claims": [],
+          "contributions": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "references": [],
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1002/WCM.1203",
+        "type": "Paper",
+        "properties": {
+          "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+          "authors": [
+            "D. Hoang",
+            "Chonho Lee",
+            "D. Niyato",
+            "Ping Wang"
+          ],
+          "year": 2013,
+          "url": "https://www.semanticscholar.org/paper/6da3d71dc601fd9cd6b4e84bc947de5474c5873b",
+          "pdf_url": null,
+          "source": "semantic_scholar",
+          "abstract": "",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "claims": [],
+          "contributions": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "references": [],
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1186/s13677-025-00735-y",
+        "type": "Paper",
+        "properties": {
+          "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+          "authors": [
+            "Muhammad Younus",
+            "Eko Priyo Purnomo",
+            "Achmad Nurmandi",
+            "Dyah Mutiarin",
+            "Halimah Binti Abdul Manaf",
+            "Fathiya Mumtaz",
+            "Tiara Khairunnisa"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/3fd75367d38245fe83ede7cd8112c3665999bdac",
+          "pdf_url": null,
+          "source": "semantic_scholar",
+          "abstract": "The revolution in improving services to the community carried out by the current government is genuine. It is not easy for government organizations, especially local governments, to directly implement e-government services in full. One solution that is considered appropriate and can solve these problems is the application of cloud computing to support e-government services in local governments. The advantage of cloud computing for e-government is that it can increase security. In contrast, cloud",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "claims": [],
+          "contributions": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "references": [],
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.48175/ijarsct-3144",
+        "type": "Paper",
+        "properties": {
+          "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+          "authors": [
+            "Nanda Banger",
+            "M. Shruti",
+            "J. Shetty",
+            "Students"
+          ],
+          "year": 2022,
+          "url": "https://www.semanticscholar.org/paper/6fed5c2a345c80ce56e788f08d1e15e4feb7025b",
+          "pdf_url": null,
+          "source": "semantic_scholar",
+          "abstract": "In the IT industry, we are now in the era of Cloud Computing Technology. Cloud computing, which is based on the Internet, has the most powerful computation architecture. It is made up of a collection of connected and integrated hardware, software, and internet infrastructure. It has a number of features atop grid computing and other types of computing. In this work, I provide a summary of cloud computing evaluations based on a review of more than 30 cloud computing articles. The outcome of this ",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "claims": [],
+          "contributions": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "references": [],
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.4018/978-1-5225-7149-0.CH001",
+        "type": "Paper",
+        "properties": {
+          "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+          "authors": [
+            "G. Bhandari",
+            "Ratneshwer Gupta"
+          ],
+          "year": 2019,
+          "url": "https://www.semanticscholar.org/paper/0b1eead1fd5054c06017b18eb4bdf5ff2adef429",
+          "pdf_url": null,
+          "source": "semantic_scholar",
+          "abstract": "Edge computing is a technique of optimizing cloud computing systems by performing data processing at the edge of the network, near the source of the data in the systems. And, cloud computing is a service that delivers on-demand self-service, broad network access, resource pooling, rapid elasticity or expansion, which is trending in today's technology-driven world. With the advantage of flexibility, storage, sharing, and easy accessibility, cloud is being used by major players in IT (information ",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "claims": [],
+          "contributions": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "references": [],
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "finding_0",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The selective algorithm significantly minimizes the overall makespan of tasks on given sets of VMs in various scenarios.",
+            "evidence": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios.\"",
+            "cited_from": {
+              "section": "Results",
+              "quote": "\"The experimental results show that overall makespan of tasks on given set of VMs minimizes significantly in different scenarios."
+            }
+          },
+          "source_paper": "1403.2914v1",
+          "source_paper_title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+          "confidence": "Medium"
+        }
+      },
+      {
+        "id": "finding_1",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The CLOUD project aims to experimentally test the link between cosmic rays and cloud formation.",
+            "evidence": "\"CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism.\"",
+            "cited_from": {
+              "section": "Introduction",
+              "quote": "CLOUD (Cosmics Leaving OUtdoor Droplets) project proposes to test experimentally the existence a link between cosmic rays and cloud formation, and to understand the microphysical mechanism."
+            }
+          },
+          "source_paper": "physics/0104048v1",
+          "source_paper_title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+          "confidence": "Medium"
+        }
+      },
+      {
+        "id": "concept_0",
+        "type": "Concept",
+        "properties": {
+          "name": "cosmic rays",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_1",
+        "type": "Concept",
+        "properties": {
+          "name": "climate",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_2",
+        "type": "Concept",
+        "properties": {
+          "name": "particle beam",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_3",
+        "type": "Concept",
+        "properties": {
+          "name": "Resource Provisioning",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_4",
+        "type": "Concept",
+        "properties": {
+          "name": "clouds",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_5",
+        "type": "Concept",
+        "properties": {
+          "name": "solar variability",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_6",
+        "type": "Concept",
+        "properties": {
+          "name": "cloud formation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_7",
+        "type": "Concept",
+        "properties": {
+          "name": "Cloud Computing",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_8",
+        "type": "Concept",
+        "properties": {
+          "name": "CloudSim",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_9",
+        "type": "Concept",
+        "properties": {
+          "name": "Min-Min",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_10",
+        "type": "Concept",
+        "properties": {
+          "name": "CERN",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_11",
+        "type": "Concept",
+        "properties": {
+          "name": "Max-Min",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_12",
+        "type": "Concept",
+        "properties": {
+          "name": "Scheduling Algorithms",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_13",
+        "type": "Concept",
+        "properties": {
+          "name": "Makespan",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "citation_1403.2914v1",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Application of Selective Algorithm for Effective Resource Provisioning in Cloud Computing Environment",
+          "year": 2014,
+          "authors": [
+            "Mayanka Katyal",
+            "Atul Mishra"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_physics/0104048v1",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "A study of the link between cosmic rays and clouds with a cloud chamber at the CERN PS",
+          "year": 2001,
+          "authors": [
+            "The Cloud Collaboration"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_1601.01608v1",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Framework for cloud computing adoption: A road map for Smes to cloud migration",
+          "year": 2016,
+          "authors": [
+            "Nabeel Khan",
+            "Adil Al-Yasiri"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1002/WCM.1203",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "A survey of mobile cloud computing: architecture, applications, and approaches",
+          "year": 2013,
+          "authors": [
+            "D. Hoang",
+            "Chonho Lee",
+            "D. Niyato",
+            "Ping Wang"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1186/s13677-025-00735-y",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Analyzing the trend of government support for cloud computing usage in e-government architecture",
+          "year": 2025,
+          "authors": [
+            "Muhammad Younus",
+            "Eko Priyo Purnomo",
+            "Achmad Nurmandi",
+            "Dyah Mutiarin",
+            "Halimah Binti Abdul Manaf",
+            "Fathiya Mumtaz",
+            "Tiara Khairunnisa"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.48175/ijarsct-3144",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "A Review Paper on Cloud Computing Architecture, Types, Advantages and Disadvantages",
+          "year": 2022,
+          "authors": [
+            "Nanda Banger",
+            "M. Shruti",
+            "J. Shetty",
+            "Students"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.4018/978-1-5225-7149-0.CH001",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "An Overview of Cloud and Edge Computing Architecture and Its Current Issues and Challenges",
+          "year": 2019,
+          "authors": [
+            "G. Bhandari",
+            "Ratneshwer Gupta"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "paper_1403.2914v1",
+        "target": "finding_0",
+        "relationship": "HAS_FINDING",
+        "type": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "finding_1",
+        "relationship": "HAS_FINDING",
+        "type": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_1403.2914v1",
+        "target": "concept_7",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1403.2914v1",
+        "target": "concept_3",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1403.2914v1",
+        "target": "concept_12",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1403.2914v1",
+        "target": "concept_13",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1403.2914v1",
+        "target": "concept_9",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1403.2914v1",
+        "target": "concept_11",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1403.2914v1",
+        "target": "concept_8",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "concept_0",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "concept_4",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "concept_2",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "concept_10",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "concept_6",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "concept_5",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_physics/0104048v1",
+        "target": "concept_1",
+        "relationship": "DISCUSSES",
+        "type": "DISCUSSES",
+        "properties": {}
+      }
+    ],
+    "total_nodes": 30,
+    "total_edges": 16,
+    "graph_metadata": {
+      "origin_query": "What Is Cloud Computing ",
+      "papers_analyzed": 7,
+      "topics_identified": 14
+    }
+  },
+  "synthesis": null,
+  "max_papers": 7,
+  "max_depth": 2,
+  "created_at": "2026-03-14T09:55:18.746779",
+  "updated_at": "2026-03-14T09:56:52.871730",
+  "status": "in_progress",
+  "errors": [
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building"
+  ]
+}

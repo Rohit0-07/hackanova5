@@ -1,0 +1,21 @@
+{
+  "raw_query": "What Is Cloud Computing ",
+  "user_id": "anonymous",
+  "session_id": "4af81860-5426-4d71-9efe-d85c61cc632c",
+  "session_name": "",
+  "refined_query": null,
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 7,
+  "max_depth": 2,
+  "created_at": "2026-03-14T09:55:18.746779",
+  "updated_at": "2026-03-14T09:55:18.746798",
+  "status": "in_progress",
+  "errors": []
+}

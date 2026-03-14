@@ -1,8 +1,8 @@
 """
-Email Notification Service — supports Mailtrap API token & generic SMTP.
+Email Notification Service — supports Resend API & generic SMTP.
 
 Priority:
-  1. MAILTRAP_API_TOKEN is set → use Mailtrap's sending API (recommended)
+  1. RESEND_API_KEY is set → use Resend's Python SDK (recommended)
   2. EMAIL_SMTP_HOST + EMAIL_SENDER + EMAIL_PASSWORD are all set → use SMTP
   3. None set → log a notice and skip silently
 
@@ -10,8 +10,8 @@ All configuration is read from environment variables (loaded from backend/.env
 by python-dotenv at startup via main.py).
 
 Environment variables:
-  MAILTRAP_API_TOKEN      Your Mailtrap API token
-  MAILTRAP_FROM_EMAIL     "From" address (default: noreply@agsearch.app)
+  RESEND_API_KEY          Your Resend API key
+  RESEND_FROM_EMAIL       "From" address (default: onboarding@resend.dev)
   EMAIL_SMTP_HOST         SMTP hostname (e.g. smtp.gmail.com)
   EMAIL_SMTP_PORT         SMTP port (default: 587)
   EMAIL_SENDER            SMTP sender email address
@@ -23,7 +23,7 @@ import os
 import ssl
 import smtplib
 import json
-import httpx
+import resend
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -32,8 +32,8 @@ from loguru import logger
 
 
 # ─── Read configuration from env ──────────────────────────────────────────────
-MAILTRAP_API_TOKEN  = os.getenv("MAILTRAP_API_TOKEN", "").strip()
-MAILTRAP_FROM_EMAIL = os.getenv("MAILTRAP_FROM_EMAIL", "noreply@agsearch.app").strip()
+RESEND_API_KEY   = os.getenv("RESEND_API_KEY", "").strip()
+RESEND_FROM_EMAIL = os.getenv("RESEND_FROM_EMAIL", "aditya20pc@gmail.com").strip()
 
 SMTP_HOST     = os.getenv("EMAIL_SMTP_HOST", "").strip()
 SMTP_PORT     = int(os.getenv("EMAIL_SMTP_PORT", "587"))
@@ -132,31 +132,25 @@ def _build_html(session_id: str, query: str, papers_count: int, status: str) -> 
     return html, plain
 
 
-# ─── Mailtrap Sending API ──────────────────────────────────────────────────────
-def _send_via_mailtrap_api(recipient: str, subject: str, html: str, plain: str) -> bool:
-    """Send email using Mailtrap's sending API (requires API token)."""
-    url = "https://send.api.mailtrap.io/api/send"
-    headers = {
-        "Authorization": f"Bearer {MAILTRAP_API_TOKEN}",
-        "Content-Type": "application/json",
-    }
-    payload = {
-        "from": {"email": MAILTRAP_FROM_EMAIL, "name": "AgSearch"},
-        "to": [{"email": recipient}],
-        "subject": subject,
-        "html": html,
-        "text": plain,
-    }
+# ─── Resend API ───────────────────────────────────────────────────────────────
+def _send_via_resend(recipient: str, subject: str, html: str, plain: str) -> bool:
+    """Send email using Resend Python SDK."""
     try:
-        resp = httpx.post(url, headers=headers, json=payload, timeout=15)
-        if resp.status_code in (200, 201):
-            logger.info(f"EmailService [Mailtrap API]: sent to {recipient}")
-            return True
-        else:
-            logger.error(f"EmailService [Mailtrap API]: HTTP {resp.status_code} — {resp.text}")
-            return False
+        resend.api_key = RESEND_API_KEY
+        
+        params = {
+            "from": f"AgSearch <{RESEND_FROM_EMAIL}>",
+            "to": [recipient],
+            "subject": subject,
+            "html": html,
+            "text": plain,
+        }
+        
+        email_response = resend.Emails.send(params)
+        logger.info(f"EmailService [Resend]: sent to {recipient}, id: {email_response.get('id')}")
+        return True
     except Exception as e:
-        logger.error(f"EmailService [Mailtrap API]: request failed — {e}")
+        logger.error(f"EmailService [Resend]: failed — {e}")
         return False
 
 
@@ -194,7 +188,7 @@ def send_completion_email(
 ) -> bool:
     """
     Send a completion notification to the registered email for this session.
-    Uses Mailtrap API token if set, otherwise falls back to SMTP.
+    Uses Resend API if key is set, otherwise falls back to SMTP.
     Returns True if sent, False if skipped or failed.
     """
     recipient = get_email_for_session(session_id)
@@ -207,9 +201,9 @@ def send_completion_email(
 
     sent = False
 
-    # Priority 1: Mailtrap API token
-    if MAILTRAP_API_TOKEN:
-        sent = _send_via_mailtrap_api(recipient, subject, html, plain)
+    # Priority 1: Resend API
+    if RESEND_API_KEY:
+        sent = _send_via_resend(recipient, subject, html, plain)
 
     # Priority 2: Generic SMTP
     elif SMTP_HOST and SENDER_EMAIL and SENDER_PASS:
@@ -218,7 +212,7 @@ def send_completion_email(
     else:
         logger.info(
             "EmailService: no provider configured. "
-            "Set MAILTRAP_API_TOKEN in your .env file to enable email notifications."
+            "Set RESEND_API_KEY in your .env file to enable email notifications."
         )
         return False
 
