@@ -1,0 +1,54 @@
+{
+  "raw_query": "Ethical implications of AI in hiring and surveillance",
+  "user_id": "anonymous",
+  "session_id": "39f0c952-c809-484b-b164-b51c936200d7",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "AI bias hiring discrimination",
+      "algorithmic fairness recruitment",
+      "AI surveillance ethics workforce",
+      "predictive policing AI bias",
+      "AI hiring bias detection methods"
+    ],
+    "key_concepts": [
+      "AI ethics",
+      "algorithmic bias",
+      "fairness, accountability, transparency (FAT) in AI",
+      "hiring discrimination",
+      "surveillance ethics"
+    ],
+    "date_range": {
+      "start_year": 2018,
+      "end_year": 2024
+    },
+    "target_venues": [
+      "AI and Society",
+      "Ethics and Information Technology",
+      "ACM Conference on Fairness, Accountability, and Transparency (FAT*)",
+      "NeurIPS",
+      "ICML"
+    ],
+    "exclusions": [
+      "AI surveillance",
+      "surveillance technologies"
+    ],
+    "search_strategy": "This refined search focuses on the ethical challenges posed by AI systems used in hiring and surveillance, specifically addressing bias, fairness, and accountability concerns within these applications. The date range covers relevant research since the rise of these technologies.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 10,
+  "max_depth": 2,
+  "created_at": "2026-03-14T04:20:02.669329",
+  "updated_at": "2026-03-14T04:20:16.550089",
+  "status": "in_progress",
+  "errors": []
+}

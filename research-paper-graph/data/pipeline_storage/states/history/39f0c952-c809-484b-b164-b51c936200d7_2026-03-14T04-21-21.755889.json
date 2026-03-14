@@ -1,0 +1,1216 @@
+{
+  "raw_query": "Ethical implications of AI in hiring and surveillance",
+  "user_id": "anonymous",
+  "session_id": "39f0c952-c809-484b-b164-b51c936200d7",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "AI bias hiring discrimination",
+      "algorithmic fairness recruitment",
+      "AI surveillance ethics workforce",
+      "predictive policing AI bias",
+      "AI hiring bias detection methods"
+    ],
+    "key_concepts": [
+      "AI ethics",
+      "algorithmic bias",
+      "fairness, accountability, transparency (FAT) in AI",
+      "hiring discrimination",
+      "surveillance ethics"
+    ],
+    "date_range": {
+      "start_year": 2018,
+      "end_year": 2024
+    },
+    "target_venues": [
+      "AI and Society",
+      "Ethics and Information Technology",
+      "ACM Conference on Fairness, Accountability, and Transparency (FAT*)",
+      "NeurIPS",
+      "ICML"
+    ],
+    "exclusions": [
+      "AI surveillance",
+      "surveillance technologies"
+    ],
+    "search_strategy": "This refined search focuses on the ethical challenges posed by AI systems used in hiring and surveillance, specifically addressing bias, fairness, and accountability concerns within these applications. The date range covers relevant research since the rise of these technologies.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [
+    {
+      "id": "10.1007/s43681-025-00927-x",
+      "title": "The ethical imperative of algorithmic fairness in AI-enabled hiring: a critical analysis of bias, accountability, and justice",
+      "authors": [
+        "Jason Law"
+      ],
+      "year": 2025,
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/f944e26fb101f4794f7e6ab88eca069612e067b3",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1007/s43681-025-00927-x",
+        "hash": "3792a0212c30d31bfff425d5831db915d4023a68743a3852b58c7b8e0fdabf61"
+      }
+    },
+    {
+      "id": "10.1007/s12525-022-00600-9",
+      "title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+      "authors": [
+        "Lennart Hofeditz",
+        "S\u00fcnje Clausen",
+        "Alexander Riess",
+        "Milad Mirbabaie",
+        "Stefan Stieglitz"
+      ],
+      "year": 2022,
+      "abstract": "Assuming that potential biases of Artificial Intelligence (AI)-based systems can be identified and controlled for (e.g., by providing high quality training data), employing such systems to augment human resource (HR)-decision makers in candidate selection provides an opportunity to make selection processes more objective. However, as the final hiring decision is likely to remain with humans, prevalent human biases could still cause discrimination. This work investigates the impact of an AI-based system\u2019s candidate recommendations on humans\u2019 hiring decisions and how this relation could be moderated by an Explainable AI (XAI) approach. We used a self-developed platform and conducted an online experiment with 194 participants. Our quantitative and qualitative findings suggest that the recommendations of an AI-based system can reduce discrimination against older and female candidates but appear to cause fewer selections of foreign-race candidates. Contrary to our expectations, the same XAI approach moderated these effects differently depending on the context.",
+      "url": "https://www.semanticscholar.org/paper/c2e15d6bdc486b6b80a4fadeb40eafbdb6556e20",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1007/s12525-022-00600-9",
+        "hash": "0ced8133d5d89875eef2a42a4975099bc4ccb95754facf96d4367f681d1f20ed"
+      }
+    },
+    {
+      "id": "871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7",
+      "title": "Analyzing bias and discrimination in an algorithmic hiring use case",
+      "authors": [
+        "David Quer",
+        "Anna Via",
+        "Marc Serra-Vidal",
+        "Laia Nadal",
+        "Didac Fortuny"
+      ],
+      "year": 2024,
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/efa10fb9d492fddd77fa9a8bec9653bf4c41e84f",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": null,
+        "hash": "871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7"
+      }
+    },
+    {
+      "id": "10.54254/2755-2721/2025.20842",
+      "title": "AI and Employment Discrimination: AIHR's Algorithmic Bias",
+      "authors": [
+        "Yuzhe Zhu"
+      ],
+      "year": 2025,
+      "abstract": "Today, artificial intelligence (AI) has developed rapidly to permeate every aspect of people's lives. Some AI has already replaced humans to start working in factories or companies, in addition to AI in the field of employment and AIHR under the recruitment path based on big data algorithms for resume screening and employee interviews. The extension of AI to employment recruitment raises the issue of potential algorithmic discrimination, which manifests itself in discrimination in hiring data extrapolation, hiring data interpretation, and hiring data applications. The studys shows that employment equity and artificial intelligence in the current recruitment path, it should be combined with employment algorithm discrimination and legal challenges to explore the solution path: overcome the root algorithm bias at the technical level, clarify the responsibility of the recruitment subject, improve the laws and regulations on AI in the employment field, and set up supervision and evaluation institutions. Taking into account industrial development and employment development, we will promote the development and progress of AI recruitment and ensure that the right to fair opportunities for employees is not infringed.",
+      "url": "https://www.semanticscholar.org/paper/e93582f89c7fd67bc3d4572d68b8d265dc4f40b7",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.54254/2755-2721/2025.20842",
+        "hash": "3107cb982879f0d9db1377ce1ac2a0ad5198e21e71bb2ef4cc1e481f96691ba6"
+      }
+    },
+    {
+      "id": "10.37082/ijirmps.v13.i4.232659",
+      "title": "Algorithmic Bias and Discrimination: Legal Accountability of AI Systems",
+      "authors": [
+        "Subholaxmi Mukherjee"
+      ],
+      "year": 2025,
+      "abstract": "As Artificial Intelligence (AI) systems increasingly influence decision-making in hiring, finance, criminal justice, and public welfare, concerns about algorithmic bias and systemic discrimination have become urgent. This article examines how AI systems, often assumed to be neutral, can replicate and amplify social prejudices embedded in data or design. Anchored in recent international case law\u2014from the U.S., UK, and France\u2014and early Indian experiences with judicial and administrative use of AI, the paper explores the emerging legal and institutional responses to algorithmic discrimination. It also analyses government reports such as India\u2019s 2025 AI Advisory Framework and the creation of the IndiaAI Safety Institute. Building on these developments, a dedicated section synthesizes their legal implications and articulates an analytical framework to assign accountability in AI ecosystems. The article argues that India must adopt a rights-based, transparent, and auditable regulatory regime to ensure fairness in algorithmic governance, bridging the gap between technological advancement and constitutional mandates.",
+      "url": "https://www.semanticscholar.org/paper/6b88d144d3159f172ba36496942ca5ea9ed51e96",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.37082/ijirmps.v13.i4.232659",
+        "hash": "cb06fc96b8ccac7e22ed008be957ca7e77a949caac0e18792a2f166a4d50751d"
+      }
+    },
+    {
+      "id": "10.1080/00224545.2017.1341374",
+      "title": "Prototypes and same-gender bias in perceptions of hiring discrimination",
+      "authors": [
+        "Rickard Carlsson",
+        "Samantha Sinclair"
+      ],
+      "year": 2018,
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/1e093d980eb8cbcb5c1891086da5e783d9d1b4b4",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1080/00224545.2017.1341374",
+        "hash": "63d74e7e82a80917a7165c9cbdfbe7544c0123ac158f26e0668a448bb2f66d13"
+      }
+    },
+    {
+      "id": "2509.04404",
+      "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+      "authors": [
+        "Kyra Wilson",
+        "Mattea Sim",
+        "Anna Gueorguieva",
+        "Aylin Caliskan"
+      ],
+      "year": 2025,
+      "abstract": "Despite bias in artificial intelligence (AI) being a risk of their use in hiring systems, there is no large-scale empirical investigation of the impacts of these biases on hiring decisions made collaboratively between people and AI systems. It is also unknown whether AI literacy, people's own biases, and behavioral interventions intended to reduce discrimination affect these human-in-the-loop AI teaming (AI-HITL) outcomes. In this study, we conduct a resume-screening experiment (N=528) where people collaborate with simulated AI models exhibiting race-based preferences (bias) to evaluate candidates for 16 high and low status occupations. Simulated AI bias approximates factual and counterfactual estimates of racial bias in real-world AI systems. We investigate people's preferences for White, Black, Hispanic, and Asian candidates (represented through names and affinity groups on quality-controlled resumes) across 1,526 scenarios and measure their unconscious associations between race and status using implicit association tests (IATs), which predict discriminatory hiring decisions but have not been investigated in human-AI collaboration. This evaluation framework can generalize to other groups, models, and domains. When making decisions without AI or with AI that exhibits no race-based preferences, people select all candidates at equal rates. However, when interacting with AI favoring a particular group, people also favor those candidates up to 90\\% of the time, indicating a significant behavioral shift. The likelihood of selecting candidates whose identities do not align with common race-status stereotypes can increase by 13\\% if people complete an IAT before conducting resume screening. Finally, even if people think AI recommendations are low quality or not important, their decisions are still vulnerable to AI bias under certain circumstances. This work has implications for people's autonomy in AI-HITL scenarios, AI and work, design and evaluation of AI hiring systems, and strategies for mitigating bias in collaborative decision-making tasks. In particular, organizational and regulatory policy should acknowledge the complex nature of AI-HITL decision making when implementing these systems, educating people who use them, and determining which are subject to oversight.",
+      "url": "https://www.semanticscholar.org/paper/59e045843382327b4b9eec70da8dae846de7c86e",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": "2509.04404",
+        "doi": "10.48550/arXiv.2509.04404",
+        "hash": "6d97b43aa33f7b41b78f2be827234a8da6f62215808af55ace89b0faa7177e4b"
+      }
+    },
+    {
+      "id": "10.22178/pos.116-10",
+      "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+      "authors": [
+        "C. Agbasiere",
+        "Goodness Rex Nze-Igwe"
+      ],
+      "year": 2025,
+      "abstract": "The study looks into how artificial intelligence (AI) affects hiring procedures, focusing on the fairness of the algorithms that drive these tools. AI has improved the efficiency of the hiring process, yet its use results in institutionalised discrimination. The AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions. The ability of AI systems to decrease human biases during recruitment encounters major challenges, as Amazon's discriminatory resume screening demonstrates the issues in systemic bias maintenance. This paper discusses the origins of algorithmic bias, including biased training records, defining labels, and choosing features, and suggests debiasing methods. Methods such as reweighting, adversarial debiasing, and fairness-aware algorithms are assessed for suitability in developing unbiased AI hiring systems. A quantitative approach is used in the research, web scraping data from extensive secondary sources to assess these biases and their mitigation measures. A Fair Machine Learning (FML) theoretical framework is utilised, which introduces fairness constraints into machine learning models so that hiring models do not perpetuate present discrimination. The ethical, legal, and organisational ramifications of using AI for recruitment are further examined under GDPR and Equal Employment Opportunity law provisions. By investigating HR practitioners' experiences and AI-based recruitment data, the study aims to develop guidelines for designing open, accountable, and equitable AI-based hiring processes. The findings emphasise the value of human oversight and the necessity of regular audits to guarantee equity in AI hiring software and, consequently, encourage diversity and equal opportunity during employment.",
+      "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.22178/pos.116-10",
+        "hash": "6d29de385c562cc0ceee49ad70e19adbf0371ba6a905ad5f7d41d44cff31c9fc"
+      }
+    },
+    {
+      "id": "10.5958/2231-069x.2025.00001.8",
+      "title": "AI and HR: Exploring the Ethical Implications of Algorithmic Hiring",
+      "authors": [
+        "Tamanna Mahapatra"
+      ],
+      "year": 2025,
+      "abstract": "AbstractThe use of Artificial Intelligence (AI) in Human Resource Management (HRM), especially in hiring processes, has brought about significant transformation. AI-powered tools are increasingly employed to screen resumes, evaluate interviews, and predict candidate success, offering speed, efficiency, and consistency. However, careful consideration must be given to the ethical ramifications of such automation. Algorithmic bias, a lack of transparency, and risks to candidate privacy are major issues. Discrimination can be sustained by algorithms trained on skewed historical data, and accountability is hampered by opaque decision-making procedures. Privacy concerns are further raised by the gathering and use of personal information without express consent. These hazards are demonstrated by well-known instances like Hire Vue\u2019s use of facial analysis and Amazon\u2019s biased recruiting tool. This study explores real-life instances and regulatory developments and also investigates these ethical issues. The study suggests a paradigm that prioritizes bias audits, human oversight, transparency, and inclusive design to direct the ethical application of AI in recruiting. To guarantee equitable, responsible, and considerate AI use, it urges interdisciplinary cooperation between HR specialists, legal professionals, and technologists. In the end, even if AI has a lot of promise to improve hiring procedures, its application needs to be constrained by strict ethical guidelines. By ensuring that AI in hiring fosters fairness and equality rather than undercuts it, responsible adoption can assist firms in striking a balance between innovation and integrity.",
+      "url": "https://www.semanticscholar.org/paper/46ed09e0df8e26a21f15734f0bdd44e31d2a00e2",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.5958/2231-069x.2025.00001.8",
+        "hash": "cd7979c9f90c6922a1538b54cd085a382f8807794b9f46aa6eb8b3766bad0ee5"
+      }
+    },
+    {
+      "id": "10.1002/ejsp.70020",
+      "title": "When Neutrality Conceals Bias: Perceived Discrimination in Algorithmic Decisions",
+      "authors": [
+        "Yingqi Li",
+        "Ruihua Lu"
+      ],
+      "year": 2025,
+      "abstract": "Discrimination is both an objective reality and a subjective perception. While firms increasingly use AI for decisions like hiring, little is known about how AI versus human decision\u2010makers affect perceived discrimination. Across seven studies (N = 1757), AI decisions are consistently seen as less discriminatory than identical human decisions across various contexts of discrimination. Study 2 shows this is mediated by inferred intentions: AI is viewed as neutral, while humans are seen as selfish or malicious. Study 3 rules out perceived predictability as an alternative explanation. Studies 4 and 5 find that high\u2010adaptivity algorithms further reduce perceived discrimination, again mediated by intentions. This paradoxically favourable perception of AI decisions masks underlying biases, complicating efforts to detect and address discrimination. These findings highlight the critical gap between perceived and actual fairness in AI\u2010driven decisions, underscoring the need for transparency, rigorous auditing and effective governance mechanisms to align perceptions with objective equity.",
+      "url": "https://www.semanticscholar.org/paper/ba12cb8960c0f729025a2cf1fcbd4712059dbbca",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1002/ejsp.70020",
+        "hash": "dfd4cfdc2ba43c1d18a5754fff64f70c4f4be0a611b2e16b5fa087f00bc6f156"
+      }
+    }
+  ],
+  "citation_tree": {
+    "root_papers": [
+      {
+        "id": "10.1007/s43681-025-00927-x",
+        "title": "The ethical imperative of algorithmic fairness in AI-enabled hiring: a critical analysis of bias, accountability, and justice",
+        "url": "https://www.semanticscholar.org/paper/f944e26fb101f4794f7e6ab88eca069612e067b3",
+        "citation_tree": {
+          "id": "10.1007/s43681-025-00927-x",
+          "title": "The ethical imperative of algorithmic fairness in AI-enabled hiring: a critical analysis of bias, accountability, and justice",
+          "url": "https://www.semanticscholar.org/paper/f944e26fb101f4794f7e6ab88eca069612e067b3",
+          "authors": [
+            "Jason Law"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1007/s12525-022-00600-9",
+        "title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+        "url": "https://www.semanticscholar.org/paper/c2e15d6bdc486b6b80a4fadeb40eafbdb6556e20",
+        "citation_tree": {
+          "id": "10.1007/s12525-022-00600-9",
+          "title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+          "url": "https://www.semanticscholar.org/paper/c2e15d6bdc486b6b80a4fadeb40eafbdb6556e20",
+          "authors": [
+            "Lennart Hofeditz",
+            "S\u00fcnje Clausen",
+            "Alexander Riess",
+            "Milad Mirbabaie",
+            "Stefan Stieglitz"
+          ],
+          "year": 2022,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7",
+        "title": "Analyzing bias and discrimination in an algorithmic hiring use case",
+        "url": "https://www.semanticscholar.org/paper/efa10fb9d492fddd77fa9a8bec9653bf4c41e84f",
+        "citation_tree": {
+          "id": "871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7",
+          "title": "Analyzing bias and discrimination in an algorithmic hiring use case",
+          "url": "https://www.semanticscholar.org/paper/efa10fb9d492fddd77fa9a8bec9653bf4c41e84f",
+          "authors": [
+            "David Quer",
+            "Anna Via",
+            "Marc Serra-Vidal",
+            "Laia Nadal",
+            "Didac Fortuny"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.54254/2755-2721/2025.20842",
+        "title": "AI and Employment Discrimination: AIHR's Algorithmic Bias",
+        "url": "https://www.semanticscholar.org/paper/e93582f89c7fd67bc3d4572d68b8d265dc4f40b7",
+        "citation_tree": {
+          "id": "10.54254/2755-2721/2025.20842",
+          "title": "AI and Employment Discrimination: AIHR's Algorithmic Bias",
+          "url": "https://www.semanticscholar.org/paper/e93582f89c7fd67bc3d4572d68b8d265dc4f40b7",
+          "authors": [
+            "Yuzhe Zhu"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.37082/ijirmps.v13.i4.232659",
+        "title": "Algorithmic Bias and Discrimination: Legal Accountability of AI Systems",
+        "url": "https://www.semanticscholar.org/paper/6b88d144d3159f172ba36496942ca5ea9ed51e96",
+        "citation_tree": {
+          "id": "10.37082/ijirmps.v13.i4.232659",
+          "title": "Algorithmic Bias and Discrimination: Legal Accountability of AI Systems",
+          "url": "https://www.semanticscholar.org/paper/6b88d144d3159f172ba36496942ca5ea9ed51e96",
+          "authors": [
+            "Subholaxmi Mukherjee"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1080/00224545.2017.1341374",
+        "title": "Prototypes and same-gender bias in perceptions of hiring discrimination",
+        "url": "https://www.semanticscholar.org/paper/1e093d980eb8cbcb5c1891086da5e783d9d1b4b4",
+        "citation_tree": {
+          "id": "10.1080/00224545.2017.1341374",
+          "title": "Prototypes and same-gender bias in perceptions of hiring discrimination",
+          "url": "https://www.semanticscholar.org/paper/1e093d980eb8cbcb5c1891086da5e783d9d1b4b4",
+          "authors": [
+            "Rickard Carlsson",
+            "Samantha Sinclair"
+          ],
+          "year": 2018,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "2509.04404",
+        "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+        "url": "https://www.semanticscholar.org/paper/59e045843382327b4b9eec70da8dae846de7c86e",
+        "citation_tree": {
+          "id": "2509.04404",
+          "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+          "url": "https://www.semanticscholar.org/paper/59e045843382327b4b9eec70da8dae846de7c86e",
+          "authors": [
+            "Kyra Wilson",
+            "Mattea Sim",
+            "Anna Gueorguieva",
+            "Aylin Caliskan"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.22178/pos.116-10",
+        "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+        "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+        "citation_tree": {
+          "id": "10.22178/pos.116-10",
+          "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+          "authors": [
+            "C. Agbasiere",
+            "Goodness Rex Nze-Igwe"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.5958/2231-069x.2025.00001.8",
+        "title": "AI and HR: Exploring the Ethical Implications of Algorithmic Hiring",
+        "url": "https://www.semanticscholar.org/paper/46ed09e0df8e26a21f15734f0bdd44e31d2a00e2",
+        "citation_tree": {
+          "id": "10.5958/2231-069x.2025.00001.8",
+          "title": "AI and HR: Exploring the Ethical Implications of Algorithmic Hiring",
+          "url": "https://www.semanticscholar.org/paper/46ed09e0df8e26a21f15734f0bdd44e31d2a00e2",
+          "authors": [
+            "Tamanna Mahapatra"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1002/ejsp.70020",
+        "title": "When Neutrality Conceals Bias: Perceived Discrimination in Algorithmic Decisions",
+        "url": "https://www.semanticscholar.org/paper/ba12cb8960c0f729025a2cf1fcbd4712059dbbca",
+        "citation_tree": {
+          "id": "10.1002/ejsp.70020",
+          "title": "When Neutrality Conceals Bias: Perceived Discrimination in Algorithmic Decisions",
+          "url": "https://www.semanticscholar.org/paper/ba12cb8960c0f729025a2cf1fcbd4712059dbbca",
+          "authors": [
+            "Yingqi Li",
+            "Ruihua Lu"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      }
+    ],
+    "citation_graph": {
+      "10.1007/s43681-025-00927-x": {
+        "title": "The ethical imperative of algorithmic fairness in AI-enabled hiring: a critical analysis of bias, accountability, and justice",
+        "url": "https://www.semanticscholar.org/paper/f944e26fb101f4794f7e6ab88eca069612e067b3",
+        "year": 2025,
+        "authors": [
+          "Jason Law"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1007/s12525-022-00600-9": {
+        "title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+        "url": "https://www.semanticscholar.org/paper/c2e15d6bdc486b6b80a4fadeb40eafbdb6556e20",
+        "year": 2022,
+        "authors": [
+          "Lennart Hofeditz",
+          "S\u00fcnje Clausen",
+          "Alexander Riess",
+          "Milad Mirbabaie",
+          "Stefan Stieglitz"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7": {
+        "title": "Analyzing bias and discrimination in an algorithmic hiring use case",
+        "url": "https://www.semanticscholar.org/paper/efa10fb9d492fddd77fa9a8bec9653bf4c41e84f",
+        "year": 2024,
+        "authors": [
+          "David Quer",
+          "Anna Via",
+          "Marc Serra-Vidal",
+          "Laia Nadal",
+          "Didac Fortuny"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.54254/2755-2721/2025.20842": {
+        "title": "AI and Employment Discrimination: AIHR's Algorithmic Bias",
+        "url": "https://www.semanticscholar.org/paper/e93582f89c7fd67bc3d4572d68b8d265dc4f40b7",
+        "year": 2025,
+        "authors": [
+          "Yuzhe Zhu"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.37082/ijirmps.v13.i4.232659": {
+        "title": "Algorithmic Bias and Discrimination: Legal Accountability of AI Systems",
+        "url": "https://www.semanticscholar.org/paper/6b88d144d3159f172ba36496942ca5ea9ed51e96",
+        "year": 2025,
+        "authors": [
+          "Subholaxmi Mukherjee"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1080/00224545.2017.1341374": {
+        "title": "Prototypes and same-gender bias in perceptions of hiring discrimination",
+        "url": "https://www.semanticscholar.org/paper/1e093d980eb8cbcb5c1891086da5e783d9d1b4b4",
+        "year": 2018,
+        "authors": [
+          "Rickard Carlsson",
+          "Samantha Sinclair"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "2509.04404": {
+        "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+        "url": "https://www.semanticscholar.org/paper/59e045843382327b4b9eec70da8dae846de7c86e",
+        "year": 2025,
+        "authors": [
+          "Kyra Wilson",
+          "Mattea Sim",
+          "Anna Gueorguieva",
+          "Aylin Caliskan"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.22178/pos.116-10": {
+        "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+        "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+        "year": 2025,
+        "authors": [
+          "C. Agbasiere",
+          "Goodness Rex Nze-Igwe"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.5958/2231-069x.2025.00001.8": {
+        "title": "AI and HR: Exploring the Ethical Implications of Algorithmic Hiring",
+        "url": "https://www.semanticscholar.org/paper/46ed09e0df8e26a21f15734f0bdd44e31d2a00e2",
+        "year": 2025,
+        "authors": [
+          "Tamanna Mahapatra"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1002/ejsp.70020": {
+        "title": "When Neutrality Conceals Bias: Perceived Discrimination in Algorithmic Decisions",
+        "url": "https://www.semanticscholar.org/paper/ba12cb8960c0f729025a2cf1fcbd4712059dbbca",
+        "year": 2025,
+        "authors": [
+          "Yingqi Li",
+          "Ruihua Lu"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      }
+    },
+    "depth_levels": {
+      "by_level": {
+        "0": [
+          "10.1007/s43681-025-00927-x",
+          "10.1007/s12525-022-00600-9",
+          "871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7",
+          "10.54254/2755-2721/2025.20842",
+          "10.37082/ijirmps.v13.i4.232659",
+          "10.1080/00224545.2017.1341374",
+          "2509.04404",
+          "10.22178/pos.116-10",
+          "10.5958/2231-069x.2025.00001.8",
+          "10.1002/ejsp.70020"
+        ]
+      },
+      "counts": {
+        "0": 10
+      }
+    },
+    "total_unique_papers": 10
+  },
+  "extracted_artifacts": [],
+  "analyses": {
+    "10.1007/s43681-025-00927-x": {
+      "status": "no_content"
+    },
+    "10.1007/s12525-022-00600-9": {
+      "research_question": "How does the application of Explainable AI (XAI) moderate the impact of an AI-based system\u2019s candidate recommendations on human hiring decisions, particularly concerning bias and discrimination?",
+      "methodology": {
+        "approach": "The research employed a self-developed platform and conducted an online experiment with 194 participants to investigate the impact of an AI-based system\u2019s recommendations on human hiring decisions.",
+        "evidence": "\"We used a self-developed platform and conducted an online experiment with 194 participants.\""
+      },
+      "key_findings": [
+        {
+          "finding": "AI-based system recommendations can reduce discrimination against older and female candidates.",
+          "evidence": "\"\u2026the recommendations of an AI-based system can reduce discrimination against older and female candidates\""
+        },
+        {
+          "finding": "The AI system\u2019s recommendations appear to cause fewer selections of foreign-race candidates.",
+          "evidence": "\"\u2026appear to cause fewer selections of foreign-race candidates.\u201d"
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Employing AI systems to augment HR decision-making can make selection processes more objective.",
+          "evidence": "\"Assuming that potential biases of Artificial Intelligence (AI)-based systems can be identified and controlled for (e.g., by providing high quality training data), employing such systems to augment human resource (HR)-decision makers in candidate selection provides an opportunity to make selection processes more objective.\""
+        },
+        {
+          "claim": "Human biases can still cause discrimination even when AI systems are used to augment human decision-making.",
+          "evidence": "\"However, as the final hiring decision is likely to remain with humans, prevalent human biases could still cause discrimination.\""
+        }
+      ],
+      "datasets": [
+        "194 participants (online experiment)"
+      ],
+      "contributions": [
+        {
+          "contribution": "Demonstrates the potential of XAI to mitigate bias in AI-driven candidate selection systems.",
+          "evidence": "\"\u2026how this relation could be moderated by an Explainable AI (XAI) approach.\u201d"
+        },
+        {
+          "contribution": "Highlights the nuanced impact of AI recommendations, revealing both positive and negative effects on candidate selection based on demographic factors.",
+          "evidence": "\"\u2026the recommendations of an AI-based system can reduce discrimination against older and female candidates but appear to cause fewer selections of foreign-race candidates.\u201d"
+        }
+      ],
+      "limitations": [
+        "The study\u2019s findings may not generalize to all AI-based systems or hiring contexts.",
+        "The self-developed platform may introduce biases or limitations in the experimental design."
+      ],
+      "future_work": [
+        "Further research is needed to investigate the specific mechanisms by which XAI moderates bias in different AI systems.",
+        "Exploring the impact of XAI on diverse populations and hiring scenarios."
+      ],
+      "keywords": [
+        "AI",
+        "Explainable AI",
+        "XAI",
+        "Candidate Management",
+        "Bias",
+        "Discrimination",
+        "Hiring",
+        "Human Resources"
+      ],
+      "contribution_type": "Exploratory Research",
+      "confidence_level": "Medium",
+      "summary": "This research investigates the potential of XAI to reduce bias in AI-based candidate selection systems. The study found that AI recommendations can mitigate discrimination against certain demographic groups, but also revealed complexities and nuances in the system's impact, particularly concerning foreign-race candidates. The findings suggest that XAI can be a valuable tool for moderating these effects.",
+      "reasoning_path": "The research question focused on the interaction between AI recommendations and human decision-making, particularly concerning bias. The text clearly outlines the findings regarding reduced discrimination for older and female candidates, alongside a reduction in selections for foreign-race candidates, supported by direct data from the experiment. This demonstrates the potential of XAI in this context.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 888
+    }
+  },
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": {
+    "nodes": [
+      {
+        "id": "paper_10.1007/s43681-025-00927-x",
+        "type": "Paper",
+        "properties": {
+          "title": "The ethical imperative of algorithmic fairness in AI-enabled hiring: a critical analysis of bias, accountability, and justice",
+          "authors": [
+            "Jason Law"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/f944e26fb101f4794f7e6ab88eca069612e067b3",
+          "source": "semantic_scholar",
+          "abstract": "",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1007/s12525-022-00600-9",
+        "type": "Paper",
+        "properties": {
+          "title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+          "authors": [
+            "Lennart Hofeditz",
+            "S\u00fcnje Clausen",
+            "Alexander Riess",
+            "Milad Mirbabaie",
+            "Stefan Stieglitz"
+          ],
+          "year": 2022,
+          "url": "https://www.semanticscholar.org/paper/c2e15d6bdc486b6b80a4fadeb40eafbdb6556e20",
+          "source": "semantic_scholar",
+          "abstract": "Assuming that potential biases of Artificial Intelligence (AI)-based systems can be identified and controlled for (e.g., by providing high quality training data), employing such systems to augment human resource (HR)-decision makers in candidate selection provides an opportunity to make selection processes more objective. However, as the final hiring decision is likely to remain with humans, prevalent human biases could still cause discrimination. This work investigates the impact of an AI-based",
+          "contribution_type": "Exploratory Research",
+          "key_findings": [
+            {
+              "finding": "AI-based system recommendations can reduce discrimination against older and female candidates.",
+              "evidence": "\"\u2026the recommendations of an AI-based system can reduce discrimination against older and female candidates\""
+            },
+            {
+              "finding": "The AI system\u2019s recommendations appear to cause fewer selections of foreign-race candidates.",
+              "evidence": "\"\u2026appear to cause fewer selections of foreign-race candidates.\u201d"
+            }
+          ],
+          "methodology": {
+            "approach": "The research employed a self-developed platform and conducted an online experiment with 194 participants to investigate the impact of an AI-based system\u2019s recommendations on human hiring decisions.",
+            "evidence": "\"We used a self-developed platform and conducted an online experiment with 194 participants.\""
+          },
+          "limitations": [
+            "The study\u2019s findings may not generalize to all AI-based systems or hiring contexts.",
+            "The self-developed platform may introduce biases or limitations in the experimental design."
+          ],
+          "keywords": [
+            "AI",
+            "Explainable AI",
+            "XAI",
+            "Candidate Management",
+            "Bias",
+            "Discrimination",
+            "Hiring",
+            "Human Resources"
+          ],
+          "confidence": "Medium",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7",
+        "type": "Paper",
+        "properties": {
+          "title": "Analyzing bias and discrimination in an algorithmic hiring use case",
+          "authors": [
+            "David Quer",
+            "Anna Via",
+            "Marc Serra-Vidal",
+            "Laia Nadal",
+            "Didac Fortuny"
+          ],
+          "year": 2024,
+          "url": "https://www.semanticscholar.org/paper/efa10fb9d492fddd77fa9a8bec9653bf4c41e84f",
+          "source": "semantic_scholar",
+          "abstract": "",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.54254/2755-2721/2025.20842",
+        "type": "Paper",
+        "properties": {
+          "title": "AI and Employment Discrimination: AIHR's Algorithmic Bias",
+          "authors": [
+            "Yuzhe Zhu"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/e93582f89c7fd67bc3d4572d68b8d265dc4f40b7",
+          "source": "semantic_scholar",
+          "abstract": "Today, artificial intelligence (AI) has developed rapidly to permeate every aspect of people's lives. Some AI has already replaced humans to start working in factories or companies, in addition to AI in the field of employment and AIHR under the recruitment path based on big data algorithms for resume screening and employee interviews. The extension of AI to employment recruitment raises the issue of potential algorithmic discrimination, which manifests itself in discrimination in hiring data ex",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.37082/ijirmps.v13.i4.232659",
+        "type": "Paper",
+        "properties": {
+          "title": "Algorithmic Bias and Discrimination: Legal Accountability of AI Systems",
+          "authors": [
+            "Subholaxmi Mukherjee"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/6b88d144d3159f172ba36496942ca5ea9ed51e96",
+          "source": "semantic_scholar",
+          "abstract": "As Artificial Intelligence (AI) systems increasingly influence decision-making in hiring, finance, criminal justice, and public welfare, concerns about algorithmic bias and systemic discrimination have become urgent. This article examines how AI systems, often assumed to be neutral, can replicate and amplify social prejudices embedded in data or design. Anchored in recent international case law\u2014from the U.S., UK, and France\u2014and early Indian experiences with judicial and administrative use of AI,",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1080/00224545.2017.1341374",
+        "type": "Paper",
+        "properties": {
+          "title": "Prototypes and same-gender bias in perceptions of hiring discrimination",
+          "authors": [
+            "Rickard Carlsson",
+            "Samantha Sinclair"
+          ],
+          "year": 2018,
+          "url": "https://www.semanticscholar.org/paper/1e093d980eb8cbcb5c1891086da5e783d9d1b4b4",
+          "source": "semantic_scholar",
+          "abstract": "",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_2509.04404",
+        "type": "Paper",
+        "properties": {
+          "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+          "authors": [
+            "Kyra Wilson",
+            "Mattea Sim",
+            "Anna Gueorguieva",
+            "Aylin Caliskan"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/59e045843382327b4b9eec70da8dae846de7c86e",
+          "source": "semantic_scholar",
+          "abstract": "Despite bias in artificial intelligence (AI) being a risk of their use in hiring systems, there is no large-scale empirical investigation of the impacts of these biases on hiring decisions made collaboratively between people and AI systems. It is also unknown whether AI literacy, people's own biases, and behavioral interventions intended to reduce discrimination affect these human-in-the-loop AI teaming (AI-HITL) outcomes. In this study, we conduct a resume-screening experiment (N=528) where peo",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.22178/pos.116-10",
+        "type": "Paper",
+        "properties": {
+          "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "authors": [
+            "C. Agbasiere",
+            "Goodness Rex Nze-Igwe"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+          "source": "semantic_scholar",
+          "abstract": "The study looks into how artificial intelligence (AI) affects hiring procedures, focusing on the fairness of the algorithms that drive these tools. AI has improved the efficiency of the hiring process, yet its use results in institutionalised discrimination. The AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions. The ability of AI systems to decrease human ",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.5958/2231-069x.2025.00001.8",
+        "type": "Paper",
+        "properties": {
+          "title": "AI and HR: Exploring the Ethical Implications of Algorithmic Hiring",
+          "authors": [
+            "Tamanna Mahapatra"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/46ed09e0df8e26a21f15734f0bdd44e31d2a00e2",
+          "source": "semantic_scholar",
+          "abstract": "AbstractThe use of Artificial Intelligence (AI) in Human Resource Management (HRM), especially in hiring processes, has brought about significant transformation. AI-powered tools are increasingly employed to screen resumes, evaluate interviews, and predict candidate success, offering speed, efficiency, and consistency. However, careful consideration must be given to the ethical ramifications of such automation. Algorithmic bias, a lack of transparency, and risks to candidate privacy are major is",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1002/ejsp.70020",
+        "type": "Paper",
+        "properties": {
+          "title": "When Neutrality Conceals Bias: Perceived Discrimination in Algorithmic Decisions",
+          "authors": [
+            "Yingqi Li",
+            "Ruihua Lu"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/ba12cb8960c0f729025a2cf1fcbd4712059dbbca",
+          "source": "semantic_scholar",
+          "abstract": "Discrimination is both an objective reality and a subjective perception. While firms increasingly use AI for decisions like hiring, little is known about how AI versus human decision\u2010makers affect perceived discrimination. Across seven studies (N = 1757), AI decisions are consistently seen as less discriminatory than identical human decisions across various contexts of discrimination. Study 2 shows this is mediated by inferred intentions: AI is viewed as neutral, while humans are seen as selfish",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "finding_0",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "AI-based system recommendations can reduce discrimination against older and female candidates.",
+            "evidence": "\"\u2026the recommendations of an AI-based system can reduce discrimination against older and female candidates\""
+          },
+          "source_paper": "10.1007/s12525-022-00600-9",
+          "source_paper_title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+          "confidence": "Medium"
+        }
+      },
+      {
+        "id": "finding_1",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The AI system\u2019s recommendations appear to cause fewer selections of foreign-race candidates.",
+            "evidence": "\"\u2026appear to cause fewer selections of foreign-race candidates.\u201d"
+          },
+          "source_paper": "10.1007/s12525-022-00600-9",
+          "source_paper_title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+          "confidence": "Medium"
+        }
+      },
+      {
+        "id": "concept_0",
+        "type": "Concept",
+        "properties": {
+          "name": "Explainable AI",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_1",
+        "type": "Concept",
+        "properties": {
+          "name": "AI",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_2",
+        "type": "Concept",
+        "properties": {
+          "name": "Bias",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_3",
+        "type": "Concept",
+        "properties": {
+          "name": "XAI",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_4",
+        "type": "Concept",
+        "properties": {
+          "name": "Hiring",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_5",
+        "type": "Concept",
+        "properties": {
+          "name": "Discrimination",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_6",
+        "type": "Concept",
+        "properties": {
+          "name": "Candidate Management",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_7",
+        "type": "Concept",
+        "properties": {
+          "name": "Human Resources",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "citation_10.1007/s43681-025-00927-x",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "The ethical imperative of algorithmic fairness in AI-enabled hiring: a critical analysis of bias, accountability, and justice",
+          "year": 2025,
+          "authors": [
+            "Jason Law"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1007/s12525-022-00600-9",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Applying XAI to an AI-based system for candidate management to mitigate bias and discrimination in hiring",
+          "year": 2022,
+          "authors": [
+            "Lennart Hofeditz",
+            "S\u00fcnje Clausen",
+            "Alexander Riess",
+            "Milad Mirbabaie",
+            "Stefan Stieglitz"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_871cbf4e1ef3de7913a2c5ef075eb42743c691139ee6b639bb01e2e9f97e9ab7",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Analyzing bias and discrimination in an algorithmic hiring use case",
+          "year": 2024,
+          "authors": [
+            "David Quer",
+            "Anna Via",
+            "Marc Serra-Vidal",
+            "Laia Nadal",
+            "Didac Fortuny"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.54254/2755-2721/2025.20842",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "AI and Employment Discrimination: AIHR's Algorithmic Bias",
+          "year": 2025,
+          "authors": [
+            "Yuzhe Zhu"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.37082/ijirmps.v13.i4.232659",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Algorithmic Bias and Discrimination: Legal Accountability of AI Systems",
+          "year": 2025,
+          "authors": [
+            "Subholaxmi Mukherjee"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1080/00224545.2017.1341374",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Prototypes and same-gender bias in perceptions of hiring discrimination",
+          "year": 2018,
+          "authors": [
+            "Rickard Carlsson",
+            "Samantha Sinclair"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_2509.04404",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+          "year": 2025,
+          "authors": [
+            "Kyra Wilson",
+            "Mattea Sim",
+            "Anna Gueorguieva",
+            "Aylin Caliskan"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.22178/pos.116-10",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "year": 2025,
+          "authors": [
+            "C. Agbasiere",
+            "Goodness Rex Nze-Igwe"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.5958/2231-069x.2025.00001.8",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "AI and HR: Exploring the Ethical Implications of Algorithmic Hiring",
+          "year": 2025,
+          "authors": [
+            "Tamanna Mahapatra"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1002/ejsp.70020",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "When Neutrality Conceals Bias: Perceived Discrimination in Algorithmic Decisions",
+          "year": 2025,
+          "authors": [
+            "Yingqi Li",
+            "Ruihua Lu"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "finding_0",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "finding_1",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_1",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_0",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_3",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_6",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_2",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_5",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_4",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s12525-022-00600-9",
+        "target": "concept_7",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      }
+    ],
+    "total_nodes": 30,
+    "total_edges": 10,
+    "graph_metadata": {
+      "origin_query": "Ethical implications of AI in hiring and surveillance",
+      "papers_analyzed": 10,
+      "topics_identified": 8
+    }
+  },
+  "synthesis": null,
+  "max_papers": 10,
+  "max_depth": 2,
+  "created_at": "2026-03-14T04:20:02.669329",
+  "updated_at": "2026-03-14T04:21:21.755889",
+  "status": "in_progress",
+  "errors": [
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building"
+  ]
+}

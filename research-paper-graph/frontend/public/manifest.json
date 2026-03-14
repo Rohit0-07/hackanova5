@@ -1,0 +1,9 @@
+{
+  "short_name": "AgSearch",
+  "name": "AgSearch Literature Agent",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

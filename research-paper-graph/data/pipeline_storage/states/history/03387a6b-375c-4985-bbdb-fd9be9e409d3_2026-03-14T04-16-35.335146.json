@@ -1,0 +1,21 @@
+{
+  "raw_query": "Ethical implications of AI in hiring and surveillance",
+  "user_id": "anonymous",
+  "session_id": "03387a6b-375c-4985-bbdb-fd9be9e409d3",
+  "session_name": "",
+  "refined_query": null,
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 10,
+  "max_depth": 2,
+  "created_at": "2026-03-14T04:16:35.335135",
+  "updated_at": "2026-03-14T04:16:35.335146",
+  "status": "in_progress",
+  "errors": []
+}

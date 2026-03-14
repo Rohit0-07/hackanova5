@@ -1,0 +1,45 @@
+{
+  "raw_query": "Consumer behavior patterns in online and digital markets.",
+  "user_id": "anonymous",
+  "session_id": "6f92532e-def0-4e01-9362-7b5e2eb22009",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "Consumer behavior patterns in online and digital markets.",
+      "Consumer behavior patterns in online survey",
+      "Consumer behavior patterns in online recent advances"
+    ],
+    "key_concepts": [
+      "Consumer",
+      "behavior",
+      "patterns",
+      "in",
+      "online",
+      "and",
+      "digital",
+      "markets."
+    ],
+    "date_range": {
+      "start_year": null,
+      "end_year": null
+    },
+    "target_venues": [],
+    "exclusions": [],
+    "search_strategy": "Heuristic fallback: using raw query and variants.",
+    "_source": "heuristic"
+  },
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 5,
+  "max_depth": 2,
+  "created_at": "2026-03-14T05:16:40.359888",
+  "updated_at": "2026-03-14T05:16:40.452572",
+  "status": "in_progress",
+  "errors": []
+}

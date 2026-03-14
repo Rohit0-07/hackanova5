@@ -1,0 +1,37 @@
+database:
+  backend: "neo4j"
+
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "password"
+
+crawler:
+  download_dir: "./data/papers"
+  max_concurrent_downloads: 3
+  default_depth: 2
+  default_max_papers: 20
+
+rate_limits:
+  semantic_scholar: 1.2
+  arxiv: 3.0
+  google_scholar: 5.0
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+
+llm:
+  provider: "ollama" # "ollama" or "gemini"
+  ollama:
+    base_url: "http://localhost:11434"
+    model: "gemma3:latest"
+    vision_model: "llava:latest"
+  gemini:
+    api_key: "" # Set your Gemini API key here
+    model: "gemini-2.0-flash"
+
+google_scholar:
+  enabled: true
+  use_proxy: false
+  proxy_url: ""

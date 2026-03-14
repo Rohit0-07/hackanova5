@@ -1,0 +1,21 @@
+{
+  "raw_query": "Quantum Computing",
+  "user_id": "anonymous",
+  "session_id": "25ff9d1d-6dbc-489f-9818-088e3470ecd6",
+  "session_name": "",
+  "refined_query": null,
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 5,
+  "max_depth": 2,
+  "created_at": "2026-03-14T04:37:11.702383",
+  "updated_at": "2026-03-14T04:37:11.702391",
+  "status": "in_progress",
+  "errors": []
+}

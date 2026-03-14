@@ -1,0 +1,1480 @@
+{
+  "raw_query": "Quantum computing",
+  "user_id": "anonymous",
+  "session_id": "298d7503-5b19-4f27-bbb5-2ae11fc5a587",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "quantum algorithm development",
+      "quantum error correction codes",
+      "quantum computing hardware architectures",
+      "quantum simulation algorithms",
+      "quantum information theory"
+    ],
+    "key_concepts": [
+      "quantum computing",
+      "quantum algorithms",
+      "quantum error correction",
+      "quantum hardware",
+      "quantum information"
+    ],
+    "date_range": {
+      "start_year": 2010,
+      "end_year": null
+    },
+    "target_venues": [
+      "Quantum Information Processing",
+      "npj Quantum Information",
+      "Physical Review Letters",
+      "Nature Physics",
+      "IEEE Transactions on Quantum Engineering"
+    ],
+    "exclusions": [],
+    "search_strategy": "This query aims to identify research across the core areas of quantum computing, including algorithm development, error correction, hardware, and theoretical foundations, focusing on publications from 2010 onwards.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [
+    {
+      "id": "10.1016/j.softx.2025.102383",
+      "title": "Quirk-E quantum circuit simulator: Integrated tool for quantum algorithm development",
+      "authors": [
+        "Majid Haghparast",
+        "Ronja Heikkinen",
+        "Samuel Ovaskainen",
+        "Julian Fuchs",
+        "J. P. Jokinen",
+        "T. Mikkonen"
+      ],
+      "year": 2025,
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/533b752e3824fdb202e15ef37fb41e9dea41867f",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1016/j.softx.2025.102383",
+        "hash": "527ea8d828846d527d45c2be71eda433c385d5c84e4094f9d99df0461804420e"
+      }
+    },
+    {
+      "id": "2306.14560",
+      "title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+      "authors": [
+        "Sonaldeep Halder",
+        "Chinmay Shrikhande",
+        "Rahul Maitra"
+      ],
+      "year": 2023,
+      "abstract": "The recently developed Projective Quantum Eigensolver (PQE) offers an elegant procedure to evaluate the ground state energies of molecular systems in quantum computers. However, the noise in available quantum hardware can result in significant errors in computed outcomes, limiting the realization of quantum advantage. Although PQE comes equipped with some degree of inherent noise resilience, any practical implementation with apposite accuracy would require additional routines to eliminate or mitigate the errors further. In this work, we propose a way to enhance the efficiency of PQE by developing an optimal framework for introducing Zero Noise Extrapolation (ZNE) in the nonlinear iterative procedure that outlines the PQE, leading to the formulation of ZNE-PQE. Moreover, we perform a detailed analysis of how various components involved in it affect the accuracy and efficiency of the reciprocated energy convergence trajectory. Additionally, we investigate the underlying mechanism that leads to the improvements observed in ZNE-PQE over conventional PQE by performing a comparative analysis of their residue norm\u00a0landscape. This approach is expected to facilitate practical applications of quantum computing in fields related to molecular sciences, where it is essential to determine molecular energies accurately.",
+      "url": "https://www.semanticscholar.org/paper/89ff26084c7253ede7664e21e34e2b69b8a5ca2c",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": "2306.14560",
+        "doi": "10.1063/5.0166433",
+        "hash": "3d0528339fb6be81a8e0387b379bc0c0a16f1634b3bdaeffeb3b381d38e62187"
+      }
+    },
+    {
+      "id": "2407.05019",
+      "title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+      "authors": [
+        "Yuki Sato",
+        "Hiroyuki Tezuka",
+        "R. Kondo",
+        "Naoki Yamamoto"
+      ],
+      "year": 2024,
+      "abstract": "Partial differential equations (PDEs) are crucial for modeling various physical phenomena such as heat transfer, fluid flow, and electromagnetic waves. In computer-aided engineering (CAE), the ability to handle fine resolutions and large computational models is essential for improving product performance and reducing development costs. However, solving large-scale PDEs, particularly for systems with spatially varying material properties, poses significant computational challenges. In this paper, we propose a quantum algorithm for solving second-order linear PDEs of non-conservative systems with spatially varying parameters, using the linear combination of Hamiltonian simulation (LCHS) method. Our approach transforms those PDEs into ordinary differential equations represented by qubit operators, through spatial discretization using the finite difference method. Then, we provide an algorithm that efficiently constructs the operator corresponding to the spatially varying parameters of PDEs via a logic minimization technique, which reduces the number of terms and subsequently the circuit depth. We also develop a scalable method for realizing a quantum circuit for LCHS, using a tensor-network-based technique, specifically a matrix product state (MPS). We validate our method with applications to the acoustic equation with spatially varying parameters and the dissipative heat equation. Our approach includes a detailed recipe for constructing quantum circuits for PDEs, leveraging efficient encoding of spatially varying parameters of PDEs and scalable implementation of LCHS, which we believe marks a significant step towards advancing quantum computing's role in solving practical engineering problems.",
+      "url": "https://www.semanticscholar.org/paper/95cde99bbf65781cf1e4b462de6a57f59c443b2a",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": "2407.05019",
+        "doi": "10.1103/PhysRevApplied.23.014063",
+        "hash": "11efc10042447901de2cb95f941a50f40e82cfe75e5f1945de6383376ed1ec8d"
+      }
+    },
+    {
+      "id": "2403.05908",
+      "title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+      "authors": [
+        "Sara Santos",
+        "Xinyu Song",
+        "Vincenzo Savona"
+      ],
+      "year": 2024,
+      "abstract": "The simulation of many-body open quantum systems is key to solving numerous outstanding problems in physics, chemistry, material science, and in the development of quantum technologies. Near-term quantum computers may bring considerable advantage for the efficient simulation of their static and dynamical properties, thanks to hybrid quantum-classical variational algorithms to approximate the dynamics of the density matrix describing the quantum state in terms of an ensemble average. Here, a variational quantum algorithm is developed to simulate the real-time evolution of the density matrix governed by the Lindblad master equation, under the assumption that the quantum state has a bounded entropy along the dynamics, entailing a low-rank representation of its density matrix. The algorithm encodes each pure state of the statistical mixture as a parametrized quantum circuit, and the associated probabilities as additional variational parameters stored classically, thereby requiring a significantly lower number of qubits than algorithms where the full density matrix is encoded in the quantum memory. Two variational ansatze are proposed, and their effectiveness is assessed in the simulation of the dynamics of a 2D dissipative transverse field Ising model. The results underscore the algorithm's efficiency in simulating the dynamics of open quantum systems in the low-rank regime with limited quantum resources on a near-term quantum device.",
+      "url": "https://www.semanticscholar.org/paper/13dc4d29cfd1c239e8d093a585545cd1342b1b63",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": "2403.05908",
+        "doi": "10.22331/q-2025-02-04-1620",
+        "hash": "fea09eb463e07f4ac0e187f23fdf4ecfb08e51ed71e044330970742f9a1abad6"
+      }
+    },
+    {
+      "id": "1909.02559",
+      "title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+      "authors": [
+        "Cupjin Huang",
+        "M. Szegedy",
+        "Fang Zhang",
+        "Xun Gao",
+        "Jianxin Chen",
+        "Yaoyun Shi"
+      ],
+      "year": 2019,
+      "abstract": "We report our work on the Alibaba Cloud Quantum Development Platform (AC-QDP). The capability of AC-QDP's computational engine was already reported in \\cite{CZH+18, ZHN+19}.In this follow-up article, we demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs. AC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers. Then we discuss two interesting use cases we have implemented on the platform: 1. Optimal QAOA sequences for small-cycle free graphs; 2. Graph structure discovery.",
+      "url": "https://www.semanticscholar.org/paper/233e2ba72b51702211bde09aa7c8f039f809d50a",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": "1909.02559",
+        "doi": null,
+        "hash": "abb69ee22959b06701ecd7f31912686765cd0d8e18dac5008c919ff9272bae60"
+      }
+    }
+  ],
+  "citation_tree": {
+    "root_papers": [
+      {
+        "id": "10.1016/j.softx.2025.102383",
+        "title": "Quirk-E quantum circuit simulator: Integrated tool for quantum algorithm development",
+        "url": "https://www.semanticscholar.org/paper/533b752e3824fdb202e15ef37fb41e9dea41867f",
+        "citation_tree": {
+          "id": "10.1016/j.softx.2025.102383",
+          "title": "Quirk-E quantum circuit simulator: Integrated tool for quantum algorithm development",
+          "url": "https://www.semanticscholar.org/paper/533b752e3824fdb202e15ef37fb41e9dea41867f",
+          "authors": [
+            "Majid Haghparast",
+            "Ronja Heikkinen",
+            "Samuel Ovaskainen",
+            "Julian Fuchs",
+            "J. P. Jokinen",
+            "T. Mikkonen"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "2306.14560",
+        "title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+        "url": "https://www.semanticscholar.org/paper/89ff26084c7253ede7664e21e34e2b69b8a5ca2c",
+        "citation_tree": {
+          "id": "2306.14560",
+          "title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+          "url": "https://www.semanticscholar.org/paper/89ff26084c7253ede7664e21e34e2b69b8a5ca2c",
+          "authors": [
+            "Sonaldeep Halder",
+            "Chinmay Shrikhande",
+            "Rahul Maitra"
+          ],
+          "year": 2023,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "2407.05019",
+        "title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+        "url": "https://www.semanticscholar.org/paper/95cde99bbf65781cf1e4b462de6a57f59c443b2a",
+        "citation_tree": {
+          "id": "2407.05019",
+          "title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+          "url": "https://www.semanticscholar.org/paper/95cde99bbf65781cf1e4b462de6a57f59c443b2a",
+          "authors": [
+            "Yuki Sato",
+            "Hiroyuki Tezuka",
+            "R. Kondo",
+            "Naoki Yamamoto"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "2403.05908",
+        "title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+        "url": "https://www.semanticscholar.org/paper/13dc4d29cfd1c239e8d093a585545cd1342b1b63",
+        "citation_tree": {
+          "id": "2403.05908",
+          "title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+          "url": "https://www.semanticscholar.org/paper/13dc4d29cfd1c239e8d093a585545cd1342b1b63",
+          "authors": [
+            "Sara Santos",
+            "Xinyu Song",
+            "Vincenzo Savona"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "1909.02559",
+        "title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+        "url": "https://www.semanticscholar.org/paper/233e2ba72b51702211bde09aa7c8f039f809d50a",
+        "citation_tree": {
+          "id": "1909.02559",
+          "title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+          "url": "https://www.semanticscholar.org/paper/233e2ba72b51702211bde09aa7c8f039f809d50a",
+          "authors": [
+            "Cupjin Huang",
+            "M. Szegedy",
+            "Fang Zhang",
+            "Xun Gao",
+            "Jianxin Chen",
+            "Yaoyun Shi"
+          ],
+          "year": 2019,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      }
+    ],
+    "citation_graph": {
+      "10.1016/j.softx.2025.102383": {
+        "title": "Quirk-E quantum circuit simulator: Integrated tool for quantum algorithm development",
+        "url": "https://www.semanticscholar.org/paper/533b752e3824fdb202e15ef37fb41e9dea41867f",
+        "year": 2025,
+        "authors": [
+          "Majid Haghparast",
+          "Ronja Heikkinen",
+          "Samuel Ovaskainen",
+          "Julian Fuchs",
+          "J. P. Jokinen",
+          "T. Mikkonen"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "2306.14560": {
+        "title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+        "url": "https://www.semanticscholar.org/paper/89ff26084c7253ede7664e21e34e2b69b8a5ca2c",
+        "year": 2023,
+        "authors": [
+          "Sonaldeep Halder",
+          "Chinmay Shrikhande",
+          "Rahul Maitra"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "2407.05019": {
+        "title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+        "url": "https://www.semanticscholar.org/paper/95cde99bbf65781cf1e4b462de6a57f59c443b2a",
+        "year": 2024,
+        "authors": [
+          "Yuki Sato",
+          "Hiroyuki Tezuka",
+          "R. Kondo",
+          "Naoki Yamamoto"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "2403.05908": {
+        "title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+        "url": "https://www.semanticscholar.org/paper/13dc4d29cfd1c239e8d093a585545cd1342b1b63",
+        "year": 2024,
+        "authors": [
+          "Sara Santos",
+          "Xinyu Song",
+          "Vincenzo Savona"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "1909.02559": {
+        "title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+        "url": "https://www.semanticscholar.org/paper/233e2ba72b51702211bde09aa7c8f039f809d50a",
+        "year": 2019,
+        "authors": [
+          "Cupjin Huang",
+          "M. Szegedy",
+          "Fang Zhang",
+          "Xun Gao",
+          "Jianxin Chen",
+          "Yaoyun Shi"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      }
+    },
+    "depth_levels": {
+      "by_level": {
+        "0": [
+          "10.1016/j.softx.2025.102383",
+          "2306.14560",
+          "2407.05019",
+          "2403.05908",
+          "1909.02559"
+        ]
+      },
+      "counts": {
+        "0": 5
+      }
+    },
+    "total_unique_papers": 5
+  },
+  "extracted_artifacts": [],
+  "analyses": {
+    "10.1016/j.softx.2025.102383": {
+      "status": "no_content"
+    },
+    "2306.14560": {
+      "research_question": "How can the accuracy and efficiency of the Projective Quantum Eigensolver (PQE) be improved in the presence of noise on quantum hardware?",
+      "methodology": {
+        "approach": "The research proposes a framework for introducing Zero Noise Extrapolation (ZNE) into the PQE algorithm, utilizing a nonlinear iterative procedure. It involves a comparative analysis of residue norm landscapes to understand the improvements.",
+        "evidence": "\"We propose a way to enhance the efficiency of PQE by developing an optimal framework for introducing Zero Noise Extrapolation (ZNE) in the nonlinear iterative procedure that outlines the PQE...\""
+      },
+      "key_findings": [
+        {
+          "finding": "ZNE-PQE improves the accuracy and efficiency of PQE in noisy quantum devices.",
+          "evidence": "\"...leading to the formulation of ZNE-PQE. Moreover, we perform a detailed analysis of how various components involved in it affect the accuracy and efficiency of the reciprocated energy convergence trajectory.\""
+        },
+        {
+          "finding": "The underlying mechanism of improvement is related to the residue norm landscape.",
+          "evidence": "\"This approach is expected to facilitate practical applications of quantum computing in fields related to molecular sciences, where it is essential to determine molecular energies accurately. Additionally, we investigate the underlying mechanism that leads to the improvements observed in ZNE-PQE over conventional PQE by performing a comparative analysis of their residue norm landscape.\""
+        }
+      ],
+      "claims": [
+        {
+          "claim": "PQE, as currently developed, is limited by noise in quantum hardware.",
+          "evidence": "\"the noise in available quantum hardware can result in significant errors in computed outcomes, limiting the realization of quantum advantage.\""
+        },
+        {
+          "claim": "ZNE-PQE offers a method to mitigate these errors.",
+          "evidence": "\"We propose a way to enhance the efficiency of PQE by developing an optimal framework for introducing Zero Noise Extrapolation (ZNE) in the nonlinear iterative procedure that outlines the PQE...\""
+        }
+      ],
+      "datasets": [
+        "Residue norm landscape"
+      ],
+      "contributions": [
+        {
+          "contribution": "Development of ZNE-PQE, a framework for enhancing PQE's performance in noisy quantum devices.",
+          "evidence": "\"We propose a way to enhance the efficiency of PQE by developing an optimal framework for introducing Zero Noise Extrapolation (ZNE) in the nonlinear iterative procedure that outlines the PQE...\""
+        },
+        {
+          "contribution": "Detailed analysis of the impact of various components on the accuracy and efficiency of the energy convergence trajectory.",
+          "evidence": "\"Moreover, we perform a detailed analysis of how various components involved in it affect the accuracy and efficiency of the reciprocated energy convergence trajectory.\""
+        }
+      ],
+      "limitations": [
+        "The paper does not detail the specific hardware or noise models used in the analysis.",
+        "The scope of molecular systems investigated is not specified."
+      ],
+      "future_work": [
+        "Investigation of ZNE-PQE with different noise models and quantum hardware architectures.",
+        "Exploring the scalability of ZNE-PQE for larger molecular systems."
+      ],
+      "keywords": [
+        "Quantum Computing",
+        "Projective Quantum Eigensolver",
+        "Zero Noise Extrapolation",
+        "Molecular Energetics",
+        "Quantum Algorithms"
+      ],
+      "contribution_type": "Algorithm Development",
+      "confidence_level": "High",
+      "summary": "This research introduces ZNE-PQE, a novel framework that improves the accuracy and efficiency of the Projective Quantum Eigensolver (PQE) by incorporating Zero Noise Extrapolation. The approach leverages a comparative analysis of residue norm landscapes to understand and enhance the algorithm's performance in noisy quantum environments, ultimately facilitating accurate molecular energy calculations.",
+      "reasoning_path": "The text establishes that PQE is limited by noise and proposes a method to mitigate this issue through ZNE. The research then details the analysis performed to understand the impact of this method, confirming its effectiveness through a comparative residue norm landscape analysis.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 927
+    },
+    "2407.05019": {
+      "research_question": "Can a quantum algorithm, utilizing the linear combination of Hamiltonian simulation (LCHS) method and tensor-network-based techniques, efficiently solve second-order linear PDEs of non-conservative systems with spatially varying parameters?",
+      "methodology": {
+        "approach": "The research proposes a method involving spatial discretization using the finite difference method, transformation of PDEs into ordinary differential equations via qubit operators using the LCHS method, and a logic minimization technique to reduce circuit depth. A tensor-network-based technique, specifically MPS, is used for scalable circuit implementation.",
+        "evidence": "\"Our approach transforms those PDEs into ordinary differential equations represented by qubit operators, through spatial discretization using the finite difference method.\""
+      },
+      "key_findings": [
+        {
+          "finding": "The algorithm efficiently constructs operators corresponding to spatially varying parameters of PDEs using a logic minimization technique.",
+          "evidence": "\"Then, we provide an algorithm that efficiently constructs the operator corresponding to the spatially varying parameters of PDEs via a logic minimization technique, which reduces the number of terms and subsequently the circuit depth.\""
+        },
+        {
+          "finding": "A scalable method utilizing MPS is developed for realizing a quantum circuit for LCHS.",
+          "evidence": "\"We also develop a scalable method for realizing a quantum circuit for LCHS, using a tensor-network-based technique, specifically a matrix product state (MPS).\""
+        }
+      ],
+      "claims": [
+        {
+          "claim": "The proposed approach represents a significant step towards advancing quantum computing's role in solving practical engineering problems.",
+          "evidence": "\"We believe this marks a significant step towards advancing quantum computing's role in solving practical engineering problems.\""
+        }
+      ],
+      "datasets": [
+        "Acoustic equation with spatially varying parameters",
+        "Dissipative heat equation"
+      ],
+      "contributions": [
+        {
+          "contribution": "A detailed recipe for constructing quantum circuits for PDEs, incorporating efficient encoding of spatially varying parameters and scalable LCHS implementation.",
+          "evidence": "\"Our approach includes a detailed recipe for constructing quantum circuits for PDEs, leveraging efficient encoding of spatially varying parameters of PDEs and scalable implementation of LCHS\""
+        }
+      ],
+      "limitations": [
+        "The paper focuses on second-order linear PDEs and does not address more complex PDEs or non-linear systems.",
+        "The scalability of the method is primarily demonstrated through the use of MPS, which may not be suitable for all PDEs or parameterizations."
+      ],
+      "future_work": [
+        "Exploring the application of the method to a wider range of PDEs and non-linear systems.",
+        "Investigating alternative tensor-network techniques for improved scalability and performance.",
+        "Developing methods for automatically optimizing the quantum circuit design."
+      ],
+      "keywords": [
+        "Quantum Algorithm",
+        "Partial Differential Equations",
+        "LCHS",
+        "Finite Difference Method",
+        "Tensor Networks",
+        "MPS",
+        "Spatially Varying Parameters",
+        "Quantum Computing",
+        "Engineering Simulation"
+      ],
+      "contribution_type": "Algorithm Development",
+      "confidence_level": "High",
+      "summary": "This research presents a quantum algorithm for solving PDEs with spatially varying parameters using the LCHS method and tensor-network techniques. The key contributions include a method for constructing operators with varying parameters and a scalable implementation using MPS, validated through applications to the acoustic and heat equations.",
+      "reasoning_path": "The text clearly outlines a methodology for transforming PDEs into quantum operators, utilizing spatial discretization and the LCHS method. It details the implementation using tensor networks (MPS) for scalability and provides validation results on specific PDEs, indicating a functional quantum algorithm for this problem.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 831
+    },
+    "2403.05908": {
+      "research_question": "Can a low-rank variational quantum algorithm efficiently simulate the dynamics of open quantum systems, particularly with limited quantum resources?",
+      "methodology": {
+        "approach": "A variational quantum algorithm is developed to simulate the real-time evolution of the density matrix governed by the Lindblad master equation, leveraging a low-rank representation of the density matrix.",
+        "evidence": "\"The algorithm encodes each pure state of the statistical mixture as a parametrized quantum circuit, and the associated probabilities as additional variational parameters stored classically...\""
+      },
+      "key_findings": [
+        {
+          "finding": "The algorithm demonstrates efficiency in simulating the dynamics of open quantum systems in the low-rank regime.",
+          "evidence": "\"...the algorithm's efficiency in simulating the dynamics of open quantum systems in the low-rank regime...\""
+        },
+        {
+          "finding": "The algorithm requires significantly fewer qubits compared to algorithms encoding the full density matrix.",
+          "evidence": " \"...thereby requiring a significantly lower number of qubits than algorithms where the full density matrix is encoded in the quantum memory.\""
+        },
+        {
+          "finding": "The effectiveness of the algorithm is validated through simulation of the 2D dissipative transverse field Ising model.",
+          "evidence": "\"Two variational ansatze are proposed, and their effectiveness is assessed in the simulation of the dynamics of a 2D dissipative transverse field Ising model.\""
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Near-term quantum computers can efficiently simulate open quantum systems using hybrid quantum-classical variational algorithms.",
+          "evidence": "\"Near-term quantum computers may bring considerable advantage for the efficient simulation of their static and dynamical properties, thanks to hybrid quantum-classical variational algorithms...\""
+        },
+        {
+          "claim": "The assumption of bounded entropy along the dynamics allows for a low-rank representation of the density matrix.",
+          "evidence": "\"...entailing a low-rank representation of its density matrix.\""
+        }
+      ],
+      "datasets": [
+        "2D dissipative transverse field Ising model"
+      ],
+      "contributions": [
+        {
+          "contribution": "Development of a variational quantum algorithm for simulating open quantum system dynamics.",
+          "evidence": "\"Here, a variational quantum algorithm is developed to simulate the real-time evolution of the density matrix...\""
+        },
+        {
+          "contribution": "Exploitation of a low-rank representation of the density matrix to reduce qubit requirements.",
+          "evidence": "\"...thereby requiring a significantly lower number of qubits than algorithms where the full density matrix is encoded in the quantum memory.\""
+        }
+      ],
+      "limitations": [
+        "The analysis is limited to the 2D dissipative transverse field Ising model.",
+        "The effectiveness of the algorithm may depend on the specific properties of the open quantum system being simulated."
+      ],
+      "future_work": [
+        "Exploring the algorithm's performance with different open quantum systems.",
+        "Investigating the impact of varying the ansatz structure on the algorithm's accuracy and efficiency.",
+        "Applying the algorithm to more complex open quantum systems."
+      ],
+      "keywords": [
+        "open quantum systems",
+        "variational quantum algorithm",
+        "density matrix",
+        "Lindblad master equation",
+        "quantum simulation",
+        "low-rank representation"
+      ],
+      "contribution_type": "Algorithm Development",
+      "confidence_level": "High",
+      "summary": "This research presents a variational quantum algorithm designed to efficiently simulate the dynamics of open quantum systems by employing a low-rank representation of the density matrix. The algorithm demonstrates effectiveness in a 2D Ising model, highlighting its potential for near-term quantum devices with limited resources.",
+      "reasoning_path": "The text clearly outlines the development of a variational quantum algorithm for simulating open quantum system dynamics. It specifies the use of a low-rank representation of the density matrix and provides evidence of the algorithm's efficiency through the simulation of the 2D Ising model, confirming the research question's central premise.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 919
+    },
+    "1909.02559": {
+      "research_question": "How does the Alibaba Cloud Quantum Development Platform (AC-QDP) facilitate the testing of large-scale quantum algorithms, specifically within the QAOA framework?",
+      "methodology": {
+        "approach": "The paper demonstrates AC-QDP's capabilities through figures, presenting benchmark results and showcasing two use cases implemented on the platform.",
+        "evidence": "\u201cWe demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework).\u201d"
+      },
+      "key_findings": [
+        {
+          "finding": "AC-QDP's computational engine has been previously demonstrated.",
+          "evidence": "\u201cThe capability of AC-QDP's computational engine was already reported in \\cite{CZH+18, ZHN+19}.\u201d"
+        },
+        {
+          "finding": "AC-QDP can simulate thousands of qubits for up to 4 layers.",
+          "evidence": "\u201cAC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers.\u201d"
+        },
+        {
+          "finding": "New benchmark results were obtained on regular graphs.",
+          "evidence": "\u201cAC-QDP... helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs.\u201d"
+        }
+      ],
+      "claims": [
+        {
+          "claim": "AC-QDP is utilized for developing optimal QAOA sequences for small-cycle free graphs.",
+          "evidence": "\u201c1. Optimal QAOA sequences for small-cycle free graphs\u201d"
+        },
+        {
+          "claim": "AC-QDP can be used for graph structure discovery.",
+          "evidence": "\u201c2. Graph structure discovery.\u201d"
+        }
+      ],
+      "datasets": [
+        "Regular Graphs"
+      ],
+      "contributions": [
+        {
+          "contribution": "Demonstration of AC-QDP's ability to simulate large-scale quantum algorithms within the QAOA framework.",
+          "evidence": "\u201cWe demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework).\u201d"
+        },
+        {
+          "contribution": "Provision of new benchmark results for QAOA on regular graphs.",
+          "evidence": "\u201cWe give new benchmark results on regular graphs.\u201d"
+        }
+      ],
+      "limitations": [
+        "The analysis is limited to the QAOA framework.",
+        "The scope of graph types tested is restricted to regular graphs."
+      ],
+      "future_work": [
+        "Exploring QAOA sequences for other graph types.",
+        "Further investigation of graph structure discovery capabilities."
+      ],
+      "keywords": [
+        "Alibaba Cloud",
+        "Quantum Development Platform",
+        "AC-QDP",
+        "Quantum Algorithm Design",
+        "QAOA",
+        "Quantum Simulation"
+      ],
+      "contribution_type": "Demonstration and Benchmarking",
+      "confidence_level": "High",
+      "summary": "This paper showcases the Alibaba Cloud Quantum Development Platform's capabilities in simulating and testing large-scale quantum algorithms, specifically within the QAOA framework, providing new benchmark results on regular graphs and demonstrating two use cases: optimal QAOA sequences and graph structure discovery.",
+      "reasoning_path": "The text explicitly states the paper's purpose is to demonstrate AC-QDP's capabilities and provides specific findings regarding its simulation capabilities and benchmark results. The two use cases presented further illustrate the platform's functionality.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 804
+    }
+  },
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": {
+    "nodes": [
+      {
+        "id": "paper_10.1016/j.softx.2025.102383",
+        "type": "Paper",
+        "properties": {
+          "title": "Quirk-E quantum circuit simulator: Integrated tool for quantum algorithm development",
+          "authors": [
+            "Majid Haghparast",
+            "Ronja Heikkinen",
+            "Samuel Ovaskainen",
+            "Julian Fuchs",
+            "J. P. Jokinen",
+            "T. Mikkonen"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/533b752e3824fdb202e15ef37fb41e9dea41867f",
+          "source": "semantic_scholar",
+          "abstract": "",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_2306.14560",
+        "type": "Paper",
+        "properties": {
+          "title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+          "authors": [
+            "Sonaldeep Halder",
+            "Chinmay Shrikhande",
+            "Rahul Maitra"
+          ],
+          "year": 2023,
+          "url": "https://www.semanticscholar.org/paper/89ff26084c7253ede7664e21e34e2b69b8a5ca2c",
+          "source": "semantic_scholar",
+          "abstract": "The recently developed Projective Quantum Eigensolver (PQE) offers an elegant procedure to evaluate the ground state energies of molecular systems in quantum computers. However, the noise in available quantum hardware can result in significant errors in computed outcomes, limiting the realization of quantum advantage. Although PQE comes equipped with some degree of inherent noise resilience, any practical implementation with apposite accuracy would require additional routines to eliminate or mit",
+          "contribution_type": "Algorithm Development",
+          "key_findings": [
+            {
+              "finding": "ZNE-PQE improves the accuracy and efficiency of PQE in noisy quantum devices.",
+              "evidence": "\"...leading to the formulation of ZNE-PQE. Moreover, we perform a detailed analysis of how various components involved in it affect the accuracy and efficiency of the reciprocated energy convergence trajectory.\""
+            },
+            {
+              "finding": "The underlying mechanism of improvement is related to the residue norm landscape.",
+              "evidence": "\"This approach is expected to facilitate practical applications of quantum computing in fields related to molecular sciences, where it is essential to determine molecular energies accurately. Additionally, we investigate the underlying mechanism that leads to the improvements observed in ZNE-PQE over conventional PQE by performing a comparative analysis of their residue norm landscape.\""
+            }
+          ],
+          "methodology": {
+            "approach": "The research proposes a framework for introducing Zero Noise Extrapolation (ZNE) into the PQE algorithm, utilizing a nonlinear iterative procedure. It involves a comparative analysis of residue norm landscapes to understand the improvements.",
+            "evidence": "\"We propose a way to enhance the efficiency of PQE by developing an optimal framework for introducing Zero Noise Extrapolation (ZNE) in the nonlinear iterative procedure that outlines the PQE...\""
+          },
+          "limitations": [
+            "The paper does not detail the specific hardware or noise models used in the analysis.",
+            "The scope of molecular systems investigated is not specified."
+          ],
+          "keywords": [
+            "Quantum Computing",
+            "Projective Quantum Eigensolver",
+            "Zero Noise Extrapolation",
+            "Molecular Energetics",
+            "Quantum Algorithms"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_2407.05019",
+        "type": "Paper",
+        "properties": {
+          "title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+          "authors": [
+            "Yuki Sato",
+            "Hiroyuki Tezuka",
+            "R. Kondo",
+            "Naoki Yamamoto"
+          ],
+          "year": 2024,
+          "url": "https://www.semanticscholar.org/paper/95cde99bbf65781cf1e4b462de6a57f59c443b2a",
+          "source": "semantic_scholar",
+          "abstract": "Partial differential equations (PDEs) are crucial for modeling various physical phenomena such as heat transfer, fluid flow, and electromagnetic waves. In computer-aided engineering (CAE), the ability to handle fine resolutions and large computational models is essential for improving product performance and reducing development costs. However, solving large-scale PDEs, particularly for systems with spatially varying material properties, poses significant computational challenges. In this paper,",
+          "contribution_type": "Algorithm Development",
+          "key_findings": [
+            {
+              "finding": "The algorithm efficiently constructs operators corresponding to spatially varying parameters of PDEs using a logic minimization technique.",
+              "evidence": "\"Then, we provide an algorithm that efficiently constructs the operator corresponding to the spatially varying parameters of PDEs via a logic minimization technique, which reduces the number of terms and subsequently the circuit depth.\""
+            },
+            {
+              "finding": "A scalable method utilizing MPS is developed for realizing a quantum circuit for LCHS.",
+              "evidence": "\"We also develop a scalable method for realizing a quantum circuit for LCHS, using a tensor-network-based technique, specifically a matrix product state (MPS).\""
+            }
+          ],
+          "methodology": {
+            "approach": "The research proposes a method involving spatial discretization using the finite difference method, transformation of PDEs into ordinary differential equations via qubit operators using the LCHS method, and a logic minimization technique to reduce circuit depth. A tensor-network-based technique, specifically MPS, is used for scalable circuit implementation.",
+            "evidence": "\"Our approach transforms those PDEs into ordinary differential equations represented by qubit operators, through spatial discretization using the finite difference method.\""
+          },
+          "limitations": [
+            "The paper focuses on second-order linear PDEs and does not address more complex PDEs or non-linear systems.",
+            "The scalability of the method is primarily demonstrated through the use of MPS, which may not be suitable for all PDEs or parameterizations."
+          ],
+          "keywords": [
+            "Quantum Algorithm",
+            "Partial Differential Equations",
+            "LCHS",
+            "Finite Difference Method",
+            "Tensor Networks",
+            "MPS",
+            "Spatially Varying Parameters",
+            "Quantum Computing",
+            "Engineering Simulation"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_2403.05908",
+        "type": "Paper",
+        "properties": {
+          "title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+          "authors": [
+            "Sara Santos",
+            "Xinyu Song",
+            "Vincenzo Savona"
+          ],
+          "year": 2024,
+          "url": "https://www.semanticscholar.org/paper/13dc4d29cfd1c239e8d093a585545cd1342b1b63",
+          "source": "semantic_scholar",
+          "abstract": "The simulation of many-body open quantum systems is key to solving numerous outstanding problems in physics, chemistry, material science, and in the development of quantum technologies. Near-term quantum computers may bring considerable advantage for the efficient simulation of their static and dynamical properties, thanks to hybrid quantum-classical variational algorithms to approximate the dynamics of the density matrix describing the quantum state in terms of an ensemble average. Here, a vari",
+          "contribution_type": "Algorithm Development",
+          "key_findings": [
+            {
+              "finding": "The algorithm demonstrates efficiency in simulating the dynamics of open quantum systems in the low-rank regime.",
+              "evidence": "\"...the algorithm's efficiency in simulating the dynamics of open quantum systems in the low-rank regime...\""
+            },
+            {
+              "finding": "The algorithm requires significantly fewer qubits compared to algorithms encoding the full density matrix.",
+              "evidence": " \"...thereby requiring a significantly lower number of qubits than algorithms where the full density matrix is encoded in the quantum memory.\""
+            },
+            {
+              "finding": "The effectiveness of the algorithm is validated through simulation of the 2D dissipative transverse field Ising model.",
+              "evidence": "\"Two variational ansatze are proposed, and their effectiveness is assessed in the simulation of the dynamics of a 2D dissipative transverse field Ising model.\""
+            }
+          ],
+          "methodology": {
+            "approach": "A variational quantum algorithm is developed to simulate the real-time evolution of the density matrix governed by the Lindblad master equation, leveraging a low-rank representation of the density matrix.",
+            "evidence": "\"The algorithm encodes each pure state of the statistical mixture as a parametrized quantum circuit, and the associated probabilities as additional variational parameters stored classically...\""
+          },
+          "limitations": [
+            "The analysis is limited to the 2D dissipative transverse field Ising model.",
+            "The effectiveness of the algorithm may depend on the specific properties of the open quantum system being simulated."
+          ],
+          "keywords": [
+            "open quantum systems",
+            "variational quantum algorithm",
+            "density matrix",
+            "Lindblad master equation",
+            "quantum simulation",
+            "low-rank representation"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_1909.02559",
+        "type": "Paper",
+        "properties": {
+          "title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+          "authors": [
+            "Cupjin Huang",
+            "M. Szegedy",
+            "Fang Zhang",
+            "Xun Gao",
+            "Jianxin Chen",
+            "Yaoyun Shi"
+          ],
+          "year": 2019,
+          "url": "https://www.semanticscholar.org/paper/233e2ba72b51702211bde09aa7c8f039f809d50a",
+          "source": "semantic_scholar",
+          "abstract": "We report our work on the Alibaba Cloud Quantum Development Platform (AC-QDP). The capability of AC-QDP's computational engine was already reported in \\cite{CZH+18, ZHN+19}.In this follow-up article, we demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs. AC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers. Then we discuss two interesting use cases we h",
+          "contribution_type": "Demonstration and Benchmarking",
+          "key_findings": [
+            {
+              "finding": "AC-QDP's computational engine has been previously demonstrated.",
+              "evidence": "\u201cThe capability of AC-QDP's computational engine was already reported in \\cite{CZH+18, ZHN+19}.\u201d"
+            },
+            {
+              "finding": "AC-QDP can simulate thousands of qubits for up to 4 layers.",
+              "evidence": "\u201cAC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers.\u201d"
+            },
+            {
+              "finding": "New benchmark results were obtained on regular graphs.",
+              "evidence": "\u201cAC-QDP... helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs.\u201d"
+            }
+          ],
+          "methodology": {
+            "approach": "The paper demonstrates AC-QDP's capabilities through figures, presenting benchmark results and showcasing two use cases implemented on the platform.",
+            "evidence": "\u201cWe demonstrate with figures how AC-QDP helps in testing large-scale quantum algorithms (currently within the QAOA framework).\u201d"
+          },
+          "limitations": [
+            "The analysis is limited to the QAOA framework.",
+            "The scope of graph types tested is restricted to regular graphs."
+          ],
+          "keywords": [
+            "Alibaba Cloud",
+            "Quantum Development Platform",
+            "AC-QDP",
+            "Quantum Algorithm Design",
+            "QAOA",
+            "Quantum Simulation"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "finding_0",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "ZNE-PQE improves the accuracy and efficiency of PQE in noisy quantum devices.",
+            "evidence": "\"...leading to the formulation of ZNE-PQE. Moreover, we perform a detailed analysis of how various components involved in it affect the accuracy and efficiency of the reciprocated energy convergence trajectory.\""
+          },
+          "source_paper": "2306.14560",
+          "source_paper_title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_1",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The underlying mechanism of improvement is related to the residue norm landscape.",
+            "evidence": "\"This approach is expected to facilitate practical applications of quantum computing in fields related to molecular sciences, where it is essential to determine molecular energies accurately. Additionally, we investigate the underlying mechanism that leads to the improvements observed in ZNE-PQE over conventional PQE by performing a comparative analysis of their residue norm landscape.\""
+          },
+          "source_paper": "2306.14560",
+          "source_paper_title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_2",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The algorithm efficiently constructs operators corresponding to spatially varying parameters of PDEs using a logic minimization technique.",
+            "evidence": "\"Then, we provide an algorithm that efficiently constructs the operator corresponding to the spatially varying parameters of PDEs via a logic minimization technique, which reduces the number of terms and subsequently the circuit depth.\""
+          },
+          "source_paper": "2407.05019",
+          "source_paper_title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_3",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "A scalable method utilizing MPS is developed for realizing a quantum circuit for LCHS.",
+            "evidence": "\"We also develop a scalable method for realizing a quantum circuit for LCHS, using a tensor-network-based technique, specifically a matrix product state (MPS).\""
+          },
+          "source_paper": "2407.05019",
+          "source_paper_title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_4",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The algorithm demonstrates efficiency in simulating the dynamics of open quantum systems in the low-rank regime.",
+            "evidence": "\"...the algorithm's efficiency in simulating the dynamics of open quantum systems in the low-rank regime...\""
+          },
+          "source_paper": "2403.05908",
+          "source_paper_title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_5",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The algorithm requires significantly fewer qubits compared to algorithms encoding the full density matrix.",
+            "evidence": " \"...thereby requiring a significantly lower number of qubits than algorithms where the full density matrix is encoded in the quantum memory.\""
+          },
+          "source_paper": "2403.05908",
+          "source_paper_title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_6",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The effectiveness of the algorithm is validated through simulation of the 2D dissipative transverse field Ising model.",
+            "evidence": "\"Two variational ansatze are proposed, and their effectiveness is assessed in the simulation of the dynamics of a 2D dissipative transverse field Ising model.\""
+          },
+          "source_paper": "2403.05908",
+          "source_paper_title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_7",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "AC-QDP's computational engine has been previously demonstrated.",
+            "evidence": "\u201cThe capability of AC-QDP's computational engine was already reported in \\cite{CZH+18, ZHN+19}.\u201d"
+          },
+          "source_paper": "1909.02559",
+          "source_paper_title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_8",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "AC-QDP can simulate thousands of qubits for up to 4 layers.",
+            "evidence": "\u201cAC-QDP's QAOA framework can simulate thousands of qubits for up to $4$ layers.\u201d"
+          },
+          "source_paper": "1909.02559",
+          "source_paper_title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_9",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "New benchmark results were obtained on regular graphs.",
+            "evidence": "\u201cAC-QDP... helps in testing large-scale quantum algorithms (currently within the QAOA framework). We give new benchmark results on regular graphs.\u201d"
+          },
+          "source_paper": "1909.02559",
+          "source_paper_title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "concept_0",
+        "type": "Concept",
+        "properties": {
+          "name": "Quantum Computing",
+          "frequency": 2
+        }
+      },
+      {
+        "id": "concept_1",
+        "type": "Concept",
+        "properties": {
+          "name": "QAOA",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_2",
+        "type": "Concept",
+        "properties": {
+          "name": "Lindblad master equation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_3",
+        "type": "Concept",
+        "properties": {
+          "name": "Engineering Simulation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_4",
+        "type": "Concept",
+        "properties": {
+          "name": "Partial Differential Equations",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_5",
+        "type": "Concept",
+        "properties": {
+          "name": "Zero Noise Extrapolation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_6",
+        "type": "Concept",
+        "properties": {
+          "name": "density matrix",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_7",
+        "type": "Concept",
+        "properties": {
+          "name": "Quantum Algorithms",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_8",
+        "type": "Concept",
+        "properties": {
+          "name": "low-rank representation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_9",
+        "type": "Concept",
+        "properties": {
+          "name": "AC-QDP",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_10",
+        "type": "Concept",
+        "properties": {
+          "name": "open quantum systems",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_11",
+        "type": "Concept",
+        "properties": {
+          "name": "variational quantum algorithm",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_12",
+        "type": "Concept",
+        "properties": {
+          "name": "Molecular Energetics",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_13",
+        "type": "Concept",
+        "properties": {
+          "name": "LCHS",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_14",
+        "type": "Concept",
+        "properties": {
+          "name": "Quantum Algorithm Design",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_15",
+        "type": "Concept",
+        "properties": {
+          "name": "MPS",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_16",
+        "type": "Concept",
+        "properties": {
+          "name": "Alibaba Cloud",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_17",
+        "type": "Concept",
+        "properties": {
+          "name": "Projective Quantum Eigensolver",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_18",
+        "type": "Concept",
+        "properties": {
+          "name": "Quantum Development Platform",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_19",
+        "type": "Concept",
+        "properties": {
+          "name": "Quantum Simulation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_20",
+        "type": "Concept",
+        "properties": {
+          "name": "Quantum Algorithm",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_21",
+        "type": "Concept",
+        "properties": {
+          "name": "quantum simulation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_22",
+        "type": "Concept",
+        "properties": {
+          "name": "Spatially Varying Parameters",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_23",
+        "type": "Concept",
+        "properties": {
+          "name": "Tensor Networks",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_24",
+        "type": "Concept",
+        "properties": {
+          "name": "Finite Difference Method",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "citation_10.1016/j.softx.2025.102383",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Quirk-E quantum circuit simulator: Integrated tool for quantum algorithm development",
+          "year": 2025,
+          "authors": [
+            "Majid Haghparast",
+            "Ronja Heikkinen",
+            "Samuel Ovaskainen",
+            "Julian Fuchs",
+            "J. P. Jokinen",
+            "T. Mikkonen"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_2306.14560",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Development of zero-noise extrapolated projective quantum algorithm for accurate evaluation of molecular energetics in noisy quantum devices.",
+          "year": 2023,
+          "authors": [
+            "Sonaldeep Halder",
+            "Chinmay Shrikhande",
+            "Rahul Maitra"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_2407.05019",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Quantum algorithm for partial differential equations of nonconservative systems with spatially varying parameters",
+          "year": 2024,
+          "authors": [
+            "Yuki Sato",
+            "Hiroyuki Tezuka",
+            "R. Kondo",
+            "Naoki Yamamoto"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_2403.05908",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Low-Rank Variational Quantum Algorithm for the Dynamics of Open Quantum Systems",
+          "year": 2024,
+          "authors": [
+            "Sara Santos",
+            "Xinyu Song",
+            "Vincenzo Savona"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_1909.02559",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Alibaba Cloud Quantum Development Platform: Applications to Quantum Algorithm Design",
+          "year": 2019,
+          "authors": [
+            "Cupjin Huang",
+            "M. Szegedy",
+            "Fang Zhang",
+            "Xun Gao",
+            "Jianxin Chen",
+            "Yaoyun Shi"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "paper_2306.14560",
+        "target": "finding_0",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2306.14560",
+        "target": "finding_1",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "finding_2",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "finding_3",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "finding_4",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "finding_5",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "finding_6",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "finding_7",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "finding_8",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "finding_9",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2306.14560",
+        "target": "concept_0",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2306.14560",
+        "target": "concept_17",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2306.14560",
+        "target": "concept_5",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2306.14560",
+        "target": "concept_12",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2306.14560",
+        "target": "concept_7",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_20",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_4",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_13",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_24",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_23",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_15",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_22",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_0",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2407.05019",
+        "target": "concept_3",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "concept_10",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "concept_11",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "concept_6",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "concept_2",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "concept_21",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2403.05908",
+        "target": "concept_8",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "concept_16",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "concept_18",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "concept_9",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "concept_14",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "concept_1",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_1909.02559",
+        "target": "concept_19",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      }
+    ],
+    "total_nodes": 45,
+    "total_edges": 36,
+    "graph_metadata": {
+      "origin_query": "Quantum computing",
+      "papers_analyzed": 5,
+      "topics_identified": 25
+    }
+  },
+  "synthesis": null,
+  "max_papers": 5,
+  "max_depth": 2,
+  "created_at": "2026-03-14T03:40:18.404057",
+  "updated_at": "2026-03-14T03:42:55.205300",
+  "status": "in_progress",
+  "errors": [
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building"
+  ]
+}

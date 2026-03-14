@@ -1,0 +1,729 @@
+{
+  "raw_query": "Consumer behavior patterns in online and digital markets.",
+  "user_id": "anonymous",
+  "session_id": "6f92532e-def0-4e01-9362-7b5e2eb22009",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "Consumer behavior patterns in online and digital markets.",
+      "Consumer behavior patterns in online survey",
+      "Consumer behavior patterns in online recent advances"
+    ],
+    "key_concepts": [
+      "Consumer",
+      "behavior",
+      "patterns",
+      "in",
+      "online",
+      "and",
+      "digital",
+      "markets."
+    ],
+    "date_range": {
+      "start_year": null,
+      "end_year": null
+    },
+    "target_venues": [],
+    "exclusions": [],
+    "search_strategy": "Heuristic fallback: using raw query and variants.",
+    "_source": "heuristic"
+  },
+  "papers": [
+    {
+      "id": "2107.08351v2",
+      "title": "A Novel Approach to Analyze Fashion Digital Archive from Humanities",
+      "authors": [
+        "Satoshi Takahashi",
+        "Keiko Yamaguchi",
+        "Asuka Watanabe"
+      ],
+      "year": 2021,
+      "abstract": "Fashion styles adopted every day are an important aspect of culture, and style trend analysis helps provide a deeper understanding of our societies and cultures. To analyze everyday fashion trends from the humanities perspective, we need a digital archive that includes images of what people wore in their daily lives over an extended period. In fashion research, building digital fashion image archives has attracted significant attention. However, the existing archives are not suitable for retrieving everyday fashion trends. In addition, to interpret how the trends emerge, we need non-fashion data sources relevant to why and how people choose fashion. In this study, we created a new fashion image archive called Chronicle Archive of Tokyo Street Fashion (CAT STREET) based on a review of the limitations in the existing digital fashion archives. CAT STREET includes images showing the clothing people wore in their daily lives during the period 1970--2017, which contain timestamps and street location annotations. We applied machine learning to CAT STREET and found two types of fashion trend patterns. Then, we demonstrated how magazine archives help us interpret how trend patterns emerge. These empirical analyses show our approach's potential to discover new perspectives to promote an understanding of our societies and cultures through fashion embedded in consumers' daily lives.",
+      "url": "http://arxiv.org/abs/2107.08351v2",
+      "pdf_url": "https://arxiv.org/pdf/2107.08351v2",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "2107.08351v2",
+        "doi": "10.1007/978-3-030-91669-5_15",
+        "hash": "9ca576a8dcd975d01f649dcd64cb01aeda9f776eba38e0fc4c2e486e8fc1492b"
+      }
+    },
+    {
+      "id": "2007.15538v1",
+      "title": "Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots",
+      "authors": [
+        "F. Gabriele Prattic\u00f2",
+        "Fabrizio Lamberti"
+      ],
+      "year": 2020,
+      "abstract": "In recent years, there has been an increasing interest in the use of robotic technology at home. A number of service robots appeared on the market, supporting customers in the execution of everyday tasks. Roughly at the same time, consumer level robots started to be used also as toys or gaming companions. However, gaming possibilities provided by current off-the-shelf robotic products are generally quite limited, and this fact makes them quickly loose their attractiveness. A way that has been proven capable to boost robotic gaming and related devices consists in creating playful experiences in which physical and digital elements are combined together using Mixed Reality technologies. However, these games differ significantly from digital- or physical only experiences, and new design principles are required to support developers in their creative work. This papers addresses such need, by drafting a set of guidelines which summarize developments carried out by the research community and their findings.",
+      "url": "http://arxiv.org/abs/2007.15538v1",
+      "pdf_url": "https://arxiv.org/pdf/2007.15538v1",
+      "source": "arxiv",
+      "identifier": {
+        "arxiv_id": "2007.15538v1",
+        "doi": "10.1109/MCE.2020.2988578",
+        "hash": "c39f3c8965f56803f112f48df39ce9c95238baef03ca2bf812ae98cd94e09713"
+      }
+    },
+    {
+      "id": "10.53555/kuey.v29i4.9946",
+      "title": "Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences",
+      "authors": [
+        "Srinivas Kalyan Yellanki"
+      ],
+      "year": 2023,
+      "abstract": "During the pandemic, there was a continuous drop in booking volume FD revenue of airlines and OTAs globally as travel restrictions were put in place. As personal and financial circumstances changed, some consumers retrieved their travel products and fully chose refunds. However, there was a short-lived boom of recovered booking volumes in airlines and OTAs within the third quarter and a thread of recovery for the large intercontinental markets from the fourth quarter of 2020 onward. Such market changes are strongly stock-market driven rather than actual performance-driven due to mass vaccination, rebounding domestic travel accessibility, and the formulations of worldwide travel bubbles throughout 2021. There is a lack of thorough, comprehensive, and continuous rendering of macro-level understanding concerning such phenomena in a quantifiable manner. Hence, this research attempts to conduct a comprehensive analysis of the stock market reactions to the recovering travel industry in different domains of airlines, online travel agents, and countries in terms of sentiment expressions and trends.\nLast but not least, amidst the relentless competition from OTAs, airlines\u2019 product offers have shifted from almost pure traditional freight tickets to the considerable cross-selling of travel ancillary products with significance on how well non-flight products could supplement their revenue and buffer the loss of crashed passenger revenues.During the pandemic, there was a continuous drop in booking volume FD revenue of airlines and OTAs globally as travel restrictions were put in place. As personal and financial circumstances changed, some consumers retrieved their travel products and fully chose refunds. However, there was a short-lived boom of recovered booking volumes in airlines and OTAs within the third quarter and a thread of recovery for the large intercontinental markets from the fourth quarter of 2020 onward. Such market changes are strongly stock-market driven rather than actual performance-driven due to mass vaccination, rebounding domestic travel accessibility, and the formulations of worldwide travel bubbles throughout 2021. There is a lack of thorough, comprehensive, and continuous rendering of macro-level understanding concerning such phenomena in a quantifiable manner. Hence, this research attempts to conduct a comprehensive analysis of the stock market reactions to the recovering travel industry in different domains of airlines, online travel agents, and countries in terms of sentiment expressions and trends.\nLast but not least, amidst the relentless competition from OTAs, airlines\u2019 product offers have shifted from almost pure traditional freight tickets to the considerable cross-selling of travel ancillary products with significance on how well non-flight products could supplement their revenue and buffer the loss of crashed passenger revenues.",
+      "url": "https://www.semanticscholar.org/paper/cf28811c203a3cce31dc6d92e984d4be837f43d4",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.53555/kuey.v29i4.9946",
+        "hash": "4c2d87c8055ab8de2768fb2302c26227aaaa97a8da35465bdeee002847ce0e9a"
+      }
+    },
+    {
+      "id": "10.59429/esp.v10i1.3127",
+      "title": "Consumer behavior in art management: The perspective of social psychology",
+      "authors": [
+        "Ruxiao Yang"
+      ],
+      "year": 2025,
+      "abstract": "This study explores consumer behavior in art management through a social psychological perspective, focusing on cultural variations, digital transformation, and regulatory impacts. Employing a mixed-methods approach, we analyzed data from 1,500 art consumers across major global markets. Our findings reveal distinct psychographic profiles and regional differences in art consumption patterns. Western markets prioritize aesthetic value (\u03b2 = 0.58) while Asian markets emphasize investment potential (\u03b2 = 0.63) and social prestige (\u03b2 = 0.52). Digital platform adoption varies significantly, with Asian markets showing 85% engagement compared to 62% in Western markets. Markets with comprehensive regulatory frameworks demonstrated 45% higher online art sales, and intellectual property protection strongly correlated with market growth (r = 0.68). Social media significantly influences art discovery and purchases, though its impact varies across cultural contexts. Policy environments, particularly tax and digital transaction regulations, substantially affect market development. This research contributes to understanding evolving consumer behavior in the digital age across different cultural contexts and offers practical implications for developing culturally sensitive art market strategies and supportive regulatory frameworks.",
+      "url": "https://www.semanticscholar.org/paper/a1175cd0e53a8c8afaeb1dbd6bd783254cf48aec",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.59429/esp.v10i1.3127",
+        "hash": "265c358c6822e498b6d5dc4fc6c506ec049346a3cbbcacaabfdc3b88eb0ab4d2"
+      }
+    },
+    {
+      "id": "10.22214/ijraset.2025.74447",
+      "title": "Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior",
+      "authors": [
+        "Hritika Goyal",
+        "Nandini Patidar",
+        "V. Jain"
+      ],
+      "year": 2025,
+      "abstract": "This study examines the comparative impact of digital marketing on consumer buying behavior in urban and rural\nareas of Neemuch district. With the rapid growth of internet penetration, mobile usage, and social media adoption, digital\nmarketing has become a critical tool for influencing purchasing patterns. However, lifestyle, infrastructure, and socio-economic\nstatus disparities create differing adoption patterns across urban and rural markets. Adopting a descriptive research design, the\nstudy employed a quantitative approach using structured questionnaires to collect primary data from 300 respondents (194\nurban and 106 rural). A chi-square test of independence was conducted to examine variations in product category preferences\nand online shopping frequency. Results revealed a statistically significant difference in product category choices between urban\nand rural consumers (\u03c7\u00b2 = 13.25, p = .039), suggesting that consumer preferences are influenced by lifestyle, income, and access\nto digital platforms. However, no significant difference was found in the frequency and pattern of online shopping between the\ntwo groups (\u03c7\u00b2 = 4.896, p = .298), indicating that digital platforms are bridging the gap in shopping behavior across residential\ncontexts. The findings highlight that while urban consumers show greater exposure and preference for branded and\nconvenience-oriented products, rural consumers remain price-sensitive, trust-driven, and community-influenced.This research\nunderscores the need for localized marketing strategies that consider socio-economic conditions, infrastructure gaps, and\ncultural orientations. The study concludes that digital marketing has transformative potential in bridging the urban-rural divide,\nprovided businesses adopt inclusive, vernacular, and trust-building approaches.",
+      "url": "https://www.semanticscholar.org/paper/d151f21236b17eaaa13036718d63af8be33f0750",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.22214/ijraset.2025.74447",
+        "hash": "9180e9458466a9bbbe8ffdf4ae1fb6d0216bd41f6f32c2f3e97afb6239cd2b10"
+      }
+    }
+  ],
+  "citation_tree": {
+    "root_papers": [
+      {
+        "id": "2107.08351v2",
+        "title": "A Novel Approach to Analyze Fashion Digital Archive from Humanities",
+        "url": "http://arxiv.org/abs/2107.08351v2",
+        "citation_tree": {
+          "id": "2107.08351v2",
+          "title": "A Novel Approach to Analyze Fashion Digital Archive from Humanities",
+          "url": "http://arxiv.org/abs/2107.08351v2",
+          "authors": [
+            "Satoshi Takahashi",
+            "Keiko Yamaguchi",
+            "Asuka Watanabe"
+          ],
+          "year": 2021,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "2007.15538v1",
+        "title": "Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots",
+        "url": "http://arxiv.org/abs/2007.15538v1",
+        "citation_tree": {
+          "id": "2007.15538v1",
+          "title": "Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots",
+          "url": "http://arxiv.org/abs/2007.15538v1",
+          "authors": [
+            "F. Gabriele Prattic\u00f2",
+            "Fabrizio Lamberti"
+          ],
+          "year": 2020,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.53555/kuey.v29i4.9946",
+        "title": "Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences",
+        "url": "https://www.semanticscholar.org/paper/cf28811c203a3cce31dc6d92e984d4be837f43d4",
+        "citation_tree": {
+          "id": "10.53555/kuey.v29i4.9946",
+          "title": "Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences",
+          "url": "https://www.semanticscholar.org/paper/cf28811c203a3cce31dc6d92e984d4be837f43d4",
+          "authors": [
+            "Srinivas Kalyan Yellanki"
+          ],
+          "year": 2023,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.59429/esp.v10i1.3127",
+        "title": "Consumer behavior in art management: The perspective of social psychology",
+        "url": "https://www.semanticscholar.org/paper/a1175cd0e53a8c8afaeb1dbd6bd783254cf48aec",
+        "citation_tree": {
+          "id": "10.59429/esp.v10i1.3127",
+          "title": "Consumer behavior in art management: The perspective of social psychology",
+          "url": "https://www.semanticscholar.org/paper/a1175cd0e53a8c8afaeb1dbd6bd783254cf48aec",
+          "authors": [
+            "Ruxiao Yang"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.22214/ijraset.2025.74447",
+        "title": "Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior",
+        "url": "https://www.semanticscholar.org/paper/d151f21236b17eaaa13036718d63af8be33f0750",
+        "citation_tree": {
+          "id": "10.22214/ijraset.2025.74447",
+          "title": "Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior",
+          "url": "https://www.semanticscholar.org/paper/d151f21236b17eaaa13036718d63af8be33f0750",
+          "authors": [
+            "Hritika Goyal",
+            "Nandini Patidar",
+            "V. Jain"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      }
+    ],
+    "citation_graph": {
+      "2107.08351v2": {
+        "title": "A Novel Approach to Analyze Fashion Digital Archive from Humanities",
+        "url": "http://arxiv.org/abs/2107.08351v2",
+        "year": 2021,
+        "authors": [
+          "Satoshi Takahashi",
+          "Keiko Yamaguchi",
+          "Asuka Watanabe"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "2007.15538v1": {
+        "title": "Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots",
+        "url": "http://arxiv.org/abs/2007.15538v1",
+        "year": 2020,
+        "authors": [
+          "F. Gabriele Prattic\u00f2",
+          "Fabrizio Lamberti"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.53555/kuey.v29i4.9946": {
+        "title": "Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences",
+        "url": "https://www.semanticscholar.org/paper/cf28811c203a3cce31dc6d92e984d4be837f43d4",
+        "year": 2023,
+        "authors": [
+          "Srinivas Kalyan Yellanki"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.59429/esp.v10i1.3127": {
+        "title": "Consumer behavior in art management: The perspective of social psychology",
+        "url": "https://www.semanticscholar.org/paper/a1175cd0e53a8c8afaeb1dbd6bd783254cf48aec",
+        "year": 2025,
+        "authors": [
+          "Ruxiao Yang"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.22214/ijraset.2025.74447": {
+        "title": "Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior",
+        "url": "https://www.semanticscholar.org/paper/d151f21236b17eaaa13036718d63af8be33f0750",
+        "year": 2025,
+        "authors": [
+          "Hritika Goyal",
+          "Nandini Patidar",
+          "V. Jain"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      }
+    },
+    "depth_levels": {
+      "by_level": {
+        "0": [
+          "2107.08351v2",
+          "2007.15538v1",
+          "10.53555/kuey.v29i4.9946",
+          "10.59429/esp.v10i1.3127",
+          "10.22214/ijraset.2025.74447"
+        ]
+      },
+      "counts": {
+        "0": 5
+      }
+    },
+    "total_unique_papers": 5
+  },
+  "extracted_artifacts": [],
+  "analyses": {
+    "2107.08351v2": {
+      "research_question": "unknown",
+      "methodology": "unknown",
+      "key_findings": [],
+      "claims": [],
+      "datasets": [],
+      "contributions": [],
+      "limitations": [],
+      "future_work": [],
+      "keywords": [],
+      "contribution_type": "unknown",
+      "confidence_level": "low",
+      "summary": "Analysis failed for 'A Novel Approach to Analyze Fashion Digital Archive from Humanities': All connection attempts failed",
+      "_model": "N/A",
+      "_provider": "N/A",
+      "_tokens_used": 0
+    },
+    "2007.15538v1": {
+      "research_question": "unknown",
+      "methodology": "unknown",
+      "key_findings": [],
+      "claims": [],
+      "datasets": [],
+      "contributions": [],
+      "limitations": [],
+      "future_work": [],
+      "keywords": [],
+      "contribution_type": "unknown",
+      "confidence_level": "low",
+      "summary": "Analysis failed for 'Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots': All connection attempts failed",
+      "_model": "N/A",
+      "_provider": "N/A",
+      "_tokens_used": 0
+    },
+    "10.53555/kuey.v29i4.9946": {
+      "research_question": "unknown",
+      "methodology": "unknown",
+      "key_findings": [],
+      "claims": [],
+      "datasets": [],
+      "contributions": [],
+      "limitations": [],
+      "future_work": [],
+      "keywords": [],
+      "contribution_type": "unknown",
+      "confidence_level": "low",
+      "summary": "Analysis failed for 'Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences': All connection attempts failed",
+      "_model": "N/A",
+      "_provider": "N/A",
+      "_tokens_used": 0
+    },
+    "10.59429/esp.v10i1.3127": {
+      "research_question": "unknown",
+      "methodology": "unknown",
+      "key_findings": [],
+      "claims": [],
+      "datasets": [],
+      "contributions": [],
+      "limitations": [],
+      "future_work": [],
+      "keywords": [],
+      "contribution_type": "unknown",
+      "confidence_level": "low",
+      "summary": "Analysis failed for 'Consumer behavior in art management: The perspective of social psychology': All connection attempts failed",
+      "_model": "N/A",
+      "_provider": "N/A",
+      "_tokens_used": 0
+    },
+    "10.22214/ijraset.2025.74447": {
+      "research_question": "unknown",
+      "methodology": "unknown",
+      "key_findings": [],
+      "claims": [],
+      "datasets": [],
+      "contributions": [],
+      "limitations": [],
+      "future_work": [],
+      "keywords": [],
+      "contribution_type": "unknown",
+      "confidence_level": "low",
+      "summary": "Analysis failed for 'Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior': All connection attempts failed",
+      "_model": "N/A",
+      "_provider": "N/A",
+      "_tokens_used": 0
+    }
+  },
+  "sectioned_content": {
+    "2107.08351v2": {
+      "title": "A Novel Approach to Analyze Fashion Digital Archive from Humanities",
+      "source_url": "http://arxiv.org/abs/2107.08351v2",
+      "sections": {
+        "abstract": "Fashion styles adopted every day are an important aspect of culture, and style trend analysis helps provide a deeper understanding of our societies and cultures. To analyze everyday fashion trends from the humanities perspective, we need a digital archive that includes images of what people wore in their daily lives over an extended period. In fashion research, building digital fashion image archives has attracted significant attention. However, the existing archives are not suitable for retriev",
+        "introduction": "",
+        "methodology": "",
+        "results": "",
+        "discussion": "",
+        "key_findings": [],
+        "relevance_score": 0.5
+      },
+      "key_findings_summary": []
+    },
+    "2007.15538v1": {
+      "title": "Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots",
+      "source_url": "http://arxiv.org/abs/2007.15538v1",
+      "sections": {
+        "abstract": "In recent years, there has been an increasing interest in the use of robotic technology at home. A number of service robots appeared on the market, supporting customers in the execution of everyday tasks. Roughly at the same time, consumer level robots started to be used also as toys or gaming companions. However, gaming possibilities provided by current off-the-shelf robotic products are generally quite limited, and this fact makes them quickly loose their attractiveness. A way that has been pr",
+        "introduction": "",
+        "methodology": "",
+        "results": "",
+        "discussion": "",
+        "key_findings": [],
+        "relevance_score": 0.5
+      },
+      "key_findings_summary": []
+    },
+    "10.53555/kuey.v29i4.9946": {
+      "title": "Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences",
+      "source_url": "https://www.semanticscholar.org/paper/cf28811c203a3cce31dc6d92e984d4be837f43d4",
+      "sections": {
+        "abstract": "During the pandemic, there was a continuous drop in booking volume FD revenue of airlines and OTAs globally as travel restrictions were put in place. As personal and financial circumstances changed, some consumers retrieved their travel products and fully chose refunds. However, there was a short-lived boom of recovered booking volumes in airlines and OTAs within the third quarter and a thread of recovery for the large intercontinental markets from the fourth quarter of 2020 onward. Such market ",
+        "introduction": "",
+        "methodology": "",
+        "results": "",
+        "discussion": "",
+        "key_findings": [],
+        "relevance_score": 0.5
+      },
+      "key_findings_summary": []
+    },
+    "10.59429/esp.v10i1.3127": {
+      "title": "Consumer behavior in art management: The perspective of social psychology",
+      "source_url": "https://www.semanticscholar.org/paper/a1175cd0e53a8c8afaeb1dbd6bd783254cf48aec",
+      "sections": {
+        "abstract": "This study explores consumer behavior in art management through a social psychological perspective, focusing on cultural variations, digital transformation, and regulatory impacts. Employing a mixed-methods approach, we analyzed data from 1,500 art consumers across major global markets. Our findings reveal distinct psychographic profiles and regional differences in art consumption patterns. Western markets prioritize aesthetic value (\u03b2 = 0.58) while Asian markets emphasize investment potential (",
+        "introduction": "",
+        "methodology": "",
+        "results": "",
+        "discussion": "",
+        "key_findings": [],
+        "relevance_score": 0.5
+      },
+      "key_findings_summary": []
+    },
+    "10.22214/ijraset.2025.74447": {
+      "title": "Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior",
+      "source_url": "https://www.semanticscholar.org/paper/d151f21236b17eaaa13036718d63af8be33f0750",
+      "sections": {
+        "abstract": "This study examines the comparative impact of digital marketing on consumer buying behavior in urban and rural\nareas of Neemuch district. With the rapid growth of internet penetration, mobile usage, and social media adoption, digital\nmarketing has become a critical tool for influencing purchasing patterns. However, lifestyle, infrastructure, and socio-economic\nstatus disparities create differing adoption patterns across urban and rural markets. Adopting a descriptive research design, the\nstudy e",
+        "introduction": "",
+        "methodology": "",
+        "results": "",
+        "discussion": "",
+        "key_findings": [],
+        "relevance_score": 0.5
+      },
+      "key_findings_summary": []
+    }
+  },
+  "relationships": {
+    "feature_relationships": [],
+    "citation_hierarchy": {
+      "foundational_papers": [],
+      "derivative_papers": [],
+      "cluster_analysis": {}
+    },
+    "research_progression": "Relationships analysis pending",
+    "key_connections": [],
+    "analysis_status": "incomplete",
+    "citation_analysis": {
+      "most_cited": [
+        [
+          "2107.08351v2",
+          0
+        ],
+        [
+          "2007.15538v1",
+          0
+        ],
+        [
+          "10.53555/kuey.v29i4.9946",
+          0
+        ],
+        [
+          "10.59429/esp.v10i1.3127",
+          0
+        ],
+        [
+          "10.22214/ijraset.2025.74447",
+          0
+        ]
+      ],
+      "most_citing": [
+        [
+          "2107.08351v2",
+          0
+        ],
+        [
+          "2007.15538v1",
+          0
+        ],
+        [
+          "10.53555/kuey.v29i4.9946",
+          0
+        ],
+        [
+          "10.59429/esp.v10i1.3127",
+          0
+        ],
+        [
+          "10.22214/ijraset.2025.74447",
+          0
+        ]
+      ],
+      "network_density": 5
+    },
+    "parent_child_relationships": {
+      "root_to_children": {},
+      "parent_to_children": {},
+      "depth_distribution": {
+        "0": 5
+      }
+    }
+  },
+  "graph_nodes": {
+    "nodes": [
+      {
+        "id": "paper_2107.08351v2",
+        "type": "Paper",
+        "properties": {
+          "title": "A Novel Approach to Analyze Fashion Digital Archive from Humanities",
+          "authors": [
+            "Satoshi Takahashi",
+            "Keiko Yamaguchi",
+            "Asuka Watanabe"
+          ],
+          "year": 2021,
+          "url": "http://arxiv.org/abs/2107.08351v2",
+          "source": "arxiv",
+          "abstract": "Fashion styles adopted every day are an important aspect of culture, and style trend analysis helps provide a deeper understanding of our societies and cultures. To analyze everyday fashion trends from the humanities perspective, we need a digital archive that includes images of what people wore in their daily lives over an extended period. In fashion research, building digital fashion image archives has attracted significant attention. However, the existing archives are not suitable for retriev",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "unknown",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_2007.15538v1",
+        "type": "Paper",
+        "properties": {
+          "title": "Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots",
+          "authors": [
+            "F. Gabriele Prattic\u00f2",
+            "Fabrizio Lamberti"
+          ],
+          "year": 2020,
+          "url": "http://arxiv.org/abs/2007.15538v1",
+          "source": "arxiv",
+          "abstract": "In recent years, there has been an increasing interest in the use of robotic technology at home. A number of service robots appeared on the market, supporting customers in the execution of everyday tasks. Roughly at the same time, consumer level robots started to be used also as toys or gaming companions. However, gaming possibilities provided by current off-the-shelf robotic products are generally quite limited, and this fact makes them quickly loose their attractiveness. A way that has been pr",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "unknown",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.53555/kuey.v29i4.9946",
+        "type": "Paper",
+        "properties": {
+          "title": "Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences",
+          "authors": [
+            "Srinivas Kalyan Yellanki"
+          ],
+          "year": 2023,
+          "url": "https://www.semanticscholar.org/paper/cf28811c203a3cce31dc6d92e984d4be837f43d4",
+          "source": "semantic_scholar",
+          "abstract": "During the pandemic, there was a continuous drop in booking volume FD revenue of airlines and OTAs globally as travel restrictions were put in place. As personal and financial circumstances changed, some consumers retrieved their travel products and fully chose refunds. However, there was a short-lived boom of recovered booking volumes in airlines and OTAs within the third quarter and a thread of recovery for the large intercontinental markets from the fourth quarter of 2020 onward. Such market ",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "unknown",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.59429/esp.v10i1.3127",
+        "type": "Paper",
+        "properties": {
+          "title": "Consumer behavior in art management: The perspective of social psychology",
+          "authors": [
+            "Ruxiao Yang"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/a1175cd0e53a8c8afaeb1dbd6bd783254cf48aec",
+          "source": "semantic_scholar",
+          "abstract": "This study explores consumer behavior in art management through a social psychological perspective, focusing on cultural variations, digital transformation, and regulatory impacts. Employing a mixed-methods approach, we analyzed data from 1,500 art consumers across major global markets. Our findings reveal distinct psychographic profiles and regional differences in art consumption patterns. Western markets prioritize aesthetic value (\u03b2 = 0.58) while Asian markets emphasize investment potential (",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "unknown",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.22214/ijraset.2025.74447",
+        "type": "Paper",
+        "properties": {
+          "title": "Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior",
+          "authors": [
+            "Hritika Goyal",
+            "Nandini Patidar",
+            "V. Jain"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/d151f21236b17eaaa13036718d63af8be33f0750",
+          "source": "semantic_scholar",
+          "abstract": "This study examines the comparative impact of digital marketing on consumer buying behavior in urban and rural\nareas of Neemuch district. With the rapid growth of internet penetration, mobile usage, and social media adoption, digital\nmarketing has become a critical tool for influencing purchasing patterns. However, lifestyle, infrastructure, and socio-economic\nstatus disparities create differing adoption patterns across urban and rural markets. Adopting a descriptive research design, the\nstudy e",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "unknown",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "citation_2107.08351v2",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "A Novel Approach to Analyze Fashion Digital Archive from Humanities",
+          "year": 2021,
+          "authors": [
+            "Satoshi Takahashi",
+            "Keiko Yamaguchi",
+            "Asuka Watanabe"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_2007.15538v1",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Mixed-Reality Robotic Games: Design Guidelines for Effective Entertainment with Consumer Robots",
+          "year": 2020,
+          "authors": [
+            "F. Gabriele Prattic\u00f2",
+            "Fabrizio Lamberti"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.53555/kuey.v29i4.9946",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Analyzing Consumer Behavior And Decision-Making Patterns In Digital Travel Platforms: A Comparative Study Of Service Integration And User Preferences",
+          "year": 2023,
+          "authors": [
+            "Srinivas Kalyan Yellanki"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.59429/esp.v10i1.3127",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Consumer behavior in art management: The perspective of social psychology",
+          "year": 2025,
+          "authors": [
+            "Ruxiao Yang"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.22214/ijraset.2025.74447",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Comparing the Impact of Digital Marketing on Urban vs. Rural Consumer Buying Behavior",
+          "year": 2025,
+          "authors": [
+            "Hritika Goyal",
+            "Nandini Patidar",
+            "V. Jain"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      }
+    ],
+    "edges": [],
+    "total_nodes": 10,
+    "total_edges": 0,
+    "graph_metadata": {
+      "origin_query": "Consumer behavior patterns in online and digital markets.",
+      "papers_analyzed": 5,
+      "topics_identified": 0
+    }
+  },
+  "synthesis": null,
+  "max_papers": 5,
+  "max_depth": 2,
+  "created_at": "2026-03-14T05:16:40.359888",
+  "updated_at": "2026-03-14T05:16:45.846247",
+  "status": "in_progress",
+  "errors": [
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building"
+  ]
+}

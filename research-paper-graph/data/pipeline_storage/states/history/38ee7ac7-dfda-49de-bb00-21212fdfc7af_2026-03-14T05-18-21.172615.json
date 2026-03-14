@@ -1,0 +1,21 @@
+{
+  "raw_query": "Consumer behavior patterns in online and digital markets.",
+  "user_id": "anonymous",
+  "session_id": "38ee7ac7-dfda-49de-bb00-21212fdfc7af",
+  "session_name": "",
+  "refined_query": null,
+  "papers": [],
+  "citation_tree": null,
+  "extracted_artifacts": [],
+  "analyses": {},
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": null,
+  "synthesis": null,
+  "max_papers": 5,
+  "max_depth": 2,
+  "created_at": "2026-03-14T05:18:21.172607",
+  "updated_at": "2026-03-14T05:18:21.172615",
+  "status": "in_progress",
+  "errors": []
+}

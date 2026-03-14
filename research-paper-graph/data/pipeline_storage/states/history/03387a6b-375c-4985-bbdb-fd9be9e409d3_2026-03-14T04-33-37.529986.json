@@ -1,0 +1,2958 @@
+{
+  "raw_query": "Ethical implications of AI in hiring and surveillance",
+  "user_id": "anonymous",
+  "session_id": "03387a6b-375c-4985-bbdb-fd9be9e409d3",
+  "session_name": "",
+  "refined_query": {
+    "refined_queries": [
+      "AI bias hiring discrimination",
+      "algorithmic fairness recruitment",
+      "AI surveillance ethics workforce",
+      "predictive policing AI bias",
+      "AI surveillance privacy employment"
+    ],
+    "key_concepts": [
+      "AI ethics",
+      "algorithmic bias",
+      "fairness, accountability, transparency (FAT) in AI",
+      "surveillance",
+      "hiring discrimination"
+    ],
+    "date_range": {
+      "start_year": 2018,
+      "end_year": 2024
+    },
+    "target_venues": [
+      "AI and Society",
+      "Ethics and Information Technology",
+      "ACM Conference on Fairness, Accountability, and Transparency (FAT*)",
+      "NeurIPS",
+      "ICML"
+    ],
+    "exclusions": [
+      "AI",
+      "automation",
+      "robotics"
+    ],
+    "search_strategy": "This query requires identifying research addressing the ethical concerns arising from the use of AI in hiring processes and workforce surveillance, focusing on bias, fairness, and privacy issues within the broader field of AI ethics.",
+    "_source": "llm",
+    "_model": "gemma3:latest"
+  },
+  "papers": [
+    {
+      "id": "10.22178/pos.116-10",
+      "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+      "authors": [
+        "C. Agbasiere",
+        "Goodness Rex Nze-Igwe"
+      ],
+      "year": 2025,
+      "abstract": "The study looks into how artificial intelligence (AI) affects hiring procedures, focusing on the fairness of the algorithms that drive these tools. AI has improved the efficiency of the hiring process, yet its use results in institutionalised discrimination. The AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions. The ability of AI systems to decrease human biases during recruitment encounters major challenges, as Amazon's discriminatory resume screening demonstrates the issues in systemic bias maintenance. This paper discusses the origins of algorithmic bias, including biased training records, defining labels, and choosing features, and suggests debiasing methods. Methods such as reweighting, adversarial debiasing, and fairness-aware algorithms are assessed for suitability in developing unbiased AI hiring systems. A quantitative approach is used in the research, web scraping data from extensive secondary sources to assess these biases and their mitigation measures. A Fair Machine Learning (FML) theoretical framework is utilised, which introduces fairness constraints into machine learning models so that hiring models do not perpetuate present discrimination. The ethical, legal, and organisational ramifications of using AI for recruitment are further examined under GDPR and Equal Employment Opportunity law provisions. By investigating HR practitioners' experiences and AI-based recruitment data, the study aims to develop guidelines for designing open, accountable, and equitable AI-based hiring processes. The findings emphasise the value of human oversight and the necessity of regular audits to guarantee equity in AI hiring software and, consequently, encourage diversity and equal opportunity during employment.",
+      "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.22178/pos.116-10",
+        "hash": "6d29de385c562cc0ceee49ad70e19adbf0371ba6a905ad5f7d41d44cff31c9fc"
+      }
+    },
+    {
+      "id": "10.56442/ijble.v6i1.1106",
+      "title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+      "authors": [
+        "Rachmad Ilham"
+      ],
+      "year": 2025,
+      "abstract": "The increasing integration of algorithmic technologies in recruitment processes has raised questions about candidate acceptance and perceptions of fairness. This study examines the effects of algorithmic hiring, perceived fairness, and HR tech literacy on recruitment acceptance. Using a quantitative approach, data were collected from 350 job applicants through structured questionnaires and analyzed using multiple linear regression via SPSS. The results reveal that all three variables\u2014algorithmic hiring, perceived fairness, and HR tech literacy\u2014significantly and positively affect recruitment acceptance. Among them, perceived fairness emerged as the strongest predictor, suggesting that candidates\u2019 perceptions of just and transparent processes play a critical role in shaping their acceptance of technology-driven recruitment methods. Additionally, HR tech literacy facilitates understanding and comfort with algorithmic systems, enhancing candidate receptivity. The findings contribute to theories of technology acceptance and organizational justice and provide practical implications for designing inclusive, ethical, and effective tech-based recruitment systems. This study underscores the importance of balancing innovation with fairness and transparency to build trust and improve outcomes in digital recruitment.",
+      "url": "https://www.semanticscholar.org/paper/3144751b094a873d4d87be79d826c33de9c84bfc",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.56442/ijble.v6i1.1106",
+        "hash": "f005aaba68aa03802576f7f3578666c4309fee3988d4a9475495a7e3d58f2e87"
+      }
+    },
+    {
+      "id": "10.1111/ijsa.12499",
+      "title": "Sourcing algorithms: Rethinking fairness in hiring in the era of algorithmic recruitment",
+      "authors": [
+        "Leo Alexander",
+        "Q. C. Song",
+        "Louis Hickman",
+        "Hyun Joo Shin"
+      ],
+      "year": 2024,
+      "abstract": "Sourcing algorithms are technologies used in online platforms to identify, screen, and inform potential applicants about job openings. The popularity of such technologies is rapidly increasing due to their pervasiveness in online advertising and beliefs that sourcing algorithms can decrease time to hire while improving the quality of new hires. What is little known, however, are their potential risks: sourcing algorithms could (intentionally or unintentionally) encode or exacerbate occupational demographic disparities, thereby hindering organizational diversity and/or decreasing the effectiveness of online hiring practices. Because sourcing algorithms identify and screen potential job applicants before they are made aware of employment opportunities, methods for evaluating discrimination in hiring which focus solely on job applicants (e.g., adverse impact ratio), may fail to detect the effects of discriminatory sourcing algorithms. Thus, we propose an expanded model of the employee hiring process to take into account the role of sourcing algorithms. Based on empirical approximations, we conducted a Monte Carlo simulation study to examine the magnitude and nature of sourcing algorithms' influence on hiring outcomes. Our findings suggest that sourcing algorithms could hinder the diversity of new hires while misleadingly suggesting positive diversity outcomes in personnel selection. We provide practical guidance for the use of sourcing algorithms and call for a systematic re\u2010examination of how to evaluate selection system fairness in the era of algorithmic recruitment.",
+      "url": "https://www.semanticscholar.org/paper/e8cf41494d832ec6da7aa8392f4d8c5d9315409d",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1111/ijsa.12499",
+        "hash": "d1cdfc285597dcdcb18cc45d5a7e01461f1694d4fef18b10be7d4fa2f5616f89"
+      }
+    },
+    {
+      "id": "10.1007/s10676-022-09633-2",
+      "title": "Disability, fairness, and algorithmic bias in AI recruitment",
+      "authors": [
+        "Nicholas Tilmes"
+      ],
+      "year": 2022,
+      "abstract": "",
+      "url": "https://www.semanticscholar.org/paper/4aad069a072c5a11ae2c5ba69ab5086f5f206ba6",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1007/s10676-022-09633-2",
+        "hash": "e813085b07e6e7086e20a952ae1f542670facdc120a8b175867407b9ca3dc7ad"
+      }
+    },
+    {
+      "id": "10.3389/fpsyg.2022.940456",
+      "title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+      "authors": [
+        "Airlie Hilliard",
+        "N. Guenole",
+        "F. Leutner"
+      ],
+      "year": 2022,
+      "abstract": "Recent years have seen rapid advancements in selection assessments, shifting away from human and toward algorithmic judgments of candidates. Indeed, algorithmic recruitment tools have been created to screen candidates\u2019 resumes, assess psychometric characteristics through game-based assessments, and judge asynchronous video interviews, among other applications. While research into candidate reactions to these technologies is still in its infancy, early research in this regard has explored user experiences and fairness perceptions. In this article, we review applicants\u2019 perceptions of the procedural fairness of algorithmic recruitment tools based on key findings from seven key studies, sampling over 1,300 participants between them. We focus on the sub-facets of behavioral control, the extent to which individuals feel their behavior can influence an outcome, and social presence, whether there is the perceived opportunity for a social connection and empathy. While perceptions of overall procedural fairness are mixed, we find that fairness perceptions concerning behavioral control and social presence are mostly negative. Participants feel less confident that they are able to influence the outcome of algorithmic assessments compared to human assessments because they are more objective and less susceptible to manipulation. Participants also feel that the human element is lost when these tools are used since there is a lack of perceived empathy and interpersonal warmth. Since this field of research is relatively under-explored, we end by proposing a research agenda, recommending that future studies could examine the role of individual differences, demographics, and neurodiversity in influencing fairness perceptions of algorithmic recruitment.",
+      "url": "https://www.semanticscholar.org/paper/1f28c6bc5ba68ef0cc538af32c3b8c832a3c493f",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.3389/fpsyg.2022.940456",
+        "hash": "df15dc2f03b87a78f9095e6d17d060cac10288d61adfab176be16a2c45ff7c06"
+      }
+    },
+    {
+      "id": "10.52783/jisem.v9i4s.13251",
+      "title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+      "authors": [
+        "Sungida Akther Lima",
+        "Md. Mostafizur Rahman"
+      ],
+      "year": 2024,
+      "abstract": "The growing adoption of Artificial Intelligence (AI) in Human Resource Management (HRM) has changed the process of recruitment, assessment, promotion, and retention of employees in organizations. On the one hand, AI is associated with efficiency and data-based decision-making opportunities, but, on the other hand, it creates an urgent concern about fairness, inclusiveness, and responsibility. The review is a systematic literature review of the literature published since 2010 and covering 201 studies related to algorithmic fairness in HRM. Results show that the research focus is mainly on recruitment and selection, mostly using natural language processing, machine learning classifier, and chatbots, where gender and racial-related bias is the most common. Functional areas like performance assessment, promotion, retention as well as training received relatively less attention, however they demonstrated very serious challenges associated with transparency, cultural bias and unequal access. Review of mitigation strategies reveals that in-processing methods have the highest adoption, but governance framework and human oversight proves to be points of great importance in ensuring sustainable fairness. In quality evaluation, the methodological rigor is skewed with a significant percentage of studies not being transparent about datasets and fairness measures. The review has identified the necessity of standardized means of evaluation, interdisciplinary work, and fairness-by-design principles to match algorithmic tools with the aims of diversity, equity, and inclusion. Finally, the issue of responsible AI in HRM is that it involves a compromise between efficiency and ethical requirements of technology to ensure fair and inclusive workforce policies.",
+      "url": "https://www.semanticscholar.org/paper/49a738dbec5e2d2fba1f5f29fbc2ed6037648bbb",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.52783/jisem.v9i4s.13251",
+        "hash": "c505ad3fd48c30188b270c3f65b5340a75a27e1e3c640fce14cb08c8740903e7"
+      }
+    },
+    {
+      "id": "10.1007/s40685-020-00134-w",
+      "title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "authors": [
+        "Alina K\u00f6chling",
+        "M. Wehner"
+      ],
+      "year": 2020,
+      "abstract": "Algorithmic decision-making is becoming increasingly common as a new source of advice in HR recruitment and HR development. While firms implement algorithmic decision-making to save costs as well as increase efficiency and objectivity, algorithmic decision-making might also lead to the unfair treatment of certain groups of people, implicit discrimination, and perceived unfairness. Current knowledge about the threats of unfairness and (implicit) discrimination by algorithmic decision-making is mostly unexplored in the human resource management context. Our goal is to clarify the current state of research related to HR recruitment and HR development, identify research gaps, and provide crucial future research directions. Based on a systematic review of 36 journal articles from 2014 to 2020, we present some applications of algorithmic decision-making and evaluate the possible pitfalls in these two essential HR functions. In doing this, we inform researchers and practitioners, offer important theoretical and practical implications, and suggest fruitful avenues for future research.",
+      "url": "https://www.semanticscholar.org/paper/adfb6dfffa51abed37d3c55a8dc5121ce231b28b",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1007/s40685-020-00134-w",
+        "hash": "6d9fafb6745a9623367df21af010fcc5a2d495bacaf4d98db21162ef90e1bfb8"
+      }
+    },
+    {
+      "id": "2508.00908",
+      "title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+      "authors": [
+        "Mesut Kaya",
+        "Toine Bogers"
+      ],
+      "year": 2025,
+      "abstract": "Already before the enactment of the EU AI Act, candidate or job recommendation for algorithmic hiring\u2014semi-automatically matching CVs to job postings\u2014was used as an example of a high-risk application where unfair treatment could result in serious harms to job seekers. Recommending candidates to jobs or jobs to candidates, however, is also a fitting example of a multi-stakeholder recommendation problem. In such multi-stakeholder systems, the end user is not the only party whose interests should be considered when generating recommendations. In addition to job seekers, other stakeholders\u2014such as recruiters, organizations behind the job postings, and the recruitment agency itself\u2014are also stakeholders in this and deserve to have their perspectives included in the design of relevant fairness metrics. Nevertheless, past analyses of fairness in algorithmic hiring have been restricted to single-side fairness, ignoring the perspectives of the other stakeholders. In this paper, we address this gap and present a multi-stakeholder approach to fairness in a candidate recommender system that recommends relevant candidate CVs to human recruiters in a human-in-the-loop algorithmic hiring scenario. We conducted semi-structured interviews with 40 different stakeholders (job seekers, companies, recruiters, and other job portal employees). We used these interviews to explore their lived experiences of unfairness in hiring, co-design definitions of fairness as well as metrics that might capture these experiences. Finally, we attempt to reconcile and map these different (and sometimes conflicting) perspectives and definitions to existing (categories of) fairness metrics that are relevant for our candidate recommendation scenario.",
+      "url": "https://www.semanticscholar.org/paper/fbc0befaed3cac36808ed7c8d6d745353f590fad",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": "2508.00908",
+        "doi": "10.1145/3705328.3748079",
+        "hash": "344a68c9ac400eb3ccb0a0664115113611733f0e22e97a37c5dbe9b190728269"
+      }
+    },
+    {
+      "id": "10.1108/ijotb-02-2025-0045",
+      "title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+      "authors": [
+        "Amlan Haque"
+      ],
+      "year": 2025,
+      "abstract": "\n \n Artificial intelligence (AI) is reshaping recruitment by improving efficiency, scalability and perceived objectivity. Despite these advantages, AI-driven recruitment systems present ethical and governance challenges, including the risk of reinforcing historical biases and increasing workplace surveillance. This paper critically examines how algorithmic hiring affects recruitment outcomes, fairness and accountability.\n \n \n \n A comprehensive review of scholarly literature, industry practices, and regulatory developments is conducted to assess the implications of AI in recruitment. The analysis considers the relevance of general governance frameworks, such as the EU AI Act, and evaluates their applicability to human resource (HR) contexts. Insights from human resource management, organisational behaviour and technology ethics inform an integrated assessment.\n \n \n \n Existing AI regulations provide only indirect oversight of recruitment, failing to address the specific ethical risks of algorithmic hiring. The lack of mandatory mechanisms\u2014such as bias audits, explainability requirements and candidate appeals\u2014leaves AI-driven HR practices largely unregulated. This gap may exacerbate socio-economic inequities by reducing candidates to opaque algorithmic classifications. Targeted regulation and stronger corporate accountability are needed to align innovation with ethical standards.\n \n \n \n Employers should adopt transparent AI recruitment practices, including explainable systems, third-party bias audits, and clear candidate redressal pathways. Policymakers are encouraged to extend regulatory frameworks to explicitly cover HR-specific AI applications, ensuring fair access and safeguarding employment rights.\n \n \n \n This paper offers an interdisciplinary critique of AI hiring, bridging HRM, algorithmic ethics and regulatory policy. It contributes to responsible AI governance by advocating for sector-specific regulation to prevent exclusionary outcomes in labour markets.\n",
+      "url": "https://www.semanticscholar.org/paper/26cd94f73b8934bd99e9bbe2018746ec5015ad25",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.1108/ijotb-02-2025-0045",
+        "hash": "a82c6bd0cceb195d20d43a396441f3e1576160db853b0eea44a9187b0931f16c"
+      }
+    },
+    {
+      "id": "10.62311/nesx/rphcr19",
+      "title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+      "authors": [
+        "Murali Krishna Pasupuleti"
+      ],
+      "year": 2025,
+      "abstract": "Abstract:\nThe rapid adoption of artificial intelligence (AI) in recruitment has introduced efficiency gains but also raised concerns over fairness and bias. This study investigates the presence and mitigation of algorithmic discrimination in recruitment platforms through a data-driven and model-agnostic framework. Utilizing both synthetic and real-world recruitment datasets, the research applies logistic regression and random forest classifiers to detect disparities in hiring outcomes based on sensitive attributes such as gender and ethnicity. Fairness metrics\u2014including Statistical Parity Difference (SPD) and Equal Opportunity Difference (EOD)\u2014are employed to quantify bias before and after applying mitigation techniques. Among the techniques tested, adversarial debiasing demonstrated the most effective balance between fairness enhancement and predictive performance. Regression analysis revealed statistically significant negative coefficients for female and minority candidates, confirming bias in model decision-making. Post-mitigation results showed substantial improvement in fairness metrics (SPD improved from -0.28 to -0.05), with minimal compromise on accuracy. The findings underscore the necessity of integrating algorithmic audits and fairness-aware learning into AI-driven hiring systems. These insights contribute to the development of transparent, equitable recruitment platforms aligned with ethical AI principles and regulatory requirements.\nKeywords:\nalgorithmic discrimination, recruitment platforms, fairness metrics, statistical parity, adversarial debiasing, AI ethics, bias mitigation, logistic regression, equal opportunity, algorithmic accountability",
+      "url": "https://www.semanticscholar.org/paper/2534eae035a4dfdaa9f0d198c78d7eccf868d567",
+      "pdf_url": null,
+      "source": "semantic_scholar",
+      "identifier": {
+        "arxiv_id": null,
+        "doi": "10.62311/nesx/rphcr19",
+        "hash": "59057382f929e730f94affe99bbe734c553a55c4997b32cd91e5e0849e1731d3"
+      }
+    }
+  ],
+  "citation_tree": {
+    "root_papers": [
+      {
+        "id": "10.22178/pos.116-10",
+        "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+        "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+        "citation_tree": {
+          "id": "10.22178/pos.116-10",
+          "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+          "authors": [
+            "C. Agbasiere",
+            "Goodness Rex Nze-Igwe"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.56442/ijble.v6i1.1106",
+        "title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+        "url": "https://www.semanticscholar.org/paper/3144751b094a873d4d87be79d826c33de9c84bfc",
+        "citation_tree": {
+          "id": "10.56442/ijble.v6i1.1106",
+          "title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+          "url": "https://www.semanticscholar.org/paper/3144751b094a873d4d87be79d826c33de9c84bfc",
+          "authors": [
+            "Rachmad Ilham"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1111/ijsa.12499",
+        "title": "Sourcing algorithms: Rethinking fairness in hiring in the era of algorithmic recruitment",
+        "url": "https://www.semanticscholar.org/paper/e8cf41494d832ec6da7aa8392f4d8c5d9315409d",
+        "citation_tree": {
+          "id": "10.1111/ijsa.12499",
+          "title": "Sourcing algorithms: Rethinking fairness in hiring in the era of algorithmic recruitment",
+          "url": "https://www.semanticscholar.org/paper/e8cf41494d832ec6da7aa8392f4d8c5d9315409d",
+          "authors": [
+            "Leo Alexander",
+            "Q. C. Song",
+            "Louis Hickman",
+            "Hyun Joo Shin"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1007/s10676-022-09633-2",
+        "title": "Disability, fairness, and algorithmic bias in AI recruitment",
+        "url": "https://www.semanticscholar.org/paper/4aad069a072c5a11ae2c5ba69ab5086f5f206ba6",
+        "citation_tree": {
+          "id": "10.1007/s10676-022-09633-2",
+          "title": "Disability, fairness, and algorithmic bias in AI recruitment",
+          "url": "https://www.semanticscholar.org/paper/4aad069a072c5a11ae2c5ba69ab5086f5f206ba6",
+          "authors": [
+            "Nicholas Tilmes"
+          ],
+          "year": 2022,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.3389/fpsyg.2022.940456",
+        "title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+        "url": "https://www.semanticscholar.org/paper/1f28c6bc5ba68ef0cc538af32c3b8c832a3c493f",
+        "citation_tree": {
+          "id": "10.3389/fpsyg.2022.940456",
+          "title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+          "url": "https://www.semanticscholar.org/paper/1f28c6bc5ba68ef0cc538af32c3b8c832a3c493f",
+          "authors": [
+            "Airlie Hilliard",
+            "N. Guenole",
+            "F. Leutner"
+          ],
+          "year": 2022,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.52783/jisem.v9i4s.13251",
+        "title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+        "url": "https://www.semanticscholar.org/paper/49a738dbec5e2d2fba1f5f29fbc2ed6037648bbb",
+        "citation_tree": {
+          "id": "10.52783/jisem.v9i4s.13251",
+          "title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+          "url": "https://www.semanticscholar.org/paper/49a738dbec5e2d2fba1f5f29fbc2ed6037648bbb",
+          "authors": [
+            "Sungida Akther Lima",
+            "Md. Mostafizur Rahman"
+          ],
+          "year": 2024,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1007/s40685-020-00134-w",
+        "title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+        "url": "https://www.semanticscholar.org/paper/adfb6dfffa51abed37d3c55a8dc5121ce231b28b",
+        "citation_tree": {
+          "id": "10.1007/s40685-020-00134-w",
+          "title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+          "url": "https://www.semanticscholar.org/paper/adfb6dfffa51abed37d3c55a8dc5121ce231b28b",
+          "authors": [
+            "Alina K\u00f6chling",
+            "M. Wehner"
+          ],
+          "year": 2020,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "2508.00908",
+        "title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+        "url": "https://www.semanticscholar.org/paper/fbc0befaed3cac36808ed7c8d6d745353f590fad",
+        "citation_tree": {
+          "id": "2508.00908",
+          "title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+          "url": "https://www.semanticscholar.org/paper/fbc0befaed3cac36808ed7c8d6d745353f590fad",
+          "authors": [
+            "Mesut Kaya",
+            "Toine Bogers"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.1108/ijotb-02-2025-0045",
+        "title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+        "url": "https://www.semanticscholar.org/paper/26cd94f73b8934bd99e9bbe2018746ec5015ad25",
+        "citation_tree": {
+          "id": "10.1108/ijotb-02-2025-0045",
+          "title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+          "url": "https://www.semanticscholar.org/paper/26cd94f73b8934bd99e9bbe2018746ec5015ad25",
+          "authors": [
+            "Amlan Haque"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      },
+      {
+        "id": "10.62311/nesx/rphcr19",
+        "title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+        "url": "https://www.semanticscholar.org/paper/2534eae035a4dfdaa9f0d198c78d7eccf868d567",
+        "citation_tree": {
+          "id": "10.62311/nesx/rphcr19",
+          "title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+          "url": "https://www.semanticscholar.org/paper/2534eae035a4dfdaa9f0d198c78d7eccf868d567",
+          "authors": [
+            "Murali Krishna Pasupuleti"
+          ],
+          "year": 2025,
+          "depth": 0,
+          "citations": [],
+          "cited_by": []
+        }
+      }
+    ],
+    "citation_graph": {
+      "10.22178/pos.116-10": {
+        "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+        "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+        "year": 2025,
+        "authors": [
+          "C. Agbasiere",
+          "Goodness Rex Nze-Igwe"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.56442/ijble.v6i1.1106": {
+        "title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+        "url": "https://www.semanticscholar.org/paper/3144751b094a873d4d87be79d826c33de9c84bfc",
+        "year": 2025,
+        "authors": [
+          "Rachmad Ilham"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1111/ijsa.12499": {
+        "title": "Sourcing algorithms: Rethinking fairness in hiring in the era of algorithmic recruitment",
+        "url": "https://www.semanticscholar.org/paper/e8cf41494d832ec6da7aa8392f4d8c5d9315409d",
+        "year": 2024,
+        "authors": [
+          "Leo Alexander",
+          "Q. C. Song",
+          "Louis Hickman",
+          "Hyun Joo Shin"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1007/s10676-022-09633-2": {
+        "title": "Disability, fairness, and algorithmic bias in AI recruitment",
+        "url": "https://www.semanticscholar.org/paper/4aad069a072c5a11ae2c5ba69ab5086f5f206ba6",
+        "year": 2022,
+        "authors": [
+          "Nicholas Tilmes"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.3389/fpsyg.2022.940456": {
+        "title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+        "url": "https://www.semanticscholar.org/paper/1f28c6bc5ba68ef0cc538af32c3b8c832a3c493f",
+        "year": 2022,
+        "authors": [
+          "Airlie Hilliard",
+          "N. Guenole",
+          "F. Leutner"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.52783/jisem.v9i4s.13251": {
+        "title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+        "url": "https://www.semanticscholar.org/paper/49a738dbec5e2d2fba1f5f29fbc2ed6037648bbb",
+        "year": 2024,
+        "authors": [
+          "Sungida Akther Lima",
+          "Md. Mostafizur Rahman"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1007/s40685-020-00134-w": {
+        "title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+        "url": "https://www.semanticscholar.org/paper/adfb6dfffa51abed37d3c55a8dc5121ce231b28b",
+        "year": 2020,
+        "authors": [
+          "Alina K\u00f6chling",
+          "M. Wehner"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "2508.00908": {
+        "title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+        "url": "https://www.semanticscholar.org/paper/fbc0befaed3cac36808ed7c8d6d745353f590fad",
+        "year": 2025,
+        "authors": [
+          "Mesut Kaya",
+          "Toine Bogers"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.1108/ijotb-02-2025-0045": {
+        "title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+        "url": "https://www.semanticscholar.org/paper/26cd94f73b8934bd99e9bbe2018746ec5015ad25",
+        "year": 2025,
+        "authors": [
+          "Amlan Haque"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      },
+      "10.62311/nesx/rphcr19": {
+        "title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+        "url": "https://www.semanticscholar.org/paper/2534eae035a4dfdaa9f0d198c78d7eccf868d567",
+        "year": 2025,
+        "authors": [
+          "Murali Krishna Pasupuleti"
+        ],
+        "depth": 0,
+        "cites": [],
+        "cited_by": []
+      }
+    },
+    "depth_levels": {
+      "by_level": {
+        "0": [
+          "10.22178/pos.116-10",
+          "10.56442/ijble.v6i1.1106",
+          "10.1111/ijsa.12499",
+          "10.1007/s10676-022-09633-2",
+          "10.3389/fpsyg.2022.940456",
+          "10.52783/jisem.v9i4s.13251",
+          "10.1007/s40685-020-00134-w",
+          "2508.00908",
+          "10.1108/ijotb-02-2025-0045",
+          "10.62311/nesx/rphcr19"
+        ]
+      },
+      "counts": {
+        "0": 10
+      }
+    },
+    "total_unique_papers": 10
+  },
+  "extracted_artifacts": [],
+  "analyses": {
+    "10.22178/pos.116-10": {
+      "research_question": "How can artificial intelligence (AI) be designed to mitigate biases in recruitment processes and promote fairness in candidate selection?",
+      "methodology": {
+        "approach": "The research employs a quantitative approach utilizing web scraping of secondary sources and the application of the Fair Machine Learning (FML) theoretical framework to assess and mitigate algorithmic bias in AI-powered hiring tools.",
+        "evidence": "\"A quantitative approach is used in the research, web scraping data from extensive secondary sources to assess these biases and their mitigation measures.\""
+      },
+      "key_findings": [
+        {
+          "finding": "AI recruitment systems can perpetuate and amplify existing biases due to reliance on past performance data.",
+          "evidence": "\"AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions.\""
+        },
+        {
+          "finding": "The Amazon resume screening case demonstrates the real-world consequences of systemic bias maintained by AI recruitment tools.",
+          "evidence": "\"The AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions. This paper discusses the origins of algorithmic bias, including biased training records, defining labels, and choosing features, and suggests debiasing methods.\""
+        },
+        {
+          "finding": "Various debiasing methods, including reweighting, adversarial debiasing, and fairness-aware algorithms, can be utilized to develop unbiased AI hiring systems.",
+          "evidence": "\"Methods such as reweighting, adversarial debiasing, and fairness-aware algorithms are assessed for suitability in developing unbiased AI hiring systems.\""
+        }
+      ],
+      "claims": [
+        {
+          "claim": "The implementation of the Fair Machine Learning (FML) framework is crucial for preventing AI hiring models from perpetuating discrimination.",
+          "evidence": "\"A Fair Machine Learning (FML) theoretical framework is utilised, which introduces fairness constraints into machine learning models so that hiring models do not perpetuate present discrimination.\""
+        },
+        {
+          "claim": "Human oversight and regular audits are essential for ensuring equity in AI hiring software.",
+          "evidence": "\"The findings emphasise the value of human oversight and the necessity of regular audits to guarantee equity in AI hiring software and, consequently, encourage diversity and equal opportunity during employment.\""
+        }
+      ],
+      "datasets": [
+        "Secondary sources (web-scraped)",
+        "HR practitioner experiences",
+        "AI-based recruitment data"
+      ],
+      "contributions": [
+        {
+          "contribution": "Development of guidelines for designing open, accountable, and equitable AI-based hiring processes.",
+          "evidence": "\"The study aims to develop guidelines for designing open, accountable, and equitable AI-based hiring processes.\""
+        },
+        {
+          "contribution": "Exploration of the ethical, legal, and organizational ramifications of using AI in recruitment, considering GDPR and Equal Employment Opportunity law.",
+          "evidence": "\"The ethical, legal, and organisational ramifications of using AI for recruitment are further examined under GDPR and Equal Employment Opportunity law provisions.\""
+        }
+      ],
+      "limitations": [
+        "Reliance on secondary sources may introduce biases or inaccuracies.",
+        "The study's findings may be limited by the specific datasets analyzed."
+      ],
+      "future_work": [
+        "Further research into the development of more robust and adaptable debiasing techniques.",
+        "Investigation of the long-term impact of AI-powered recruitment on diversity and inclusion outcomes.",
+        "Development of standardized metrics for evaluating the fairness of AI hiring systems."
+      ],
+      "keywords": [
+        "AI",
+        "Recruitment",
+        "Algorithmic Bias",
+        "Fairness",
+        "Machine Learning",
+        "Hiring",
+        "Diversity",
+        "Equality"
+      ],
+      "contribution_type": "Research",
+      "confidence_level": "High",
+      "summary": "This research investigates the potential for bias in AI-powered recruitment tools and proposes methods for mitigating these biases, emphasizing the importance of human oversight and regular audits to ensure equitable hiring practices.",
+      "reasoning_path": "The text clearly states the problem of AI systems perpetuating bias through historical data and suggests solutions like the FML framework and human oversight. The research aims to develop guidelines based on these findings, demonstrating a clear path from identifying the issue to proposing practical solutions.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 987
+    },
+    "10.56442/ijble.v6i1.1106": {
+      "research_question": "What is the effect of algorithmic hiring, perceived fairness, and HR tech literacy on recruitment acceptance?",
+      "methodology": {
+        "approach": "Quantitative analysis using multiple linear regression via SPSS on data collected from 350 job applicants through structured questionnaires.",
+        "evidence": "\u201cUsing a quantitative approach, data were collected from 350 job applicants through structured questionnaires and analyzed using multiple linear regression via SPSS.\u201d"
+      },
+      "key_findings": [
+        {
+          "finding": "Algorithmic hiring, perceived fairness, and HR tech literacy all significantly and positively affect recruitment acceptance.",
+          "evidence": "\u201cThe results reveal that all three variables\u2014algorithmic hiring, perceived fairness, and HR tech literacy\u2014significantly and positively affect recruitment acceptance.\u201d"
+        },
+        {
+          "finding": "Perceived fairness is the strongest predictor of recruitment acceptance.",
+          "evidence": "\u201cAmong them, perceived fairness emerged as the strongest predictor, suggesting that candidates\u2019 perceptions of just and transparent processes play a critical role in shaping their acceptance of technology-driven recruitment methods.\u201d"
+        },
+        {
+          "finding": "HR tech literacy enhances candidate receptivity to algorithmic systems.",
+          "evidence": "\u201cAdditionally, HR tech literacy facilitates understanding and comfort with algorithmic systems, enhancing candidate receptivity.\u201d"
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Candidates' perceptions of fairness are crucial for accepting technology-driven recruitment methods.",
+          "evidence": "\u201csuggesting that candidates\u2019 perceptions of just and transparent processes play a critical role in shaping their acceptance of technology-driven recruitment methods.\u201d"
+        },
+        {
+          "claim": "Understanding and comfort with technology (HR tech literacy) positively impacts a candidate's willingness to accept algorithmic hiring.",
+          "evidence": "\u201cAdditionally, HR tech literacy facilitates understanding and comfort with algorithmic systems, enhancing candidate receptivity.\u201d"
+        }
+      ],
+      "datasets": [
+        "350 job applicants"
+      ],
+      "contributions": [
+        {
+          "contribution": "Provides insights into the factors influencing recruitment acceptance in the context of algorithmic hiring.",
+          "evidence": "\u201cThis study contributes to theories of technology acceptance and organizational justice and provides practical implications for designing inclusive, ethical, and effective tech-based recruitment systems.\u201d"
+        },
+        {
+          "contribution": "Offers practical implications for designing recruitment systems that balance innovation with fairness and transparency.",
+          "evidence": "\u201cThis study underscores the importance of balancing innovation with fairness and transparency to build trust and improve outcomes in digital recruitment.\u201d"
+        }
+      ],
+      "limitations": [
+        "The study relies on self-reported data, which may be subject to bias.",
+        "The generalizability of the findings may be limited to the specific population of job applicants surveyed."
+      ],
+      "future_work": [
+        "Investigating the impact of specific algorithmic features on candidate perceptions.",
+        "Exploring the role of demographic factors in mediating the relationship between fairness and acceptance."
+      ],
+      "keywords": [
+        "algorithmic hiring",
+        "recruitment acceptance",
+        "perceived fairness",
+        "HR tech literacy",
+        "technology acceptance",
+        "organizational justice",
+        "digital recruitment"
+      ],
+      "contribution_type": "Empirical Research",
+      "confidence_level": "High",
+      "summary": "This research investigates the factors influencing candidate acceptance of algorithmic hiring processes. The study found that perceived fairness and HR tech literacy are significant positive predictors of recruitment acceptance, with perceived fairness being the strongest predictor.",
+      "reasoning_path": "The text explicitly states the research question and the methodology used (multiple linear regression). The key findings directly report the significant and positive effects of the three variables on recruitment acceptance, supported by specific data points about the relative strength of perceived fairness and the role of HR tech literacy. Therefore, the analysis is derived directly from the reported results and supporting evidence within the text.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 879
+    },
+    "10.1111/ijsa.12499": {
+      "research_question": "unknown",
+      "methodology": "unknown",
+      "key_findings": [],
+      "claims": [],
+      "datasets": [],
+      "contributions": [],
+      "limitations": [],
+      "future_work": [],
+      "keywords": [],
+      "contribution_type": "unknown",
+      "confidence_level": "low",
+      "summary": "Analysis failed for 'Sourcing algorithms: Rethinking fairness in hiring in the era of algorithmic recruitment': ",
+      "_model": "N/A",
+      "_provider": "N/A",
+      "_tokens_used": 0
+    },
+    "10.1007/s10676-022-09633-2": {
+      "status": "no_content"
+    },
+    "10.3389/fpsyg.2022.940456": {
+      "research_question": "How do applicants perceive the procedural fairness of algorithmic recruitment tools?",
+      "methodology": {
+        "approach": "A systematic review of seven key studies, encompassing data from over 1,300 participants, focusing on behavioral control and social presence as sub-facets of procedural fairness.",
+        "evidence": "\"We review applicants\u2019 perceptions of the procedural fairness of algorithmic recruitment tools based on key findings from seven key studies, sampling over 1,300 participants between them.\""
+      },
+      "key_findings": [
+        {
+          "finding": "Fairness perceptions concerning behavioral control and social presence are predominantly negative.",
+          "evidence": "\"While perceptions of overall procedural fairness are mixed, we find that fairness perceptions concerning behavioral control and social presence are mostly negative.\""
+        },
+        {
+          "finding": "Participants report feeling less confident in their ability to influence outcomes compared to human assessments.",
+          "evidence": "\"Participants feel less confident that they are able to influence the outcome of algorithmic assessments compared to human assessments because they are more objective and less susceptible to manipulation.\""
+        },
+        {
+          "finding": "A lack of perceived empathy and interpersonal warmth contributes to negative fairness perceptions.",
+          "evidence": "\"Participants also feel that the human element is lost when these tools are used since there is a lack of perceived empathy and interpersonal warmth.\""
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Algorithmic recruitment tools are perceived as less objective than human assessments.",
+          "evidence": "\"they are more objective and less susceptible to manipulation.\""
+        },
+        {
+          "claim": "The absence of human interaction negatively impacts applicant perceptions of fairness.",
+          "evidence": "\"the human element is lost when these tools are used since there is a lack of perceived empathy and interpersonal warmth.\""
+        }
+      ],
+      "datasets": [
+        "Over 1,300 participants across seven key studies"
+      ],
+      "contributions": [
+        {
+          "contribution": "Identifies key dimensions (behavioral control and social presence) influencing perceptions of fairness in algorithmic recruitment.",
+          "evidence": "\"We focus on the sub-facets of behavioral control, the extent to which individuals feel their behavior can influence an outcome, and social presence, whether there is the perceived opportunity for a social connection and empathy.\""
+        },
+        {
+          "contribution": "Highlights the need for future research exploring individual differences and demographics in fairness perceptions.",
+          "evidence": "\"Since this field of research is relatively under-explored, we end by proposing a research agenda, recommending that future studies could examine the role of individual differences, demographics, and neurodiversity in influencing fairness perceptions of algorithmic recruitment.\""
+        }
+      ],
+      "limitations": [
+        "The analysis is based on a review of existing studies, and may not capture the full range of perceptions.",
+        "The sample size of 1,300 participants, while substantial, is still limited in scope."
+      ],
+      "future_work": [
+        "Investigate the influence of individual differences (e.g., personality traits, cognitive styles) on fairness perceptions.",
+        "Explore how demographic factors (e.g., gender, ethnicity, socioeconomic status) moderate the relationship between algorithmic recruitment tools and fairness perceptions.",
+        "Examine the role of neurodiversity in shaping perceptions of fairness within algorithmic assessment environments."
+      ],
+      "keywords": [
+        "algorithmic recruitment",
+        "fairness",
+        "procedural fairness",
+        "psychometric assessments",
+        "candidate perceptions",
+        "behavioral control",
+        "social presence"
+      ],
+      "contribution_type": "Systematic Review",
+      "confidence_level": "Medium",
+      "summary": "This research review examines applicant perceptions of algorithmic recruitment tools, finding predominantly negative fairness perceptions linked to a lack of behavioral control and social presence. The study highlights the importance of considering individual differences and demographics in future research on this topic.",
+      "reasoning_path": "The text explicitly states the review's focus on applicant perceptions of fairness in algorithmic recruitment tools. It identifies key findings regarding negative perceptions of behavioral control and social presence, supported by direct quotes from the text detailing participants' reduced confidence and feelings of a lost human element. Therefore, the analysis is derived from a systematic examination of the provided research paper.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 970
+    },
+    "10.52783/jisem.v9i4s.13251": {
+      "research_question": "How is algorithmic fairness being addressed in the application of AI within Human Resource Management (HRM)?",
+      "methodology": {
+        "approach": "Systematic literature review of 201 studies published since 2010 focusing on algorithmic fairness in HRM.",
+        "evidence": "\u2018The review is a systematic literature review of the literature published since 2010 and covering 201 studies related to algorithmic fairness in HRM.\u2019"
+      },
+      "key_findings": [
+        {
+          "finding": "The primary research focus is on recruitment and selection processes utilizing AI technologies such as natural language processing, machine learning classifiers, and chatbots.",
+          "evidence": "\u2018Results show that the research focus is mainly on recruitment and selection, mostly using natural language processing, machine learning classifier, and chatbots\u2026\u2019"
+        },
+        {
+          "finding": "Gender and racial bias are the most prevalent concerns identified within AI-driven recruitment and selection systems.",
+          "evidence": "\u2018\u2026where gender and racial-related bias is the most common.\u2019"
+        },
+        {
+          "finding": "Functional areas beyond recruitment (performance assessment, promotion, retention, training) receive significantly less research attention, but present substantial fairness challenges.",
+          "evidence": "\u2018Functional areas like performance assessment, promotion, retention as well as training received relatively less attention, however they demonstrated very serious challenges associated with transparency, cultural bias and unequal access.\u2019"
+        },
+        {
+          "finding": "In-processing methods are the most commonly adopted mitigation strategies.",
+          "evidence": "\u2018Review of mitigation strategies reveals that in-processing methods have the highest adoption\u2026\u2019"
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Governance frameworks and human oversight are crucial for ensuring sustainable algorithmic fairness in HRM.",
+          "evidence": "\u2018\u2026governance framework and human oversight proves to be points of great importance in ensuring sustainable fairness.\u2019"
+        },
+        {
+          "claim": "The methodological rigor of studies examining algorithmic fairness in HRM is often lacking, particularly concerning transparency of datasets and fairness measures.",
+          "evidence": "\u2018In quality evaluation, the methodological rigor is skewed with a significant percentage of studies not being transparent about datasets and fairness measures.\u2019"
+        }
+      ],
+      "datasets": [
+        "Datasets used in 201 studies related to algorithmic fairness in HRM (specific details not provided in the text)."
+      ],
+      "contributions": [
+        {
+          "contribution": "The review highlights the need for standardized evaluation metrics for algorithmic fairness in HRM.",
+          "evidence": "\u2018\u2026the necessity of standardized means of evaluation\u2026\u2019"
+        },
+        {
+          "contribution": "Interdisciplinary collaboration is proposed to address the complex challenges of algorithmic fairness in HRM.",
+          "evidence": "\u2018\u2026the review has identified the necessity of standardized means of evaluation, interdisciplinary work\u2026\u2019"
+        },
+        {
+          "contribution": "The concept of \u2018fairness-by-design\u2019 principles should be integrated into the development of AI tools for HRM.",
+          "evidence": "\u2018\u2026and fairness-by-design principles to match algorithmic tools with the aims of diversity, equity, and inclusion.\u2019"
+        }
+      ],
+      "limitations": [
+        "The analysis is limited to studies published since 2010, potentially missing more recent research.",
+        "The review's conclusions are based on a systematic review of existing literature and may not reflect the full spectrum of ongoing research."
+      ],
+      "future_work": [
+        "Further research is needed to develop and implement robust governance frameworks for AI in HRM.",
+        "Investigating the impact of diverse datasets on algorithmic fairness is crucial."
+      ],
+      "keywords": [
+        "Algorithmic Fairness",
+        "HRM",
+        "Artificial Intelligence",
+        "Bias",
+        "Diversity",
+        "Inclusion",
+        "Recruitment",
+        "Selection"
+      ],
+      "contribution_type": "Literature Review & Analysis",
+      "confidence_level": "High",
+      "summary": "This research provides a systematic review of the literature on algorithmic fairness in HRM, identifying key areas of focus (primarily recruitment and selection), prevalent biases, and critical challenges related to transparency and governance. It emphasizes the need for standardized evaluation, interdisciplinary collaboration, and a \u2018fairness-by-design\u2019 approach to ensure ethical and inclusive AI implementation in HRM.",
+      "reasoning_path": "The analysis was derived by identifying the core findings of the systematic literature review, specifically the areas of focus, biases identified, and recommended mitigation strategies. These were then synthesized to form the key findings, claims, and contributions presented in the JSON output.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 1038
+    },
+    "10.1007/s40685-020-00134-w": {
+      "research_question": "What is the current state of research regarding discrimination and fairness concerns related to algorithmic decision-making in HR recruitment and HR development?",
+      "methodology": {
+        "approach": "Systematic review of 36 journal articles published between 2014 and 2020.",
+        "evidence": "\u2018Based on a systematic review of 36 journal articles from 2014 to 2020\u2026\u2019"
+      },
+      "key_findings": [
+        {
+          "finding": "Algorithmic decision-making is increasingly utilized in HR recruitment and HR development.",
+          "evidence": "\u2018Algorithmic decision-making is becoming increasingly common as a new source of advice in HR recruitment and HR development.\u2019"
+        },
+        {
+          "finding": "Algorithmic decision-making can potentially lead to unfair treatment and discrimination.",
+          "evidence": "\u2018\u2026algorithmic decision-making might also lead to the unfair treatment of certain groups of people, implicit discrimination, and perceived unfairness.\u2019"
+        }
+      ],
+      "claims": [
+        {
+          "claim": "There is a lack of current research specifically addressing fairness and discrimination concerns within the HR context related to algorithmic decision-making.",
+          "evidence": "\u2018Current knowledge about the threats of unfairness and (implicit) discrimination by algorithmic decision-making is mostly unexplored in the human resource management context.\u2019"
+        }
+      ],
+      "datasets": [
+        "36 journal articles from 2014 to 2020"
+      ],
+      "contributions": [
+        {
+          "contribution": "The systematic review clarifies the current state of research on algorithmic decision-making in HR.",
+          "evidence": "\u2018\u2026we present some applications of algorithmic decision-making and evaluate the possible pitfalls in these two essential HR functions.\u2019"
+        },
+        {
+          "contribution": "The review identifies research gaps and suggests future research directions.",
+          "evidence": "\u2018\u2026and provide crucial future research directions.\u2019"
+        }
+      ],
+      "limitations": [
+        "The review is limited to articles published between 2014 and 2020, potentially missing more recent developments.",
+        "The scope is limited to a systematic review, which may not capture all relevant research."
+      ],
+      "future_work": [
+        "Further research is needed to investigate the specific mechanisms by which algorithmic bias can manifest in HR processes.",
+        "Exploring methods for mitigating bias in algorithmic decision-making systems within HR."
+      ],
+      "keywords": [
+        "algorithmic decision-making",
+        "HR recruitment",
+        "HR development",
+        "discrimination",
+        "fairness",
+        "systematic review"
+      ],
+      "contribution_type": "Literature Review & Analysis",
+      "confidence_level": "High",
+      "summary": "This research conducted a systematic review of existing literature to examine the potential for algorithmic bias and discrimination within HR recruitment and development. The study highlights the current lack of research in this area and identifies key areas for future investigation.",
+      "reasoning_path": "The text explicitly states the research goal is to review existing literature on discrimination and fairness by algorithmic decision-making in HR. The review's findings and identified gaps are directly derived from the content of the provided research paper.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 743
+    },
+    "2508.00908": {
+      "research_question": "How can fairness be addressed in candidate recommendation systems considering multiple stakeholders beyond just job seekers?",
+      "methodology": {
+        "approach": "The research employs a mixed-methods approach combining semi-structured interviews with a diverse stakeholder group followed by a process of reconciling conflicting perspectives and mapping them to existing fairness metrics.",
+        "evidence": "\"We conducted semi-structured interviews with 40 different stakeholders (job seekers, companies, recruiters, and other job portal employees).\""
+      },
+      "key_findings": [
+        {
+          "finding": "Stakeholder perspectives on fairness in hiring are diverse and often conflicting.",
+          "evidence": "\"Finally, we attempt to reconcile and map these different (and sometimes conflicting) perspectives and definitions to existing (categories of) fairness metrics that are relevant for our candidate recommendation scenario.\""
+        },
+        {
+          "finding": "The candidate recommendation system represents a multi-stakeholder recommendation problem involving job seekers, recruiters, organizations, and the recruitment agency.",
+          "evidence": "\"Recommending candidates to jobs or jobs to candidates, however, is also a fitting example of a multi-stakeholder recommendation problem.\""
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Existing analyses of fairness in algorithmic hiring have primarily focused on single-sided fairness.",
+          "evidence": "\"Nevertheless, past analyses of fairness in algorithmic hiring have been restricted to single-side fairness, ignoring the perspectives of the other stakeholders.\""
+        },
+        {
+          "claim": "Stakeholders beyond job seekers (recruiters, organizations, recruitment agencies) have legitimate interests and perspectives that should be considered in designing fairness metrics.",
+          "evidence": "\"In addition to job seekers, other stakeholders\u2014such as recruiters, organizations behind the job postings, and the recruitment agency itself\u2014are also stakeholders in this and deserve to have their perspectives included in the design of relevant fairness metrics.\""
+        }
+      ],
+      "datasets": [
+        "40 semi-structured interview transcripts (job seekers, companies, recruiters, and other job portal employees)"
+      ],
+      "contributions": [
+        {
+          "contribution": "A multi-stakeholder approach to fairness in candidate recommendation systems.",
+          "evidence": "\"we present a multi-stakeholder approach to fairness in a candidate recommender system...\""
+        },
+        {
+          "contribution": "A process for reconciling conflicting stakeholder perspectives on fairness definitions and metrics.",
+          "evidence": "\"We used these interviews to explore their lived experiences of unfairness in hiring, co-design definitions of fairness as well as metrics that might capture these experiences.\""
+        }
+      ],
+      "limitations": [
+        "The study's findings are specific to the semi-structured interview data and may not generalize to all candidate recommendation systems.",
+        "The process of reconciling conflicting perspectives is inherently subjective and could introduce bias."
+      ],
+      "future_work": [
+        "Exploring different methods for eliciting stakeholder perspectives.",
+        "Developing and evaluating specific fairness metrics that effectively capture multi-stakeholder concerns.",
+        "Investigating the impact of different stakeholder representations within the recommendation algorithm."
+      ],
+      "keywords": [
+        "algorithmic hiring",
+        "candidate recommendation",
+        "fairness",
+        "multi-stakeholder",
+        "human-in-the-loop",
+        "recruitment"
+      ],
+      "contribution_type": "Conceptual Framework & Methodology",
+      "confidence_level": "High",
+      "summary": "This research addresses the gap in fairness analysis within algorithmic hiring by proposing a multi-stakeholder approach to candidate recommendation systems. Through interviews with a diverse group of stakeholders, the study identifies conflicting perspectives on fairness and outlines a process for mapping these perspectives to existing fairness metrics, ultimately aiming to create more equitable hiring outcomes.",
+      "reasoning_path": "The text clearly states the existing research focuses solely on single-sided fairness, neglecting other stakeholders. The paper then details a method \u2013 interviews and reconciliation \u2013 to address this gap by incorporating diverse stakeholder viewpoints into the design of fairness metrics for a multi-stakeholder candidate recommendation system.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 910
+    },
+    "10.1108/ijotb-02-2025-0045": {
+      "research_question": "How is AI impacting recruitment outcomes, fairness, and accountability, and what regulatory responses are needed?",
+      "methodology": {
+        "approach": "A comprehensive review of scholarly literature, industry practices, and regulatory developments was conducted to assess the implications of AI in recruitment, incorporating insights from HRM, organizational behavior, and technology ethics.",
+        "evidence": "\"A comprehensive review of scholarly literature, industry practices, and regulatory developments is conducted to assess the implications of AI in recruitment.\""
+      },
+      "key_findings": [
+        {
+          "finding": "AI-driven recruitment systems offer advantages in efficiency, scalability, and perceived objectivity.",
+          "evidence": "\"Artificial intelligence (AI) is reshaping recruitment by improving efficiency, scalability and perceived objectivity.\""
+        },
+        {
+          "finding": "AI recruitment systems pose ethical risks, including reinforcing historical biases and increasing workplace surveillance.",
+          "evidence": "\"AI-driven recruitment systems present ethical and governance challenges, including the risk of reinforcing historical biases and increasing workplace surveillance.\""
+        },
+        {
+          "finding": "Existing AI regulations provide insufficient oversight of recruitment specifically, lacking mechanisms for bias audits, explainability, and candidate appeals.",
+          "evidence": "\"Existing AI regulations provide only indirect oversight of recruitment, failing to address the specific ethical risks of algorithmic hiring.\""
+        }
+      ],
+      "claims": [
+        {
+          "claim": "The lack of regulation exacerbates socio-economic inequities by reducing candidates to opaque algorithmic classifications.",
+          "evidence": "\"This gap may exacerbate socio-economic inequities by reducing candidates to opaque algorithmic classifications.\""
+        },
+        {
+          "claim": "Targeted regulation and stronger corporate accountability are necessary to align AI innovation with ethical standards.",
+          "evidence": "\"Targeted regulation and stronger corporate accountability are needed to align innovation with ethical standards.\""
+        }
+      ],
+      "datasets": [
+        "Scholarly literature",
+        "Industry practices",
+        "Regulatory developments"
+      ],
+      "contributions": [
+        {
+          "contribution": "An interdisciplinary critique of AI hiring, integrating HRM, algorithmic ethics, and regulatory policy.",
+          "evidence": "\"This paper offers an interdisciplinary critique of AI hiring, bridging HRM, algorithmic ethics and regulatory policy.\""
+        },
+        {
+          "contribution": "Advocacy for sector-specific regulation to prevent exclusionary outcomes in labor markets.",
+          "evidence": "\"It contributes to responsible AI governance by advocating for sector-specific regulation to prevent exclusionary outcomes in labour markets.\""
+        }
+      ],
+      "limitations": [
+        "The analysis is based on a review of existing literature and practices, without empirical data.",
+        "The paper's conclusions are largely prescriptive, lacking detailed proposals for specific regulatory mechanisms."
+      ],
+      "future_work": [
+        "Further research is needed to develop and test specific bias detection and mitigation techniques for AI recruitment systems.",
+        "Investigation into the long-term societal impacts of widespread algorithmic hiring is warranted."
+      ],
+      "keywords": [
+        "AI",
+        "Recruitment",
+        "Algorithmic Bias",
+        "Ethical AI",
+        "HRM",
+        "Regulation",
+        "Fairness"
+      ],
+      "contribution_type": "Theoretical Critique & Policy Recommendation",
+      "confidence_level": "High",
+      "summary": "This research paper critically examines the use of AI in recruitment, highlighting both its potential benefits and significant ethical risks. It argues for the need for targeted regulation and corporate accountability to ensure fairness and prevent discriminatory outcomes in the labor market.",
+      "reasoning_path": "The paper establishes the core issue of AI's impact on recruitment by outlining its advantages and risks. It then identifies a critical gap in existing regulations, leading to the conclusion that specific, sector-focused regulation is necessary to mitigate the identified ethical concerns and ensure equitable outcomes.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 862
+    },
+    "10.62311/nesx/rphcr19": {
+      "research_question": "How can algorithmic discrimination be detected and mitigated in recruitment platforms utilizing AI?",
+      "methodology": {
+        "approach": "A data-driven and model-agnostic framework utilizing logistic regression and random forest classifiers to detect and mitigate algorithmic discrimination in recruitment platforms. Fairness metrics (SPD and EOD) are used to quantify bias and evaluate mitigation techniques.",
+        "evidence": "\u201cUtilizing both synthetic and real-world recruitment datasets, the research applies logistic regression and random forest classifiers to detect disparities in hiring outcomes based on sensitive attributes such as gender and ethnicity.\u201d"
+      },
+      "key_findings": [
+        {
+          "finding": "Logistic regression and random forest classifiers identified statistically significant negative coefficients for female and minority candidates, indicating bias in model decision-making.",
+          "evidence": "\u201cRegression analysis revealed statistically significant negative coefficients for female and minority candidates, confirming bias in model decision-making.\u201d"
+        },
+        {
+          "finding": "Adversarial debiasing was the most effective mitigation technique, balancing fairness enhancement and predictive performance.",
+          "evidence": "\u201cAmong the techniques tested, adversarial debiasing demonstrated the most effective balance between fairness enhancement and predictive performance.\u201d"
+        },
+        {
+          "finding": "Post-mitigation, the Statistical Parity Difference (SPD) improved from -0.28 to -0.05, demonstrating a substantial reduction in bias.",
+          "evidence": "\u201cPost-mitigation results showed substantial improvement in fairness metrics (SPD improved from -0.28 to -0.05), with minimal compromise on accuracy.\u201d"
+        }
+      ],
+      "claims": [
+        {
+          "claim": "The rapid adoption of AI in recruitment raises concerns over fairness and bias.",
+          "evidence": "\u201cThe rapid adoption of artificial intelligence (AI) in recruitment has introduced efficiency gains but also raised concerns over fairness and bias.\u201d"
+        },
+        {
+          "claim": "Integrating algorithmic audits and fairness-aware learning is necessary for AI-driven hiring systems.",
+          "evidence": "\u201cThe findings underscore the necessity of integrating algorithmic audits and fairness-aware learning into AI-driven hiring systems.\u201d"
+        }
+      ],
+      "datasets": [
+        "Synthetic recruitment datasets",
+        "Real-world recruitment datasets"
+      ],
+      "contributions": [
+        {
+          "contribution": "Provides a data-driven and model-agnostic framework for detecting and mitigating algorithmic discrimination in recruitment.",
+          "evidence": "\u201cThis study investigates the presence and mitigation of algorithmic discrimination in recruitment platforms through a data-driven and model-agnostic framework.\u201d"
+        },
+        {
+          "contribution": "Identifies adversarial debiasing as a highly effective mitigation technique.",
+          "evidence": "\u201cAmong the techniques tested, adversarial debiasing demonstrated the most effective balance between fairness enhancement and predictive performance.\u201d"
+        }
+      ],
+      "limitations": [
+        "The study focuses on logistic regression and random forest classifiers, potentially limiting the scope of analysis to these specific models.",
+        "The generalizability of the findings may be limited by the specific datasets used."
+      ],
+      "future_work": [
+        "Exploring other bias mitigation techniques beyond adversarial debiasing.",
+        "Investigating the impact of different fairness metrics on model performance.",
+        "Developing more robust and scalable algorithmic audit tools."
+      ],
+      "keywords": [
+        "algorithmic discrimination",
+        "recruitment platforms",
+        "fairness metrics",
+        "statistical parity",
+        "adversarial debiasing",
+        "AI ethics",
+        "bias mitigation",
+        "logistic regression",
+        "equal opportunity",
+        "algorithmic accountability"
+      ],
+      "contribution_type": "Empirical Research",
+      "confidence_level": "High",
+      "summary": "This research demonstrates the presence of algorithmic bias in recruitment platforms and showcases the effectiveness of adversarial debiasing as a mitigation technique. The study highlights the importance of incorporating fairness-aware learning and algorithmic audits to ensure equitable AI-driven hiring systems.",
+      "reasoning_path": "The text explicitly states the research question, the methodology employed (using classifiers and fairness metrics), and the key findings (negative coefficients, effectiveness of adversarial debiasing, and improved SPD). These findings are directly supported by quotes from the abstract and key sections of the paper.",
+      "_model": "gemma3:latest",
+      "_provider": "ollama",
+      "_tokens_used": 958
+    }
+  },
+  "sectioned_content": {},
+  "relationships": null,
+  "graph_nodes": {
+    "nodes": [
+      {
+        "id": "paper_10.22178/pos.116-10",
+        "type": "Paper",
+        "properties": {
+          "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "authors": [
+            "C. Agbasiere",
+            "Goodness Rex Nze-Igwe"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/06931b57128240d8b859492a689064c6d453653b",
+          "source": "semantic_scholar",
+          "abstract": "The study looks into how artificial intelligence (AI) affects hiring procedures, focusing on the fairness of the algorithms that drive these tools. AI has improved the efficiency of the hiring process, yet its use results in institutionalised discrimination. The AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions. The ability of AI systems to decrease human ",
+          "contribution_type": "Research",
+          "key_findings": [
+            {
+              "finding": "AI recruitment systems can perpetuate and amplify existing biases due to reliance on past performance data.",
+              "evidence": "\"AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions.\""
+            },
+            {
+              "finding": "The Amazon resume screening case demonstrates the real-world consequences of systemic bias maintained by AI recruitment tools.",
+              "evidence": "\"The AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions. This paper discusses the origins of algorithmic bias, including biased training records, defining labels, and choosing features, and suggests debiasing methods.\""
+            },
+            {
+              "finding": "Various debiasing methods, including reweighting, adversarial debiasing, and fairness-aware algorithms, can be utilized to develop unbiased AI hiring systems.",
+              "evidence": "\"Methods such as reweighting, adversarial debiasing, and fairness-aware algorithms are assessed for suitability in developing unbiased AI hiring systems.\""
+            }
+          ],
+          "methodology": {
+            "approach": "The research employs a quantitative approach utilizing web scraping of secondary sources and the application of the Fair Machine Learning (FML) theoretical framework to assess and mitigate algorithmic bias in AI-powered hiring tools.",
+            "evidence": "\"A quantitative approach is used in the research, web scraping data from extensive secondary sources to assess these biases and their mitigation measures.\""
+          },
+          "limitations": [
+            "Reliance on secondary sources may introduce biases or inaccuracies.",
+            "The study's findings may be limited by the specific datasets analyzed."
+          ],
+          "keywords": [
+            "AI",
+            "Recruitment",
+            "Algorithmic Bias",
+            "Fairness",
+            "Machine Learning",
+            "Hiring",
+            "Diversity",
+            "Equality"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.56442/ijble.v6i1.1106",
+        "type": "Paper",
+        "properties": {
+          "title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+          "authors": [
+            "Rachmad Ilham"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/3144751b094a873d4d87be79d826c33de9c84bfc",
+          "source": "semantic_scholar",
+          "abstract": "The increasing integration of algorithmic technologies in recruitment processes has raised questions about candidate acceptance and perceptions of fairness. This study examines the effects of algorithmic hiring, perceived fairness, and HR tech literacy on recruitment acceptance. Using a quantitative approach, data were collected from 350 job applicants through structured questionnaires and analyzed using multiple linear regression via SPSS. The results reveal that all three variables\u2014algorithmic",
+          "contribution_type": "Empirical Research",
+          "key_findings": [
+            {
+              "finding": "Algorithmic hiring, perceived fairness, and HR tech literacy all significantly and positively affect recruitment acceptance.",
+              "evidence": "\u201cThe results reveal that all three variables\u2014algorithmic hiring, perceived fairness, and HR tech literacy\u2014significantly and positively affect recruitment acceptance.\u201d"
+            },
+            {
+              "finding": "Perceived fairness is the strongest predictor of recruitment acceptance.",
+              "evidence": "\u201cAmong them, perceived fairness emerged as the strongest predictor, suggesting that candidates\u2019 perceptions of just and transparent processes play a critical role in shaping their acceptance of technology-driven recruitment methods.\u201d"
+            },
+            {
+              "finding": "HR tech literacy enhances candidate receptivity to algorithmic systems.",
+              "evidence": "\u201cAdditionally, HR tech literacy facilitates understanding and comfort with algorithmic systems, enhancing candidate receptivity.\u201d"
+            }
+          ],
+          "methodology": {
+            "approach": "Quantitative analysis using multiple linear regression via SPSS on data collected from 350 job applicants through structured questionnaires.",
+            "evidence": "\u201cUsing a quantitative approach, data were collected from 350 job applicants through structured questionnaires and analyzed using multiple linear regression via SPSS.\u201d"
+          },
+          "limitations": [
+            "The study relies on self-reported data, which may be subject to bias.",
+            "The generalizability of the findings may be limited to the specific population of job applicants surveyed."
+          ],
+          "keywords": [
+            "algorithmic hiring",
+            "recruitment acceptance",
+            "perceived fairness",
+            "HR tech literacy",
+            "technology acceptance",
+            "organizational justice",
+            "digital recruitment"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1111/ijsa.12499",
+        "type": "Paper",
+        "properties": {
+          "title": "Sourcing algorithms: Rethinking fairness in hiring in the era of algorithmic recruitment",
+          "authors": [
+            "Leo Alexander",
+            "Q. C. Song",
+            "Louis Hickman",
+            "Hyun Joo Shin"
+          ],
+          "year": 2024,
+          "url": "https://www.semanticscholar.org/paper/e8cf41494d832ec6da7aa8392f4d8c5d9315409d",
+          "source": "semantic_scholar",
+          "abstract": "Sourcing algorithms are technologies used in online platforms to identify, screen, and inform potential applicants about job openings. The popularity of such technologies is rapidly increasing due to their pervasiveness in online advertising and beliefs that sourcing algorithms can decrease time to hire while improving the quality of new hires. What is little known, however, are their potential risks: sourcing algorithms could (intentionally or unintentionally) encode or exacerbate occupational ",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "unknown",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1007/s10676-022-09633-2",
+        "type": "Paper",
+        "properties": {
+          "title": "Disability, fairness, and algorithmic bias in AI recruitment",
+          "authors": [
+            "Nicholas Tilmes"
+          ],
+          "year": 2022,
+          "url": "https://www.semanticscholar.org/paper/4aad069a072c5a11ae2c5ba69ab5086f5f206ba6",
+          "source": "semantic_scholar",
+          "abstract": "",
+          "contribution_type": "unknown",
+          "key_findings": [],
+          "methodology": "",
+          "limitations": [],
+          "keywords": [],
+          "confidence": "low",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.3389/fpsyg.2022.940456",
+        "type": "Paper",
+        "properties": {
+          "title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+          "authors": [
+            "Airlie Hilliard",
+            "N. Guenole",
+            "F. Leutner"
+          ],
+          "year": 2022,
+          "url": "https://www.semanticscholar.org/paper/1f28c6bc5ba68ef0cc538af32c3b8c832a3c493f",
+          "source": "semantic_scholar",
+          "abstract": "Recent years have seen rapid advancements in selection assessments, shifting away from human and toward algorithmic judgments of candidates. Indeed, algorithmic recruitment tools have been created to screen candidates\u2019 resumes, assess psychometric characteristics through game-based assessments, and judge asynchronous video interviews, among other applications. While research into candidate reactions to these technologies is still in its infancy, early research in this regard has explored user ex",
+          "contribution_type": "Systematic Review",
+          "key_findings": [
+            {
+              "finding": "Fairness perceptions concerning behavioral control and social presence are predominantly negative.",
+              "evidence": "\"While perceptions of overall procedural fairness are mixed, we find that fairness perceptions concerning behavioral control and social presence are mostly negative.\""
+            },
+            {
+              "finding": "Participants report feeling less confident in their ability to influence outcomes compared to human assessments.",
+              "evidence": "\"Participants feel less confident that they are able to influence the outcome of algorithmic assessments compared to human assessments because they are more objective and less susceptible to manipulation.\""
+            },
+            {
+              "finding": "A lack of perceived empathy and interpersonal warmth contributes to negative fairness perceptions.",
+              "evidence": "\"Participants also feel that the human element is lost when these tools are used since there is a lack of perceived empathy and interpersonal warmth.\""
+            }
+          ],
+          "methodology": {
+            "approach": "A systematic review of seven key studies, encompassing data from over 1,300 participants, focusing on behavioral control and social presence as sub-facets of procedural fairness.",
+            "evidence": "\"We review applicants\u2019 perceptions of the procedural fairness of algorithmic recruitment tools based on key findings from seven key studies, sampling over 1,300 participants between them.\""
+          },
+          "limitations": [
+            "The analysis is based on a review of existing studies, and may not capture the full range of perceptions.",
+            "The sample size of 1,300 participants, while substantial, is still limited in scope."
+          ],
+          "keywords": [
+            "algorithmic recruitment",
+            "fairness",
+            "procedural fairness",
+            "psychometric assessments",
+            "candidate perceptions",
+            "behavioral control",
+            "social presence"
+          ],
+          "confidence": "Medium",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.52783/jisem.v9i4s.13251",
+        "type": "Paper",
+        "properties": {
+          "title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+          "authors": [
+            "Sungida Akther Lima",
+            "Md. Mostafizur Rahman"
+          ],
+          "year": 2024,
+          "url": "https://www.semanticscholar.org/paper/49a738dbec5e2d2fba1f5f29fbc2ed6037648bbb",
+          "source": "semantic_scholar",
+          "abstract": "The growing adoption of Artificial Intelligence (AI) in Human Resource Management (HRM) has changed the process of recruitment, assessment, promotion, and retention of employees in organizations. On the one hand, AI is associated with efficiency and data-based decision-making opportunities, but, on the other hand, it creates an urgent concern about fairness, inclusiveness, and responsibility. The review is a systematic literature review of the literature published since 2010 and covering 201 stu",
+          "contribution_type": "Literature Review & Analysis",
+          "key_findings": [
+            {
+              "finding": "The primary research focus is on recruitment and selection processes utilizing AI technologies such as natural language processing, machine learning classifiers, and chatbots.",
+              "evidence": "\u2018Results show that the research focus is mainly on recruitment and selection, mostly using natural language processing, machine learning classifier, and chatbots\u2026\u2019"
+            },
+            {
+              "finding": "Gender and racial bias are the most prevalent concerns identified within AI-driven recruitment and selection systems.",
+              "evidence": "\u2018\u2026where gender and racial-related bias is the most common.\u2019"
+            },
+            {
+              "finding": "Functional areas beyond recruitment (performance assessment, promotion, retention, training) receive significantly less research attention, but present substantial fairness challenges.",
+              "evidence": "\u2018Functional areas like performance assessment, promotion, retention as well as training received relatively less attention, however they demonstrated very serious challenges associated with transparency, cultural bias and unequal access.\u2019"
+            },
+            {
+              "finding": "In-processing methods are the most commonly adopted mitigation strategies.",
+              "evidence": "\u2018Review of mitigation strategies reveals that in-processing methods have the highest adoption\u2026\u2019"
+            }
+          ],
+          "methodology": {
+            "approach": "Systematic literature review of 201 studies published since 2010 focusing on algorithmic fairness in HRM.",
+            "evidence": "\u2018The review is a systematic literature review of the literature published since 2010 and covering 201 studies related to algorithmic fairness in HRM.\u2019"
+          },
+          "limitations": [
+            "The analysis is limited to studies published since 2010, potentially missing more recent research.",
+            "The review's conclusions are based on a systematic review of existing literature and may not reflect the full spectrum of ongoing research."
+          ],
+          "keywords": [
+            "Algorithmic Fairness",
+            "HRM",
+            "Artificial Intelligence",
+            "Bias",
+            "Diversity",
+            "Inclusion",
+            "Recruitment",
+            "Selection"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1007/s40685-020-00134-w",
+        "type": "Paper",
+        "properties": {
+          "title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+          "authors": [
+            "Alina K\u00f6chling",
+            "M. Wehner"
+          ],
+          "year": 2020,
+          "url": "https://www.semanticscholar.org/paper/adfb6dfffa51abed37d3c55a8dc5121ce231b28b",
+          "source": "semantic_scholar",
+          "abstract": "Algorithmic decision-making is becoming increasingly common as a new source of advice in HR recruitment and HR development. While firms implement algorithmic decision-making to save costs as well as increase efficiency and objectivity, algorithmic decision-making might also lead to the unfair treatment of certain groups of people, implicit discrimination, and perceived unfairness. Current knowledge about the threats of unfairness and (implicit) discrimination by algorithmic decision-making is mo",
+          "contribution_type": "Literature Review & Analysis",
+          "key_findings": [
+            {
+              "finding": "Algorithmic decision-making is increasingly utilized in HR recruitment and HR development.",
+              "evidence": "\u2018Algorithmic decision-making is becoming increasingly common as a new source of advice in HR recruitment and HR development.\u2019"
+            },
+            {
+              "finding": "Algorithmic decision-making can potentially lead to unfair treatment and discrimination.",
+              "evidence": "\u2018\u2026algorithmic decision-making might also lead to the unfair treatment of certain groups of people, implicit discrimination, and perceived unfairness.\u2019"
+            }
+          ],
+          "methodology": {
+            "approach": "Systematic review of 36 journal articles published between 2014 and 2020.",
+            "evidence": "\u2018Based on a systematic review of 36 journal articles from 2014 to 2020\u2026\u2019"
+          },
+          "limitations": [
+            "The review is limited to articles published between 2014 and 2020, potentially missing more recent developments.",
+            "The scope is limited to a systematic review, which may not capture all relevant research."
+          ],
+          "keywords": [
+            "algorithmic decision-making",
+            "HR recruitment",
+            "HR development",
+            "discrimination",
+            "fairness",
+            "systematic review"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_2508.00908",
+        "type": "Paper",
+        "properties": {
+          "title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+          "authors": [
+            "Mesut Kaya",
+            "Toine Bogers"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/fbc0befaed3cac36808ed7c8d6d745353f590fad",
+          "source": "semantic_scholar",
+          "abstract": "Already before the enactment of the EU AI Act, candidate or job recommendation for algorithmic hiring\u2014semi-automatically matching CVs to job postings\u2014was used as an example of a high-risk application where unfair treatment could result in serious harms to job seekers. Recommending candidates to jobs or jobs to candidates, however, is also a fitting example of a multi-stakeholder recommendation problem. In such multi-stakeholder systems, the end user is not the only party whose interests should b",
+          "contribution_type": "Conceptual Framework & Methodology",
+          "key_findings": [
+            {
+              "finding": "Stakeholder perspectives on fairness in hiring are diverse and often conflicting.",
+              "evidence": "\"Finally, we attempt to reconcile and map these different (and sometimes conflicting) perspectives and definitions to existing (categories of) fairness metrics that are relevant for our candidate recommendation scenario.\""
+            },
+            {
+              "finding": "The candidate recommendation system represents a multi-stakeholder recommendation problem involving job seekers, recruiters, organizations, and the recruitment agency.",
+              "evidence": "\"Recommending candidates to jobs or jobs to candidates, however, is also a fitting example of a multi-stakeholder recommendation problem.\""
+            }
+          ],
+          "methodology": {
+            "approach": "The research employs a mixed-methods approach combining semi-structured interviews with a diverse stakeholder group followed by a process of reconciling conflicting perspectives and mapping them to existing fairness metrics.",
+            "evidence": "\"We conducted semi-structured interviews with 40 different stakeholders (job seekers, companies, recruiters, and other job portal employees).\""
+          },
+          "limitations": [
+            "The study's findings are specific to the semi-structured interview data and may not generalize to all candidate recommendation systems.",
+            "The process of reconciling conflicting perspectives is inherently subjective and could introduce bias."
+          ],
+          "keywords": [
+            "algorithmic hiring",
+            "candidate recommendation",
+            "fairness",
+            "multi-stakeholder",
+            "human-in-the-loop",
+            "recruitment"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.1108/ijotb-02-2025-0045",
+        "type": "Paper",
+        "properties": {
+          "title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+          "authors": [
+            "Amlan Haque"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/26cd94f73b8934bd99e9bbe2018746ec5015ad25",
+          "source": "semantic_scholar",
+          "abstract": "\n \n Artificial intelligence (AI) is reshaping recruitment by improving efficiency, scalability and perceived objectivity. Despite these advantages, AI-driven recruitment systems present ethical and governance challenges, including the risk of reinforcing historical biases and increasing workplace surveillance. This paper critically examines how algorithmic hiring affects recruitment outcomes, fairness and accountability.\n \n \n \n A comprehensive review of scholarly literature, industry practices, ",
+          "contribution_type": "Theoretical Critique & Policy Recommendation",
+          "key_findings": [
+            {
+              "finding": "AI-driven recruitment systems offer advantages in efficiency, scalability, and perceived objectivity.",
+              "evidence": "\"Artificial intelligence (AI) is reshaping recruitment by improving efficiency, scalability and perceived objectivity.\""
+            },
+            {
+              "finding": "AI recruitment systems pose ethical risks, including reinforcing historical biases and increasing workplace surveillance.",
+              "evidence": "\"AI-driven recruitment systems present ethical and governance challenges, including the risk of reinforcing historical biases and increasing workplace surveillance.\""
+            },
+            {
+              "finding": "Existing AI regulations provide insufficient oversight of recruitment specifically, lacking mechanisms for bias audits, explainability, and candidate appeals.",
+              "evidence": "\"Existing AI regulations provide only indirect oversight of recruitment, failing to address the specific ethical risks of algorithmic hiring.\""
+            }
+          ],
+          "methodology": {
+            "approach": "A comprehensive review of scholarly literature, industry practices, and regulatory developments was conducted to assess the implications of AI in recruitment, incorporating insights from HRM, organizational behavior, and technology ethics.",
+            "evidence": "\"A comprehensive review of scholarly literature, industry practices, and regulatory developments is conducted to assess the implications of AI in recruitment.\""
+          },
+          "limitations": [
+            "The analysis is based on a review of existing literature and practices, without empirical data.",
+            "The paper's conclusions are largely prescriptive, lacking detailed proposals for specific regulatory mechanisms."
+          ],
+          "keywords": [
+            "AI",
+            "Recruitment",
+            "Algorithmic Bias",
+            "Ethical AI",
+            "HRM",
+            "Regulation",
+            "Fairness"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "paper_10.62311/nesx/rphcr19",
+        "type": "Paper",
+        "properties": {
+          "title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+          "authors": [
+            "Murali Krishna Pasupuleti"
+          ],
+          "year": 2025,
+          "url": "https://www.semanticscholar.org/paper/2534eae035a4dfdaa9f0d198c78d7eccf868d567",
+          "source": "semantic_scholar",
+          "abstract": "Abstract:\nThe rapid adoption of artificial intelligence (AI) in recruitment has introduced efficiency gains but also raised concerns over fairness and bias. This study investigates the presence and mitigation of algorithmic discrimination in recruitment platforms through a data-driven and model-agnostic framework. Utilizing both synthetic and real-world recruitment datasets, the research applies logistic regression and random forest classifiers to detect disparities in hiring outcomes based on s",
+          "contribution_type": "Empirical Research",
+          "key_findings": [
+            {
+              "finding": "Logistic regression and random forest classifiers identified statistically significant negative coefficients for female and minority candidates, indicating bias in model decision-making.",
+              "evidence": "\u201cRegression analysis revealed statistically significant negative coefficients for female and minority candidates, confirming bias in model decision-making.\u201d"
+            },
+            {
+              "finding": "Adversarial debiasing was the most effective mitigation technique, balancing fairness enhancement and predictive performance.",
+              "evidence": "\u201cAmong the techniques tested, adversarial debiasing demonstrated the most effective balance between fairness enhancement and predictive performance.\u201d"
+            },
+            {
+              "finding": "Post-mitigation, the Statistical Parity Difference (SPD) improved from -0.28 to -0.05, demonstrating a substantial reduction in bias.",
+              "evidence": "\u201cPost-mitigation results showed substantial improvement in fairness metrics (SPD improved from -0.28 to -0.05), with minimal compromise on accuracy.\u201d"
+            }
+          ],
+          "methodology": {
+            "approach": "A data-driven and model-agnostic framework utilizing logistic regression and random forest classifiers to detect and mitigate algorithmic discrimination in recruitment platforms. Fairness metrics (SPD and EOD) are used to quantify bias and evaluate mitigation techniques.",
+            "evidence": "\u201cUtilizing both synthetic and real-world recruitment datasets, the research applies logistic regression and random forest classifiers to detect disparities in hiring outcomes based on sensitive attributes such as gender and ethnicity.\u201d"
+          },
+          "limitations": [
+            "The study focuses on logistic regression and random forest classifiers, potentially limiting the scope of analysis to these specific models.",
+            "The generalizability of the findings may be limited by the specific datasets used."
+          ],
+          "keywords": [
+            "algorithmic discrimination",
+            "recruitment platforms",
+            "fairness metrics",
+            "statistical parity",
+            "adversarial debiasing",
+            "AI ethics",
+            "bias mitigation",
+            "logistic regression",
+            "equal opportunity",
+            "algorithmic accountability"
+          ],
+          "confidence": "High",
+          "sections": {},
+          "artifacts": []
+        }
+      },
+      {
+        "id": "finding_0",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "AI recruitment systems can perpetuate and amplify existing biases due to reliance on past performance data.",
+            "evidence": "\"AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions.\""
+          },
+          "source_paper": "10.22178/pos.116-10",
+          "source_paper_title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_1",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The Amazon resume screening case demonstrates the real-world consequences of systemic bias maintained by AI recruitment tools.",
+            "evidence": "\"The AI systems used for recruitment, which base evaluations on past performance data, have the potential to discriminate against minority candidates as well as women through unintentional actions. This paper discusses the origins of algorithmic bias, including biased training records, defining labels, and choosing features, and suggests debiasing methods.\""
+          },
+          "source_paper": "10.22178/pos.116-10",
+          "source_paper_title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_2",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Various debiasing methods, including reweighting, adversarial debiasing, and fairness-aware algorithms, can be utilized to develop unbiased AI hiring systems.",
+            "evidence": "\"Methods such as reweighting, adversarial debiasing, and fairness-aware algorithms are assessed for suitability in developing unbiased AI hiring systems.\""
+          },
+          "source_paper": "10.22178/pos.116-10",
+          "source_paper_title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_3",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Algorithmic hiring, perceived fairness, and HR tech literacy all significantly and positively affect recruitment acceptance.",
+            "evidence": "\u201cThe results reveal that all three variables\u2014algorithmic hiring, perceived fairness, and HR tech literacy\u2014significantly and positively affect recruitment acceptance.\u201d"
+          },
+          "source_paper": "10.56442/ijble.v6i1.1106",
+          "source_paper_title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_4",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Perceived fairness is the strongest predictor of recruitment acceptance.",
+            "evidence": "\u201cAmong them, perceived fairness emerged as the strongest predictor, suggesting that candidates\u2019 perceptions of just and transparent processes play a critical role in shaping their acceptance of technology-driven recruitment methods.\u201d"
+          },
+          "source_paper": "10.56442/ijble.v6i1.1106",
+          "source_paper_title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_5",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "HR tech literacy enhances candidate receptivity to algorithmic systems.",
+            "evidence": "\u201cAdditionally, HR tech literacy facilitates understanding and comfort with algorithmic systems, enhancing candidate receptivity.\u201d"
+          },
+          "source_paper": "10.56442/ijble.v6i1.1106",
+          "source_paper_title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_6",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Fairness perceptions concerning behavioral control and social presence are predominantly negative.",
+            "evidence": "\"While perceptions of overall procedural fairness are mixed, we find that fairness perceptions concerning behavioral control and social presence are mostly negative.\""
+          },
+          "source_paper": "10.3389/fpsyg.2022.940456",
+          "source_paper_title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+          "confidence": "Medium"
+        }
+      },
+      {
+        "id": "finding_7",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Participants report feeling less confident in their ability to influence outcomes compared to human assessments.",
+            "evidence": "\"Participants feel less confident that they are able to influence the outcome of algorithmic assessments compared to human assessments because they are more objective and less susceptible to manipulation.\""
+          },
+          "source_paper": "10.3389/fpsyg.2022.940456",
+          "source_paper_title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+          "confidence": "Medium"
+        }
+      },
+      {
+        "id": "finding_8",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "A lack of perceived empathy and interpersonal warmth contributes to negative fairness perceptions.",
+            "evidence": "\"Participants also feel that the human element is lost when these tools are used since there is a lack of perceived empathy and interpersonal warmth.\""
+          },
+          "source_paper": "10.3389/fpsyg.2022.940456",
+          "source_paper_title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+          "confidence": "Medium"
+        }
+      },
+      {
+        "id": "finding_9",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The primary research focus is on recruitment and selection processes utilizing AI technologies such as natural language processing, machine learning classifiers, and chatbots.",
+            "evidence": "\u2018Results show that the research focus is mainly on recruitment and selection, mostly using natural language processing, machine learning classifier, and chatbots\u2026\u2019"
+          },
+          "source_paper": "10.52783/jisem.v9i4s.13251",
+          "source_paper_title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_10",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Gender and racial bias are the most prevalent concerns identified within AI-driven recruitment and selection systems.",
+            "evidence": "\u2018\u2026where gender and racial-related bias is the most common.\u2019"
+          },
+          "source_paper": "10.52783/jisem.v9i4s.13251",
+          "source_paper_title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_11",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Functional areas beyond recruitment (performance assessment, promotion, retention, training) receive significantly less research attention, but present substantial fairness challenges.",
+            "evidence": "\u2018Functional areas like performance assessment, promotion, retention as well as training received relatively less attention, however they demonstrated very serious challenges associated with transparency, cultural bias and unequal access.\u2019"
+          },
+          "source_paper": "10.52783/jisem.v9i4s.13251",
+          "source_paper_title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_12",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "In-processing methods are the most commonly adopted mitigation strategies.",
+            "evidence": "\u2018Review of mitigation strategies reveals that in-processing methods have the highest adoption\u2026\u2019"
+          },
+          "source_paper": "10.52783/jisem.v9i4s.13251",
+          "source_paper_title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_13",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Algorithmic decision-making is increasingly utilized in HR recruitment and HR development.",
+            "evidence": "\u2018Algorithmic decision-making is becoming increasingly common as a new source of advice in HR recruitment and HR development.\u2019"
+          },
+          "source_paper": "10.1007/s40685-020-00134-w",
+          "source_paper_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_14",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Algorithmic decision-making can potentially lead to unfair treatment and discrimination.",
+            "evidence": "\u2018\u2026algorithmic decision-making might also lead to the unfair treatment of certain groups of people, implicit discrimination, and perceived unfairness.\u2019"
+          },
+          "source_paper": "10.1007/s40685-020-00134-w",
+          "source_paper_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_15",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Stakeholder perspectives on fairness in hiring are diverse and often conflicting.",
+            "evidence": "\"Finally, we attempt to reconcile and map these different (and sometimes conflicting) perspectives and definitions to existing (categories of) fairness metrics that are relevant for our candidate recommendation scenario.\""
+          },
+          "source_paper": "2508.00908",
+          "source_paper_title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_16",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "The candidate recommendation system represents a multi-stakeholder recommendation problem involving job seekers, recruiters, organizations, and the recruitment agency.",
+            "evidence": "\"Recommending candidates to jobs or jobs to candidates, however, is also a fitting example of a multi-stakeholder recommendation problem.\""
+          },
+          "source_paper": "2508.00908",
+          "source_paper_title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_17",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "AI-driven recruitment systems offer advantages in efficiency, scalability, and perceived objectivity.",
+            "evidence": "\"Artificial intelligence (AI) is reshaping recruitment by improving efficiency, scalability and perceived objectivity.\""
+          },
+          "source_paper": "10.1108/ijotb-02-2025-0045",
+          "source_paper_title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_18",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "AI recruitment systems pose ethical risks, including reinforcing historical biases and increasing workplace surveillance.",
+            "evidence": "\"AI-driven recruitment systems present ethical and governance challenges, including the risk of reinforcing historical biases and increasing workplace surveillance.\""
+          },
+          "source_paper": "10.1108/ijotb-02-2025-0045",
+          "source_paper_title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_19",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Existing AI regulations provide insufficient oversight of recruitment specifically, lacking mechanisms for bias audits, explainability, and candidate appeals.",
+            "evidence": "\"Existing AI regulations provide only indirect oversight of recruitment, failing to address the specific ethical risks of algorithmic hiring.\""
+          },
+          "source_paper": "10.1108/ijotb-02-2025-0045",
+          "source_paper_title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_20",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Logistic regression and random forest classifiers identified statistically significant negative coefficients for female and minority candidates, indicating bias in model decision-making.",
+            "evidence": "\u201cRegression analysis revealed statistically significant negative coefficients for female and minority candidates, confirming bias in model decision-making.\u201d"
+          },
+          "source_paper": "10.62311/nesx/rphcr19",
+          "source_paper_title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_21",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Adversarial debiasing was the most effective mitigation technique, balancing fairness enhancement and predictive performance.",
+            "evidence": "\u201cAmong the techniques tested, adversarial debiasing demonstrated the most effective balance between fairness enhancement and predictive performance.\u201d"
+          },
+          "source_paper": "10.62311/nesx/rphcr19",
+          "source_paper_title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "finding_22",
+        "type": "Finding",
+        "properties": {
+          "text": {
+            "finding": "Post-mitigation, the Statistical Parity Difference (SPD) improved from -0.28 to -0.05, demonstrating a substantial reduction in bias.",
+            "evidence": "\u201cPost-mitigation results showed substantial improvement in fairness metrics (SPD improved from -0.28 to -0.05), with minimal compromise on accuracy.\u201d"
+          },
+          "source_paper": "10.62311/nesx/rphcr19",
+          "source_paper_title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+          "confidence": "High"
+        }
+      },
+      {
+        "id": "concept_0",
+        "type": "Concept",
+        "properties": {
+          "name": "psychometric assessments",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_1",
+        "type": "Concept",
+        "properties": {
+          "name": "candidate perceptions",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_2",
+        "type": "Concept",
+        "properties": {
+          "name": "HR recruitment",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_3",
+        "type": "Concept",
+        "properties": {
+          "name": "behavioral control",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_4",
+        "type": "Concept",
+        "properties": {
+          "name": "Bias",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_5",
+        "type": "Concept",
+        "properties": {
+          "name": "Equality",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_6",
+        "type": "Concept",
+        "properties": {
+          "name": "Recruitment",
+          "frequency": 3
+        }
+      },
+      {
+        "id": "concept_7",
+        "type": "Concept",
+        "properties": {
+          "name": "algorithmic hiring",
+          "frequency": 2
+        }
+      },
+      {
+        "id": "concept_8",
+        "type": "Concept",
+        "properties": {
+          "name": "Fairness",
+          "frequency": 2
+        }
+      },
+      {
+        "id": "concept_9",
+        "type": "Concept",
+        "properties": {
+          "name": "multi-stakeholder",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_10",
+        "type": "Concept",
+        "properties": {
+          "name": "technology acceptance",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_11",
+        "type": "Concept",
+        "properties": {
+          "name": "recruitment acceptance",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_12",
+        "type": "Concept",
+        "properties": {
+          "name": "HR tech literacy",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_13",
+        "type": "Concept",
+        "properties": {
+          "name": "systematic review",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_14",
+        "type": "Concept",
+        "properties": {
+          "name": "Selection",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_15",
+        "type": "Concept",
+        "properties": {
+          "name": "Inclusion",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_16",
+        "type": "Concept",
+        "properties": {
+          "name": "algorithmic decision-making",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_17",
+        "type": "Concept",
+        "properties": {
+          "name": "Diversity",
+          "frequency": 2
+        }
+      },
+      {
+        "id": "concept_18",
+        "type": "Concept",
+        "properties": {
+          "name": "digital recruitment",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_19",
+        "type": "Concept",
+        "properties": {
+          "name": "equal opportunity",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_20",
+        "type": "Concept",
+        "properties": {
+          "name": "algorithmic discrimination",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_21",
+        "type": "Concept",
+        "properties": {
+          "name": "candidate recommendation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_22",
+        "type": "Concept",
+        "properties": {
+          "name": "perceived fairness",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_23",
+        "type": "Concept",
+        "properties": {
+          "name": "social presence",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_24",
+        "type": "Concept",
+        "properties": {
+          "name": "logistic regression",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_25",
+        "type": "Concept",
+        "properties": {
+          "name": "adversarial debiasing",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_26",
+        "type": "Concept",
+        "properties": {
+          "name": "AI ethics",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_27",
+        "type": "Concept",
+        "properties": {
+          "name": "Hiring",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_28",
+        "type": "Concept",
+        "properties": {
+          "name": "HRM",
+          "frequency": 2
+        }
+      },
+      {
+        "id": "concept_29",
+        "type": "Concept",
+        "properties": {
+          "name": "Machine Learning",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_30",
+        "type": "Concept",
+        "properties": {
+          "name": "algorithmic recruitment",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_31",
+        "type": "Concept",
+        "properties": {
+          "name": "organizational justice",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_32",
+        "type": "Concept",
+        "properties": {
+          "name": "discrimination",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_33",
+        "type": "Concept",
+        "properties": {
+          "name": "human-in-the-loop",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_34",
+        "type": "Concept",
+        "properties": {
+          "name": "HR development",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_35",
+        "type": "Concept",
+        "properties": {
+          "name": "recruitment",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_36",
+        "type": "Concept",
+        "properties": {
+          "name": "procedural fairness",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_37",
+        "type": "Concept",
+        "properties": {
+          "name": "Regulation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_38",
+        "type": "Concept",
+        "properties": {
+          "name": "bias mitigation",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_39",
+        "type": "Concept",
+        "properties": {
+          "name": "Artificial Intelligence",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_40",
+        "type": "Concept",
+        "properties": {
+          "name": "fairness metrics",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_41",
+        "type": "Concept",
+        "properties": {
+          "name": "fairness",
+          "frequency": 3
+        }
+      },
+      {
+        "id": "concept_42",
+        "type": "Concept",
+        "properties": {
+          "name": "Ethical AI",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_43",
+        "type": "Concept",
+        "properties": {
+          "name": "AI",
+          "frequency": 2
+        }
+      },
+      {
+        "id": "concept_44",
+        "type": "Concept",
+        "properties": {
+          "name": "Algorithmic Bias",
+          "frequency": 2
+        }
+      },
+      {
+        "id": "concept_45",
+        "type": "Concept",
+        "properties": {
+          "name": "recruitment platforms",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_46",
+        "type": "Concept",
+        "properties": {
+          "name": "algorithmic accountability",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_47",
+        "type": "Concept",
+        "properties": {
+          "name": "statistical parity",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "concept_48",
+        "type": "Concept",
+        "properties": {
+          "name": "Algorithmic Fairness",
+          "frequency": 1
+        }
+      },
+      {
+        "id": "citation_10.22178/pos.116-10",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Algorithmic Fairness in Recruitment: Designing AI-Powered Hiring Tools to Identify and Reduce Biases in Candidate Selection",
+          "year": 2025,
+          "authors": [
+            "C. Agbasiere",
+            "Goodness Rex Nze-Igwe"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.56442/ijble.v6i1.1106",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Examining the Effect of Algorithmic Hiring, Perceived Fairness, and HR Tech Literacy on Recruitment Acceptance",
+          "year": 2025,
+          "authors": [
+            "Rachmad Ilham"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1111/ijsa.12499",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Sourcing algorithms: Rethinking fairness in hiring in the era of algorithmic recruitment",
+          "year": 2024,
+          "authors": [
+            "Leo Alexander",
+            "Q. C. Song",
+            "Louis Hickman",
+            "Hyun Joo Shin"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1007/s10676-022-09633-2",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Disability, fairness, and algorithmic bias in AI recruitment",
+          "year": 2022,
+          "authors": [
+            "Nicholas Tilmes"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.3389/fpsyg.2022.940456",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Robots are judging me: Perceived fairness of algorithmic recruitment tools",
+          "year": 2022,
+          "authors": [
+            "Airlie Hilliard",
+            "N. Guenole",
+            "F. Leutner"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.52783/jisem.v9i4s.13251",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Algorithmic Fairness in HRM Balancing AI-Driven Decision Making with Inclusive Workforce Practices",
+          "year": 2024,
+          "authors": [
+            "Sungida Akther Lima",
+            "Md. Mostafizur Rahman"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1007/s40685-020-00134-w",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+          "year": 2020,
+          "authors": [
+            "Alina K\u00f6chling",
+            "M. Wehner"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_2508.00908",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Mapping Stakeholder Needs to Multi-Sided Fairness in Candidate Recommendation for Algorithmic Hiring",
+          "year": 2025,
+          "authors": [
+            "Mesut Kaya",
+            "Toine Bogers"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.1108/ijotb-02-2025-0045",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "AI is hiring you: algorithmic power, ethical risks, and the future of recruitment",
+          "year": 2025,
+          "authors": [
+            "Amlan Haque"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      },
+      {
+        "id": "citation_10.62311/nesx/rphcr19",
+        "type": "CitedPaper",
+        "properties": {
+          "title": "Detecting and Mitigating Algorithmic Discrimination in Recruitment Platforms",
+          "year": 2025,
+          "authors": [
+            "Murali Krishna Pasupuleti"
+          ],
+          "depth_in_graph": 0,
+          "citation_count": 0
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "finding_0",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "finding_1",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "finding_2",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "finding_3",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "finding_4",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "finding_5",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "finding_6",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "finding_7",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "finding_8",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "finding_9",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "finding_10",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "finding_11",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "finding_12",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "finding_13",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "finding_14",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "finding_15",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "finding_16",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "finding_17",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "finding_18",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "finding_19",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "finding_20",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "finding_21",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "finding_22",
+        "relationship": "HAS_FINDING",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_43",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_6",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_44",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_8",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_29",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_27",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_17",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "concept_5",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "concept_7",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "concept_11",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "concept_22",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "concept_12",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "concept_10",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "concept_31",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.56442/ijble.v6i1.1106",
+        "target": "concept_18",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "concept_30",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "concept_41",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "concept_36",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "concept_0",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "concept_1",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "concept_3",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.3389/fpsyg.2022.940456",
+        "target": "concept_23",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_48",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_28",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_39",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_4",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_17",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_15",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_6",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "concept_14",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "concept_16",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "concept_2",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "concept_34",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "concept_32",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "concept_41",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1007/s40685-020-00134-w",
+        "target": "concept_13",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "concept_7",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "concept_21",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "concept_41",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "concept_9",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "concept_33",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_2508.00908",
+        "target": "concept_35",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "concept_43",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "concept_6",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "concept_44",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "concept_42",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "concept_28",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "concept_37",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.1108/ijotb-02-2025-0045",
+        "target": "concept_8",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_20",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_45",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_40",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_47",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_25",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_26",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_38",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_24",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_19",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.62311/nesx/rphcr19",
+        "target": "concept_46",
+        "relationship": "DISCUSSES",
+        "properties": {}
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "paper_10.52783/jisem.v9i4s.13251",
+        "relationship": "SIMILAR_TO",
+        "properties": {
+          "shared_keywords": [
+            "Recruitment",
+            "Diversity"
+          ],
+          "strength": 2
+        }
+      },
+      {
+        "source": "paper_10.22178/pos.116-10",
+        "target": "paper_10.1108/ijotb-02-2025-0045",
+        "relationship": "SIMILAR_TO",
+        "properties": {
+          "shared_keywords": [
+            "AI",
+            "Fairness",
+            "Algorithmic Bias",
+            "Recruitment"
+          ],
+          "strength": 4
+        }
+      },
+      {
+        "source": "paper_10.52783/jisem.v9i4s.13251",
+        "target": "paper_10.1108/ijotb-02-2025-0045",
+        "relationship": "SIMILAR_TO",
+        "properties": {
+          "shared_keywords": [
+            "HRM",
+            "Recruitment"
+          ],
+          "strength": 2
+        }
+      }
+    ],
+    "total_nodes": 92,
+    "total_edges": 85,
+    "graph_metadata": {
+      "origin_query": "Ethical implications of AI in hiring and surveillance",
+      "papers_analyzed": 10,
+      "topics_identified": 49
+    }
+  },
+  "synthesis": null,
+  "max_papers": 10,
+  "max_depth": 2,
+  "created_at": "2026-03-14T04:16:35.335135",
+  "updated_at": "2026-03-14T04:33:37.529986",
+  "status": "in_progress",
+  "errors": [
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building",
+    "[GraphBuilderAgent] Missing papers or analyses for graph building"
+  ]
+}
